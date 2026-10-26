@@ -1,0 +1,323 @@
+{
+  "_note": "Seed coordinates for map. approx=true means approximate. Override via Nominatim cache later.",
+  "p-yuma-county": [
+    32.6927,
+    -114.6277
+  ],
+  "p-yuma-city": [
+    32.6927,
+    -114.6277
+  ],
+  "p-wellton": [
+    32.6728,
+    -114.1469
+  ],
+  "p-coyote-waterhole": [
+    32.6499,
+    -114.1431
+  ],
+  "p-wellton-airport": [
+    32.6703,
+    -114.1903
+  ],
+  "p-yuma-airport": [
+    32.6566,
+    -114.606
+  ],
+  "p-san-luis-az": [
+    32.487,
+    -114.782
+  ],
+  "p-san-luis-rio-colorado": [
+    32.456,
+    -114.772
+  ],
+  "p-calle-juarez": [
+    32.46,
+    -114.775
+  ],
+  "p-spragues-sports": [
+    32.692,
+    -114.615
+  ],
+  "p-warehouse-la-ave": [
+    32.668,
+    -114.155
+  ],
+  "p-colorado-ave": [
+    32.671,
+    -114.149
+  ],
+  "p-teardrop-rd": [
+    32.665,
+    -114.138
+  ],
+  "p-fortuna-ave": [
+    32.667,
+    -114.42
+  ],
+  "p-westridge": [
+    32.71,
+    -114.55
+  ],
+  "p-cocopah": [
+    32.6,
+    -114.75
+  ],
+  "p-rv-world": [
+    32.705,
+    -114.48
+  ],
+  "p-tenth-hole": [
+    32.6515,
+    -114.145
+  ],
+  "p-jeff-grave": [
+    32.655,
+    -114.15
+  ],
+  "p-port-arthur-goal": [
+    29.885,
+    -93.939
+  ],
+  "p-houston-port-reject": [
+    29.74,
+    -95.08
+  ],
+  "p-moscow": [
+    55.7558,
+    37.6173
+  ],
+  "p-podmoskovye-house": [
+    55.98,
+    37.72
+  ],
+  "p-sheremetyevo": [
+    55.9726,
+    37.4146
+  ],
+  "p-quartzsite": [
+    33.664,
+    -114.229
+  ],
+  "p-parker-az": [
+    34.15,
+    -114.289
+  ],
+  "p-bouse": [
+    33.932,
+    -114.005
+  ],
+  "p-aguila": [
+    33.943,
+    -113.174
+  ],
+  "p-wickenburg": [
+    33.9686,
+    -112.7746
+  ],
+  "p-morristown-az": [
+    33.857,
+    -112.623
+  ],
+  "p-maricopa": [
+    33.45,
+    -112.07
+  ],
+  "p-payson": [
+    34.2309,
+    -111.3251
+  ],
+  "p-apache-county": [
+    34.5,
+    -109.5
+  ],
+  "p-socorro": [
+    34.06,
+    -106.89
+  ],
+  "p-albuquerque": [
+    35.0844,
+    -106.6504
+  ],
+  "p-torrance-nm": [
+    34.6,
+    -105.9
+  ],
+  "p-justiceburg": [
+    33.04,
+    -101.2
+  ],
+  "p-port-arthur": [
+    29.885,
+    -93.939
+  ],
+  "p-beaumont": [
+    30.08,
+    -94.13
+  ],
+  "p-morgans-point": [
+    29.68,
+    -94.99
+  ],
+  "p-la-porte": [
+    29.6658,
+    -95.0194
+  ],
+  "p-wichita": [
+    37.65,
+    -97.43
+  ],
+  "p-lufkin": [
+    31.3382,
+    -94.7291
+  ],
+  "p-expo-inn-lufkin": [
+    31.34,
+    -94.73
+  ],
+  "p-mckenzie": [
+    36.1634,
+    -88.5187
+  ],
+  "p-wayne-np": [
+    39.4,
+    -82.1
+  ],
+  "p-hurley-ny": [
+    41.927,
+    -74.062
+  ],
+  "p-lake-katrine": [
+    41.985,
+    -73.982
+  ],
+  "p-poughkeepsie": [
+    41.7004,
+    -73.921
+  ],
+  "p-marlboro-ny": [
+    41.603,
+    -73.972
+  ],
+  "p-new-hamburg": [
+    41.587,
+    -73.947
+  ],
+  "p-nyc": [
+    40.7128,
+    -74.006
+  ],
+  "p-lincoln-harbor": [
+    40.761,
+    -74.025
+  ],
+  "p-hudson-river": [
+    41.0,
+    -73.9
+  ],
+  "p-placentia-bay": [
+    47.2,
+    -54.3
+  ],
+  "p-n-atlantic": [
+    41.85,
+    -29.6
+  ],
+  "p-cadiz-funnel": [
+    36.5,
+    -7.0
+  ],
+  "p-andalusia-coast": [
+    36.5,
+    -4.9
+  ],
+  "p-algeciras": [
+    36.1408,
+    -5.4565
+  ],
+  "p-puerto-banus": [
+    36.488,
+    -4.953
+  ],
+  "p-marbella": [
+    36.51,
+    -4.885
+  ],
+  "p-fuengirola-fort": [
+    36.539,
+    -4.625
+  ],
+  "p-sierra-nevada-road": [
+    37.15,
+    -3.6
+  ],
+  "p-malaga": [
+    36.7213,
+    -4.4214
+  ],
+  "p-cantabrico": [
+    43.3,
+    -2.0
+  ],
+  "p-antwerp": [
+    51.2213,
+    4.4051
+  ],
+  "p-kaag": [
+    52.214,
+    4.558
+  ],
+  "p-kaag-graves": [
+    52.22,
+    4.56
+  ],
+  "p-muiden": [
+    52.33,
+    5.07
+  ],
+  "p-delfzijl": [
+    53.33,
+    6.918
+  ],
+  "p-marietta": [
+    57.5,
+    18.5
+  ],
+  "p-gotland": [
+    57.4865,
+    18.4862
+  ],
+  "p-kronstadt": [
+    59.995,
+    29.766
+  ],
+  "p-kronstadt-hospital": [
+    59.99,
+    29.78
+  ],
+  "p-spb-msk-road": [
+    58.5,
+    33.0
+  ],
+  "p-rzhev": [
+    56.262,
+    34.329
+  ],
+  "p-plamya": [
+    55.85,
+    37.15
+  ],
+  "p-nakhabino": [
+    55.848,
+    37.178
+  ],
+  "p-snegiri": [
+    55.885,
+    37.05
+  ],
+  "p-greenwich": [
+    55.87,
+    37.2
+  ]
+}

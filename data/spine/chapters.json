@@ -1,0 +1,5930 @@
+{
+  "_source": "I.Go.To.Home data/route.json + events.json",
+  "_note": "Календарный скелет 164 глав. Сюжетные карточки — в data/extracted/*_curated.json",
+  "chapters": [
+    {
+      "chapter_id": "book01-ch000",
+      "seq": 1,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 1,
+      "date": "21 марта",
+      "day": null,
+      "month": null,
+      "weekday": "",
+      "time": "утро",
+      "location": "Округ Юма, штат Аризона, США",
+      "raw_title": "21 марта, среда, утро",
+      "pov": "protagonist",
+      "summary": "Завязка: герой-россиянин уже год работает в Юме (Аризона) по контракту и ждёт возвращения в Москву к семье.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Завязка"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.63,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.42,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch001",
+      "seq": 2,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 2,
+      "date": "21 марта",
+      "day": 21,
+      "month": 3,
+      "weekday": "среда",
+      "time": "все еще утро",
+      "location": "Округ Юма, штат Аризона, США",
+      "raw_title": "21 марта, среда, все еще утро. Округ Юма, штат Аризона, США",
+      "pov": "protagonist",
+      "summary": "Утро как обычно: герой выезжает из гаража в Уэлтоне на мотоцикле-эндуро и едет на работу в Юму.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.19,
+        "resources": 0.39,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.36,
+        "trade": 0.0,
+        "danger": 0.19
+      }
+    },
+    {
+      "chapter_id": "book01-ch002",
+      "seq": 3,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 3,
+      "date": "21 марта",
+      "day": 21,
+      "month": 3,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Москва",
+      "raw_title": "21 марта, среда, вечер. Москва",
+      "pov": "family_ru",
+      "summary": "Сначала жизнь почти на берегу Пироговского водохранилища в доме со своим бассейном, спортзалом, сауной и домашним кинотеатром показалась раем, но, когда Юрка пошел в школу, стало сложнее. Еще когда только начали давать разрешения на владение гладкоствольным…",
+      "types": [
+        "movement",
+        "combat"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 0,
+      "density": {
+        "combat": 1.84,
+        "resources": 0.61,
+        "encounter": 0.61,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.45,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch003",
+      "seq": 4,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 4,
+      "date": "21 марта",
+      "day": 21,
+      "month": 3,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Округ Юма, штат Аризона, США",
+      "raw_title": "21 марта, среда, день. Округ Юма, штат Аризона, США",
+      "pov": "protagonist",
+      "summary": "На работе герой узнаёт о беспорядках в стране; разговоры с Джеком и Терезой о возможном затяжном рейсе.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.44,
+        "resources": 0.44,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.11,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch004",
+      "seq": 5,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 5,
+      "date": "21 марта",
+      "day": 21,
+      "month": 3,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Округ Юма, штат Аризона, США",
+      "raw_title": "21 марта, среда, вечер. Округ Юма, штат Аризона, США",
+      "pov": "protagonist",
+      "summary": "Герой звонит инструктору Дейву и обсуждает с соседом Томом обстановку и оружие.",
+      "types": [
+        "encounter",
+        "danger"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.65,
+        "resources": 0.65,
+        "encounter": 0.33,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.31,
+        "trade": 0.0,
+        "danger": 0.33
+      }
+    },
+    {
+      "chapter_id": "book01-ch005",
+      "seq": 6,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 6,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Москва",
+      "raw_title": "22 марта, четверг, утро. Москва",
+      "pov": "family_ru",
+      "summary": "Спала и Настя в гостевой – она вообще в последнее время, к концу беременности, спать стала много. А вот коты не спали, а тремя пушистыми кучами валялись на полу кухни, выжидательно глядя на нее большими янтарными глазами.",
+      "types": [
+        "rest"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 0,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 1.87,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch006",
+      "seq": 7,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 7,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "ночь",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "22 марта, четверг, ночь. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Герой решает пробиваться домой в Москву любой ценой; разговор с женой Машей и её братом.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.95,
+        "encounter": 0.47,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.42,
+        "trade": 0.0,
+        "danger": 0.47
+      }
+    },
+    {
+      "chapter_id": "book01-ch007",
+      "seq": 8,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 8,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "22 марта, четверг, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Герой смотрит новости: на карте страны — вспышки насилия; созванивается со знакомыми.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.53,
+        "encounter": 0.26,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.84,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch008",
+      "seq": 9,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 9,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "22 марта, четверг, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Возвращается в посёлок — улицы пустынны; дома проверяет наличные и оружие.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.41,
+        "resources": 0.19,
+        "encounter": 0.08,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.94,
+        "trade": 0.0,
+        "danger": 0.19
+      }
+    },
+    {
+      "chapter_id": "book01-ch009",
+      "seq": 10,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 10,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "22 марта, четверг, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Появляется Хорхе (Эль Пикаро) — брат Аниты, с которой герой сбежал из аэропорта; знакомство с ним и его людьми.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.12,
+        "resources": 0.48,
+        "encounter": 0.24,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.71,
+        "trade": 0.12,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch010",
+      "seq": 11,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 11,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "22 марта, четверг, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Герой с Паблито забирает фургон со склада; по пути домой натыкается на пикет шерифа у моста.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.52,
+        "encounter": 0.35,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.22,
+        "trade": 0.17,
+        "danger": 0.17
+      }
+    },
+    {
+      "chapter_id": "book01-ch011",
+      "seq": 12,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 12,
+      "date": "22 марта",
+      "day": 22,
+      "month": 3,
+      "weekday": "четверг",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "22 марта, четверг, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Героя зачисляют в группу быстрого реагирования; патрулирование посёлка и обед в баре гольф-клуба.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.78,
+        "resources": 0.39,
+        "encounter": 0.26,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.42,
+        "trade": 0.13,
+        "danger": 0.13
+      }
+    },
+    {
+      "chapter_id": "book01-ch012",
+      "seq": 13,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 13,
+      "date": "23 марта",
+      "day": 23,
+      "month": 3,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "23 марта, пятница, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Быт и размышления дома перед отъездом: герой ещё не решил, как выбираться.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 2.51,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch013",
+      "seq": 14,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 14,
+      "date": "23 марта",
+      "day": 23,
+      "month": 3,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "23 марта, пятница, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Герой решает сделать личные запасы и вспоминает ночную перестрелку с налётчиками.",
+      "types": [
+        "resources"
+      ],
+      "type_labels": [
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.44,
+        "resources": 0.33,
+        "encounter": 0.11,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.2,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch014",
+      "seq": 15,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 15,
+      "date": "23 марта",
+      "day": 23,
+      "month": 3,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "23 марта, пятница, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Закупается продуктами в Walmart, тратит много наличных; встречает Аниту и Хорхе.",
+      "types": [
+        "resources",
+        "encounter"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.77,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.13,
+        "movement": 0.9,
+        "trade": 0.26,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch015",
+      "seq": 16,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 16,
+      "date": "23 марта",
+      "day": 23,
+      "month": 3,
+      "weekday": "пятница",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "23 марта, пятница, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Готовит фургон к отъезду — грузит мотоцикл и вещи; пропускает общий сбор посёлка.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.37,
+        "resources": 1.1,
+        "encounter": 0.0,
+        "rest": 0.37,
+        "repair": 0.0,
+        "movement": 2.2,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch016",
+      "seq": 17,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 17,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Подмосковье",
+      "raw_title": "24 марта, суббота, утро. Подмосковье",
+      "pov": "family_ru",
+      "summary": "С другой стороны, хоть не убили, и на том спасибо, потому что стреляли не из рогатки. Поехал дальше, до Ленинградского шоссе добрался уже без приключений.",
+      "types": [
+        "movement",
+        "combat",
+        "resources"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Бой / столкновение",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 0,
+      "density": {
+        "combat": 1.26,
+        "resources": 1.26,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.42,
+        "movement": 1.68,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch017",
+      "seq": 18,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 18,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "24 марта, суббота, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Заправив фургон, герой сталкивается с мертвяком во дворе, отбивается и отступает в гараж с пистолетом.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [
+        "danger"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.28,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.56,
+        "movement": 1.69,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch018",
+      "seq": 19,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 19,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "24 марта, суббота, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Совет у склада: герой предлагает действовать тихо, обсуждают риск появления нацгвардии.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.3,
+        "resources": 0.1,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.71,
+        "trade": 0.0,
+        "danger": 0.1
+      }
+    },
+    {
+      "chapter_id": "book01-ch019",
+      "seq": 20,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 20,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "24 марта, суббота, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Договаривается с группой бывших коллег: платит за припасы, распределяют транспорт и оружие.",
+      "types": [
+        "resources",
+        "encounter",
+        "trade"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Встреча с людьми",
+        "Торговля / обмен"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.49,
+        "resources": 0.49,
+        "encounter": 0.24,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.14,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch020",
+      "seq": 21,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 21,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "суббота",
+      "time": "ночь",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "24 марта, суббота, ночь. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Выдвигаются на дело: решают не договариваться, а ограбить объект; герой с Джеффом прикрывают.",
+      "types": [
+        "resources",
+        "combat"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.27,
+        "resources": 0.54,
+        "encounter": 0.27,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.22,
+        "trade": 0.0,
+        "danger": 0.27
+      }
+    },
+    {
+      "chapter_id": "book01-ch021",
+      "seq": 22,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 22,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "24 марта, воскресенье, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "После набега уходят на рассвете, отстреливают трёх зомби; герой решает пробиваться в Техас к морским портам.",
+      "types": [
+        "combat",
+        "movement"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 1.58,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.63,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch022",
+      "seq": 23,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 23,
+      "date": "25 марта",
+      "day": 25,
+      "month": 3,
+      "weekday": "воскресенье",
+      "time": "день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "25 марта, воскресенье, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "На базе герой грузит бочки в фургон, проверяет пути отхода и гоняет на мотоцикле по просёлку.",
+      "types": [
+        "movement",
+        "resources"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Поиск ресурсов"
+      ],
+      "pivots": [
+        "encounter",
+        "companion"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.65,
+        "resources": 0.42,
+        "encounter": 0.02,
+        "rest": 0.02,
+        "repair": 0.0,
+        "movement": 1.21,
+        "trade": 0.02,
+        "danger": 0.08
+      }
+    },
+    {
+      "chapter_id": "book01-ch023",
+      "seq": 24,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 24,
+      "date": "24 марта",
+      "day": 24,
+      "month": 3,
+      "weekday": "воскресенье",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "24 марта, воскресенье, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "По дороге в лагерь доливает радиатор, застреливает мёртвую собаку; рядом раненая Дрика, за которой он присматривает.",
+      "types": [
+        "movement",
+        "combat",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Бой / столкновение",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.41,
+        "resources": 0.31,
+        "encounter": 0.2,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.33,
+        "trade": 0.1,
+        "danger": 0.1
+      }
+    },
+    {
+      "chapter_id": "book01-ch024",
+      "seq": 25,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 25,
+      "date": "26 марта",
+      "day": 26,
+      "month": 3,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "26 марта, понедельник, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Утро после ранения: опухшая скула, боль; герой выходит в сеть и решает не тревожить жену.",
+      "types": [
+        "rest",
+        "other"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.85,
+        "encounter": 0.0,
+        "rest": 0.42,
+        "repair": 0.21,
+        "movement": 1.27,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch025",
+      "seq": 26,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 26,
+      "date": "26 марта",
+      "day": 26,
+      "month": 3,
+      "weekday": "понедельник",
+      "time": "утро, день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "26 марта, понедельник, утро, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Выезжают длинным объездом по Империал-Дам-роуд, чтобы обогнуть трейлерные посёлки возле Юмы.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.1,
+        "resources": 0.39,
+        "encounter": 0.2,
+        "rest": 0.0,
+        "repair": 0.1,
+        "movement": 1.97,
+        "trade": 0.0,
+        "danger": 0.1
+      }
+    },
+    {
+      "chapter_id": "book01-ch026",
+      "seq": 27,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 27,
+      "date": "26 марта",
+      "day": 26,
+      "month": 3,
+      "weekday": "понедельник",
+      "time": "утро, день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "26 марта, понедельник, утро, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Обыскивают дом: заводят машину, баррикадируют гараж, ищут еду и ценности, планируют ночлег.",
+      "types": [
+        "resources",
+        "movement"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.26,
+        "resources": 0.94,
+        "encounter": 0.0,
+        "rest": 0.09,
+        "repair": 0.0,
+        "movement": 0.85,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch027",
+      "seq": 28,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 28,
+      "date": "26 марта",
+      "day": 26,
+      "month": 3,
+      "weekday": "понедельник",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "26 марта, понедельник, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "В доме начинается пожар; рядом бродит мертвяк — герой думает, как выбраться с добычей.",
+      "types": [
+        "danger",
+        "combat"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.29,
+        "resources": 0.29,
+        "encounter": 0.0,
+        "rest": 0.2,
+        "repair": 0.1,
+        "movement": 1.76,
+        "trade": 0.0,
+        "danger": 0.2
+      }
+    },
+    {
+      "chapter_id": "book01-ch028",
+      "seq": 29,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 29,
+      "date": "26 марта",
+      "day": 26,
+      "month": 3,
+      "weekday": "понедельник",
+      "time": "поздний вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "26 марта, понедельник, поздний вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Возвращается на багги на базу (днищем бьётся о дорогу); пересчитывают арсенал.",
+      "types": [
+        "movement",
+        "resources"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.6,
+        "trade": 0.6,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch029",
+      "seq": 30,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 30,
+      "date": "27 марта",
+      "day": 27,
+      "month": 3,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "27 марта, вторник, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Выспавшись, герой смотрит, как Дрика тренируется с пистолетом; планируют запас воды для трейлера.",
+      "types": [
+        "rest",
+        "encounter"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.16,
+        "resources": 0.31,
+        "encounter": 0.31,
+        "rest": 0.31,
+        "repair": 0.0,
+        "movement": 0.63,
+        "trade": 0.0,
+        "danger": 0.16
+      }
+    },
+    {
+      "chapter_id": "book01-ch030",
+      "seq": 31,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 31,
+      "date": "27 марта",
+      "day": 27,
+      "month": 3,
+      "weekday": "вторник",
+      "time": "день",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "27 марта, вторник, день. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Стрельбы с Дрикой и Джеффом; на дороге засада — укрываются за холмами у оросительного канала.",
+      "types": [
+        "combat",
+        "encounter"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "injury"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.27,
+        "resources": 0.19,
+        "encounter": 0.23,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.23,
+        "trade": 0.0,
+        "danger": 0.11
+      }
+    },
+    {
+      "chapter_id": "book01-ch031",
+      "seq": 32,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 32,
+      "date": "27 марта",
+      "day": 27,
+      "month": 3,
+      "weekday": "вторник",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "27 марта, вторник, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "После боя: герой ранен в ногу, Джефф погиб (его везут в кузове); собрали оружие убитых.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [
+        "injury"
+      ],
+      "importance": 3,
+      "density": {
+        "combat": 0.3,
+        "resources": 0.3,
+        "encounter": 0.0,
+        "rest": 0.3,
+        "repair": 0.0,
+        "movement": 0.89,
+        "trade": 0.0,
+        "danger": 0.3
+      }
+    },
+    {
+      "chapter_id": "book01-ch032",
+      "seq": 33,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 33,
+      "date": "28 марта",
+      "day": 28,
+      "month": 3,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "28 марта, среда, вечер. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "После гибели Джеффа герой ночует в его трейлере; Дрика перевязывает рану, ему делают трость.",
+      "types": [
+        "rest",
+        "other"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Прочее"
+      ],
+      "pivots": [
+        "injury",
+        "time"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.38,
+        "resources": 0.76,
+        "encounter": 0.19,
+        "rest": 0.38,
+        "repair": 0.0,
+        "movement": 1.15,
+        "trade": 0.19,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch033",
+      "seq": 34,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 34,
+      "date": "10 апреля",
+      "day": 10,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "день",
+      "location": "Подмосковье",
+      "raw_title": "10 апреля, вторник, день. Подмосковье",
+      "pov": "family_ru",
+      "summary": "Ребенок у Насти уже довольно активно шевелился в утробе, и Маша из-за этого здорово нервничала. Сама родившая двух детей, она понимала, насколько жена брата нуждается в постоянном медицинском наблюдении.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "other"
+      ],
+      "pivots": [],
+      "importance": 0,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book01-ch034",
+      "seq": 35,
+      "book": 1,
+      "book_id": "book01",
+      "chapter_num": 35,
+      "date": "11 апреля",
+      "day": 11,
+      "month": 4,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "11 апреля, среда, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Две недели восстановления: герой изучает карты и прокладывает маршрут, тренирует Дрику, меняет патроны на пиво.",
+      "types": [
+        "other",
+        "encounter"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "decision",
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.21,
+        "resources": 0.43,
+        "encounter": 0.64,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.21,
+        "trade": 0.0,
+        "danger": 0.21
+      }
+    },
+    {
+      "chapter_id": "book02-ch000",
+      "seq": 36,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 1,
+      "date": "11 апреля",
+      "day": 11,
+      "month": 4,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Округ Юма, Аризона, США",
+      "raw_title": "11 апреля, среда, утро. Округ Юма, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Фургон покидает Юму; идут пустыней, экономя бензин, мимо трейлерных парков Аройо и Ла-Меса.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "route",
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.17,
+        "resources": 0.25,
+        "encounter": 0.33,
+        "rest": 0.08,
+        "repair": 0.0,
+        "movement": 1.41,
+        "trade": 0.08,
+        "danger": 0.17
+      }
+    },
+    {
+      "chapter_id": "book02-ch001",
+      "seq": 37,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 2,
+      "date": "11 апреля",
+      "day": 11,
+      "month": 4,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Округ Марикопа, Аризона, США",
+      "raw_title": "11 апреля, среда, утро. Округ Марикопа, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Проезжают мёртвый Викенбург и живой Морристаун, мимо испытательных полигонов; заезжают в региональный парк.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.19,
+        "resources": 0.51,
+        "encounter": 0.06,
+        "rest": 0.03,
+        "repair": 0.0,
+        "movement": 0.83,
+        "trade": 0.0,
+        "danger": 0.22
+      }
+    },
+    {
+      "chapter_id": "book02-ch002",
+      "seq": 38,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 3,
+      "date": "11 апреля",
+      "day": 11,
+      "month": 4,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Округ Хила, окрестности Пэйсона, Аризона, США",
+      "raw_title": "11 апреля, среда, вечер. Округ Хила, окрестности Пэйсона, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Встреча с компанией у дороги (Лори, Хэдли и др.); гостеприимство, пиво и сэндвичи; кот остаётся спать на фургоне.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.21,
+        "encounter": 0.21,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.62,
+        "trade": 0.0,
+        "danger": 0.41
+      }
+    },
+    {
+      "chapter_id": "book02-ch003",
+      "seq": 39,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 4,
+      "date": "12 апреля",
+      "day": 12,
+      "month": 4,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Округ Хила, Аризона, США",
+      "raw_title": "12 апреля, четверг, утро. Округ Хила, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Ночь без приключений; утром к колонне присоединяются Лори и Хэдли на джипе; едут мимо резервации тонто-апачей.",
+      "types": [
+        "rest",
+        "encounter",
+        "movement"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Встреча с людьми",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.22,
+        "resources": 0.33,
+        "encounter": 0.22,
+        "rest": 0.22,
+        "repair": 0.0,
+        "movement": 1.2,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch004",
+      "seq": 40,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 5,
+      "date": "12 апреля",
+      "day": 12,
+      "month": 4,
+      "weekday": "четверг",
+      "time": "день",
+      "location": "Округ Апач, Аризона, США",
+      "raw_title": "12 апреля, четверг, день. Округ Апач, Аризона, США",
+      "pov": "protagonist",
+      "summary": "Ждут, пока компания перельёт бензин; герой изучает карту и выбирает шоссе вместо местных дорог.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.37,
+        "resources": 0.18,
+        "encounter": 0.37,
+        "rest": 0.37,
+        "repair": 0.0,
+        "movement": 0.55,
+        "trade": 0.0,
+        "danger": 0.18
+      }
+    },
+    {
+      "chapter_id": "book02-ch005",
+      "seq": 41,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 6,
+      "date": "12 апреля",
+      "day": 12,
+      "month": 4,
+      "weekday": "четверг",
+      "time": "вечер",
+      "location": "Округ Сокорро, Нью-Мексико, США",
+      "raw_title": "12 апреля, четверг, вечер. Округ Сокорро, Нью-Мексико, США",
+      "pov": "protagonist",
+      "summary": "Колонна сворачивает к пойме реки и озеру в Нью-Мексико; купание и передышка — позади месяц в гаражах и семь погибших.",
+      "types": [
+        "movement",
+        "rest"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.25,
+        "encounter": 0.25,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.02,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch006",
+      "seq": 42,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 7,
+      "date": "13 апреля",
+      "day": 13,
+      "month": 4,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Округ Сокорро, Нью-Мексико, США",
+      "raw_title": "13 апреля, пятница, утро. Округ Сокорро, Нью-Мексико, США",
+      "pov": "protagonist",
+      "summary": "Пятница 13-е: совет в доме на колёсах, герой перестраховывается с маршрутом и полагается на Дрику.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.38,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.76,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch007",
+      "seq": 43,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 8,
+      "date": "13 апреля",
+      "day": 13,
+      "month": 4,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Округ Торрэнс, Нью-Мексико, США",
+      "raw_title": "13 апреля, пятница, день. Округ Торрэнс, Нью-Мексико, США",
+      "pov": "protagonist",
+      "summary": "Проходят городок без остановки — пустота, брошенные машины, бродячие мертвецы; в центр не заезжают.",
+      "types": [
+        "movement",
+        "danger"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.13,
+        "resources": 0.13,
+        "encounter": 0.38,
+        "rest": 0.13,
+        "repair": 0.0,
+        "movement": 1.28,
+        "trade": 0.0,
+        "danger": 0.13
+      }
+    },
+    {
+      "chapter_id": "book02-ch008",
+      "seq": 44,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 9,
+      "date": "13 апреля",
+      "day": 13,
+      "month": 4,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Округ Торрэнс, Нью-Мексико, США",
+      "raw_title": "13 апреля, пятница, день. Округ Торрэнс, Нью-Мексико, США",
+      "pov": "protagonist",
+      "summary": "Миновали город-призрак Йесо; видят укреплённый поезд выживших, орошаемые поля и авиабазу Кэннон; город населён людьми.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.17,
+        "encounter": 0.34,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.34,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch009",
+      "seq": 45,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 10,
+      "date": "14 апреля",
+      "day": 14,
+      "month": 4,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Округ Торрэнс, Джастисбёрг, Техас, США",
+      "raw_title": "14 апреля, суббота, утро. Округ Торрэнс, Джастисбёрг, Техас, США",
+      "pov": "protagonist",
+      "summary": "Ночью в доме под Джастисбёргом тревога: герой хватает дробовик, на чердаке/крыше тварь-мутант, рядом Сэм с винтовкой.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [
+        "combat"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.73,
+        "resources": 0.24,
+        "encounter": 0.0,
+        "rest": 0.12,
+        "repair": 0.0,
+        "movement": 0.97,
+        "trade": 0.0,
+        "danger": 0.12
+      }
+    },
+    {
+      "chapter_id": "book02-ch010",
+      "seq": 46,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 11,
+      "date": "15 апреля",
+      "day": 15,
+      "month": 4,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Округ Орандж, Порт-Артур, Техас, США",
+      "raw_title": "15 апреля, воскресенье, утро. Округ Орандж, Порт-Артур, Техас, США",
+      "pov": "protagonist",
+      "summary": "По совету Сэма маршрут удлиняют почти на 100 км ради тихой ночёвки у реки Джеймс; видят пришвартованные суда — «вот бы на таком до Питера».",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.41,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.83,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch011",
+      "seq": 47,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 12,
+      "date": "15 апреля",
+      "day": 15,
+      "month": 4,
+      "weekday": "воскресенье",
+      "time": "день",
+      "location": "Округ Орандж, Порт-Артур, Техас, США",
+      "raw_title": "15 апреля, воскресенье, день. Округ Орандж, Порт-Артур, Техас, США",
+      "pov": "protagonist",
+      "summary": "В Порт-Артуре группу опрашивают военные и местные; убедившись, что те не остаются, отпускают и угощают пивом.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.34,
+        "rest": 0.0,
+        "repair": 0.34,
+        "movement": 1.36,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch012",
+      "seq": 48,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 13,
+      "date": "15 апреля",
+      "day": 15,
+      "month": 4,
+      "weekday": "воскресенье",
+      "time": "день",
+      "location": "Округ Орандж, Порт-Артур, Техас, США",
+      "raw_title": "15 апреля, воскресенье, день. Округ Орандж, Порт-Артур, Техас, США",
+      "pov": "protagonist",
+      "summary": "На мосту готовятся к погрузке на судно: перекладывают оружие в сумки, Сэм дозаправляет машины.",
+      "types": [
+        "other",
+        "repair"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Ремонт / дозаправка"
+      ],
+      "pivots": [
+        "weather"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.2,
+        "resources": 0.05,
+        "encounter": 0.0,
+        "rest": 0.1,
+        "repair": 0.1,
+        "movement": 0.74,
+        "trade": 0.0,
+        "danger": 0.1
+      }
+    },
+    {
+      "chapter_id": "book02-ch013",
+      "seq": 49,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 14,
+      "date": "15 апреля",
+      "day": 15,
+      "month": 4,
+      "weekday": "воскресенье",
+      "time": "вечер",
+      "location": "Морганз Пойнт, округ Харрис, Техас, США",
+      "raw_title": "15 апреля, воскресенье, вечер. Морганз Пойнт, округ Харрис, Техас, США",
+      "pov": "protagonist",
+      "summary": "Ночёвка в Морганз-Пойнт: среди шума урагана пёс Сокс и кот Тигр предупреждают об опасности.",
+      "types": [
+        "danger",
+        "rest"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.45,
+        "resources": 0.06,
+        "encounter": 0.06,
+        "rest": 0.06,
+        "repair": 0.0,
+        "movement": 0.67,
+        "trade": 0.0,
+        "danger": 0.11
+      }
+    },
+    {
+      "chapter_id": "book02-ch014",
+      "seq": 50,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 15,
+      "date": "16 апреля",
+      "day": 16,
+      "month": 4,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Морганз Пойнт, округ Харрис, Техас, США",
+      "raw_title": "16 апреля, понедельник, утро. Морганз Пойнт, округ Харрис, Техас, США",
+      "pov": "protagonist",
+      "summary": "Выбираются к порту мимо неподвижных тварей; кто-то из портовых фактически спасает группе жизнь.",
+      "types": [
+        "danger",
+        "combat"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Бой / столкновение"
+      ],
+      "pivots": [
+        "weather"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.28,
+        "resources": 0.42,
+        "encounter": 0.14,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.84,
+        "trade": 0.0,
+        "danger": 0.14
+      }
+    },
+    {
+      "chapter_id": "book02-ch015",
+      "seq": 51,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 16,
+      "date": "16 апреля",
+      "day": 16,
+      "month": 4,
+      "weekday": "понедельник",
+      "time": "день",
+      "location": "Морганз Пойнт, округ Харрис, Техас, США",
+      "raw_title": "16 апреля, понедельник, день. Морганз Пойнт, округ Харрис, Техас, США",
+      "pov": "protagonist",
+      "summary": "Герой осматривает самолёт в порту и прикидывает, лететь ли дальше; в баках половина топлива.",
+      "types": [
+        "other",
+        "repair"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Ремонт / дозаправка"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.23,
+        "resources": 0.68,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.45,
+        "trade": 0.0,
+        "danger": 0.23
+      }
+    },
+    {
+      "chapter_id": "book02-ch016",
+      "seq": 52,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 17,
+      "date": "16 апреля",
+      "day": 16,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Морганз Пойнт, округ Харрис, Техас, США",
+      "raw_title": "16 апреля, вторник, утро. Морганз Пойнт, округ Харрис, Техас, США",
+      "pov": "protagonist",
+      "summary": "Готовит «Скайлэйн» к полёту: снимают кресла, грузят припасы; Сэм настаивает лететь с запасом.",
+      "types": [
+        "repair",
+        "other"
+      ],
+      "type_labels": [
+        "Ремонт / дозаправка",
+        "Прочее"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.11,
+        "resources": 0.23,
+        "encounter": 0.23,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.79,
+        "trade": 0.0,
+        "danger": 0.11
+      }
+    },
+    {
+      "chapter_id": "book02-ch017",
+      "seq": 53,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 18,
+      "date": "16 апреля",
+      "day": 16,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "день",
+      "location": "Уичита, Уичита Метрополитэн, Канзас, США",
+      "raw_title": "16 апреля, вторник, день. Уичита, Уичита Метрополитэн, Канзас, США",
+      "pov": "protagonist",
+      "summary": "Прилетают в Уичиту; рассказывают историю Маркусу и Сэйре, те гостеприимно принимают.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "decision",
+        "encounter"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch018",
+      "seq": 54,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 19,
+      "date": "16 апреля",
+      "day": 16,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "вечер",
+      "location": "Уичита, Уичита Метрополитэн, Канзас, США",
+      "raw_title": "16 апреля, вторник, вечер. Уичита, Уичита Метрополитэн, Канзас, США",
+      "pov": "protagonist",
+      "summary": "Маркус проводит экскурсию по аэродрому: мастерская, бронированный пикап для плохих мест.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.17,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.7,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch019",
+      "seq": 55,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 20,
+      "date": "16 апреля",
+      "day": 16,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "вечер",
+      "location": "Уичита, Уичита Метрополитэн, Канзас, США",
+      "raw_title": "16 апреля, вторник, вечер. Уичита, Уичита Метрополитэн, Канзас, США",
+      "pov": "protagonist",
+      "summary": "Встреча с Преподобным: напряжённый разговор, он изучает Дрику; герой настороже.",
+      "types": [
+        "encounter",
+        "danger"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.88,
+        "trade": 0.0,
+        "danger": 0.44
+      }
+    },
+    {
+      "chapter_id": "book02-ch020",
+      "seq": 56,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 21,
+      "date": "17 апреля",
+      "day": 17,
+      "month": 4,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Уичита, Уичита Метрополитэн, Канзас, США",
+      "raw_title": "17 апреля, среда, утро. Уичита, Уичита Метрополитэн, Канзас, США",
+      "pov": "protagonist",
+      "summary": "Шериф везёт их к терминалу, дарит коробочку; ночуют в подсобке, уходят на рассвете.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.81,
+        "resources": 0.32,
+        "encounter": 0.16,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.65,
+        "trade": 0.0,
+        "danger": 0.16
+      }
+    },
+    {
+      "chapter_id": "book02-ch021",
+      "seq": 57,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 22,
+      "date": "17 апреля",
+      "day": 17,
+      "month": 4,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Ла-Порт, округ Харрис, Техас, США",
+      "raw_title": "17 апреля, среда, день. Ла-Порт, округ Харрис, Техас, США",
+      "pov": "protagonist",
+      "summary": "Обратный полёт на «Скайлэйне» в Ла-Порт с почти полутонной груза; Дрика юрко умещается между кресел.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.31,
+        "resources": 0.47,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.94,
+        "trade": 0.16,
+        "danger": 0.16
+      }
+    },
+    {
+      "chapter_id": "book02-ch022",
+      "seq": 58,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 23,
+      "date": "17 апреля",
+      "day": 17,
+      "month": 4,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Лафкин, округ Анджелина, Техас, США",
+      "raw_title": "17 апреля, среда, вечер. Лафкин, округ Анджелина, Техас, США",
+      "pov": "protagonist",
+      "summary": "Выезжают из Ла-Порта: Сэм ведёт просёлками, избегая шоссе и городов; Кливленд пуст.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.18,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.18,
+        "repair": 0.0,
+        "movement": 1.23,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch023",
+      "seq": 59,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 24,
+      "date": "17 апреля",
+      "day": 17,
+      "month": 4,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Лафкин, округ Анджелина, Техас, США",
+      "raw_title": "17 апреля, среда, вечер. Лафкин, округ Анджелина, Техас, США",
+      "pov": "protagonist",
+      "summary": "Мотель и бар в Лафкине: отдых, горячая ванна; за номера платят патронами, вокруг полно патрулей.",
+      "types": [
+        "rest",
+        "encounter",
+        "trade"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Встреча с людьми",
+        "Торговля / обмен"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.64,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.64,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch024",
+      "seq": 60,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 25,
+      "date": "19 апреля",
+      "day": 19,
+      "month": 4,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Лафкин, округ Анджелина, Техас, США",
+      "raw_title": "19 апреля, пятница, утро. Лафкин, округ Анджелина, Техас, США",
+      "pov": "protagonist",
+      "summary": "На охраняемой заправке сдают оружие и меняют патроны на две бочки дизеля.",
+      "types": [
+        "trade",
+        "encounter"
+      ],
+      "type_labels": [
+        "Торговля / обмен",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "supplies"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.62,
+        "resources": 0.23,
+        "encounter": 0.11,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.96,
+        "trade": 0.06,
+        "danger": 0.11
+      }
+    },
+    {
+      "chapter_id": "book02-ch025",
+      "seq": 61,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 26,
+      "date": "23 апреля",
+      "day": 23,
+      "month": 4,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Лафкин, округ Анджелина, Техас, США",
+      "raw_title": "23 апреля, среда, утро. Лафкин, округ Анджелина, Техас, США",
+      "pov": "protagonist",
+      "summary": "Пять дней в Лафкине в ожидании конвоя в Теннесси; хоронят погибшего пса Сокса; меняют фургон на бронированные машины и запаски.",
+      "types": [
+        "rest",
+        "repair",
+        "trade"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Ремонт / дозаправка",
+        "Торговля / обмен"
+      ],
+      "pivots": [
+        "supplies"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.32,
+        "resources": 0.48,
+        "encounter": 0.16,
+        "rest": 0.16,
+        "repair": 0.16,
+        "movement": 1.12,
+        "trade": 0.16,
+        "danger": 0.32
+      }
+    },
+    {
+      "chapter_id": "book02-ch026",
+      "seq": 62,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 27,
+      "date": "24 апреля",
+      "day": 24,
+      "month": 4,
+      "weekday": "четверг",
+      "time": "день",
+      "location": "Мак-Кензи, округ Генри, Теннесси, США",
+      "raw_title": "24 апреля, четверг, день. Мак-Кензи, округ Генри, Теннесси, США",
+      "pov": "protagonist",
+      "summary": "Добираются до Мак-Кензи; отсыпаются в номерах, ужинают в гриль-баре, обсуждают местную торговлю.",
+      "types": [
+        "rest",
+        "encounter",
+        "movement"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Встреча с людьми",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 1.65,
+        "encounter": 0.0,
+        "rest": 0.41,
+        "repair": 0.0,
+        "movement": 0.82,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch027",
+      "seq": 63,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 28,
+      "date": "25 апреля",
+      "day": 25,
+      "month": 4,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Мак-Кензи, округ Генри, Теннесси, США",
+      "raw_title": "25 апреля, пятница, утро. Мак-Кензи, округ Генри, Теннесси, США",
+      "pov": "protagonist",
+      "summary": "Выезжают из Мак-Кензи на северо-восток; разговоры с Дрикой, покупка кантри-дисков; герой решает, как далеко готов зайти ради дома.",
+      "types": [
+        "movement",
+        "other"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.22,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.73,
+        "trade": 0.22,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch028",
+      "seq": 64,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 29,
+      "date": "25 апреля",
+      "day": 25,
+      "month": 4,
+      "weekday": "пятница",
+      "time": "вечер",
+      "location": "Национальный парк Уэйн, округ Атенс, Огайо, США",
+      "raw_title": "25 апреля, пятница, вечер. Национальный парк Уэйн, округ Атенс, Огайо, США",
+      "pov": "protagonist",
+      "summary": "Ночёвка в нацпарке Уэйн у костра; полагаются на чутьё кота, обсуждают план.",
+      "types": [
+        "rest"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch029",
+      "seq": 65,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 30,
+      "date": "26 апреля",
+      "day": 26,
+      "month": 4,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Хёрли, округ Алстер, штат Нью-Йорк, США",
+      "raw_title": "26 апреля, суббота, день. Хёрли, округ Алстер, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "В Хёрли — настороженные, но приветливые люди; находят целый спортивный магазин с одеждой и обувью.",
+      "types": [
+        "resources",
+        "encounter",
+        "movement"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Встреча с людьми",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.31,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.65,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch030",
+      "seq": 66,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 31,
+      "date": "26 апреля",
+      "day": 26,
+      "month": 4,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Лэйк-Катрин, округ Алстер, штат Нью-Йорк, США",
+      "raw_title": "26 апреля, суббота, день. Лэйк-Катрин, округ Алстер, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "Ищут путь к переправе через Гудзон, избегая шоссе I-87; находят связанного мертвеца у дороги.",
+      "types": [
+        "movement",
+        "danger"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.38,
+        "resources": 1.13,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.13,
+        "trade": 0.0,
+        "danger": 0.38
+      }
+    },
+    {
+      "chapter_id": "book02-ch031",
+      "seq": 67,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 32,
+      "date": "26 апреля",
+      "day": 26,
+      "month": 4,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Мост перед Покипси, округ Датчес, штат Нью-Йорк, США",
+      "raw_title": "26 апреля, суббота, день. Мост перед Покипси, округ Датчес, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "Под дождём их приглашают в кемпер; Дрика кормит; план — найти лодку и перебраться через океан; ночуют в кабинах.",
+      "types": [
+        "encounter",
+        "rest"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Ночёвка / отдых"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.66,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch032",
+      "seq": 68,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 33,
+      "date": "27 апреля",
+      "day": 27,
+      "month": 4,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Покипси, округ Датчес, штат Нью-Йорк, США",
+      "raw_title": "27 апреля, воскресенье, утро. Покипси, округ Датчес, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "В Покипси пристраиваются в хвост колонны; герой присматривает небольшое судно для перехода через Атлантику.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch033",
+      "seq": 69,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 34,
+      "date": "27 апреля",
+      "day": 27,
+      "month": 4,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Мальборо, округ Алстер, штат Нью-Йорк, США",
+      "raw_title": "27 апреля, воскресенье, утро. Мальборо, округ Алстер, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "На стоянке в Мальборо с байкерами (Минк, Баз, Чип, Лупо) осматривают суда; большая яхта не годится, берут крю-бот.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.29,
+        "resources": 0.29,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.15,
+        "trade": 0.14,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch034",
+      "seq": 70,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 35,
+      "date": "28 апреля",
+      "day": 28,
+      "month": 4,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Покипси, округ Датчес, штат Нью-Йорк, США",
+      "raw_title": "28 апреля, понедельник, утро. Покипси, округ Датчес, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "Утро: толпа зомби у забора цементного завода; всю ночь грузили топливо, обессилели — герой едва может стрелять.",
+      "types": [
+        "danger",
+        "movement"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.48,
+        "resources": 0.48,
+        "encounter": 0.48,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.44,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch035",
+      "seq": 71,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 36,
+      "date": "28 апреля",
+      "day": 28,
+      "month": 4,
+      "weekday": "понедельник",
+      "time": "день",
+      "location": "Нью-Гамбург, округ Датчес, штат Нью-Йорк, США",
+      "raw_title": "28 апреля, понедельник, день. Нью-Гамбург, округ Датчес, штат Нью-Йорк, США",
+      "pov": "protagonist",
+      "summary": "Буксируют судно на тросе, моются; фильтр для воды пригодился; наконец двигаются к Нью-Йорку.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.25,
+        "resources": 0.25,
+        "encounter": 0.0,
+        "rest": 0.25,
+        "repair": 0.0,
+        "movement": 1.0,
+        "trade": 0.0,
+        "danger": 0.25
+      }
+    },
+    {
+      "chapter_id": "book02-ch036",
+      "seq": 72,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 37,
+      "date": "29 апреля",
+      "day": 29,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "29 апреля, вторник, утро. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Прибывают в Нью-Йорк-Сити; швартуются у дока, герой первым поднимается на настил.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.19,
+        "encounter": 0.19,
+        "rest": 0.38,
+        "repair": 0.0,
+        "movement": 0.57,
+        "trade": 0.0,
+        "danger": 0.57
+      }
+    },
+    {
+      "chapter_id": "book02-ch037",
+      "seq": 73,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 38,
+      "date": "29 апреля",
+      "day": 29,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "29 апреля, вторник, утро. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Расчищают каюты яхты под топливо; запускают двигатель и выводят судно из марины.",
+      "types": [
+        "repair",
+        "movement"
+      ],
+      "type_labels": [
+        "Ремонт / дозаправка",
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "supplies"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.41,
+        "resources": 0.82,
+        "encounter": 0.0,
+        "rest": 0.41,
+        "repair": 0.0,
+        "movement": 0.82,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch038",
+      "seq": 74,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 39,
+      "date": "29 апреля",
+      "day": 29,
+      "month": 4,
+      "weekday": "вторник",
+      "time": "вечер",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "29 апреля, вторник, вечер. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Ищут воду вдоль берега с котом на носу; мимо Риверсайд-парка и вертолётных площадок.",
+      "types": [
+        "resources",
+        "movement"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.24,
+        "resources": 0.48,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.43,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch039",
+      "seq": 75,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 40,
+      "date": "30 апреля",
+      "day": 30,
+      "month": 4,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "30 апреля, среда, утро. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Встают на якорь; герой с Сэмом идут на разведку по мосткам, отбиваются от мертвецов.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.91,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.1,
+        "movement": 0.61,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch040",
+      "seq": 76,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 41,
+      "date": "30 апреля",
+      "day": 30,
+      "month": 4,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "30 апреля, среда, день. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Отходят к лодке; Сэм уводит грузовик вдоль берега, мертвецы атакуют док.",
+      "types": [
+        "combat",
+        "movement"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.38,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.19,
+        "movement": 0.38,
+        "trade": 0.0,
+        "danger": 0.38
+      }
+    },
+    {
+      "chapter_id": "book02-ch041",
+      "seq": 77,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 42,
+      "date": "30 апреля",
+      "day": 30,
+      "month": 4,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "30 апреля, среда, день. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Яхт-клуб приютил группу; обыскивают 30-метровую яхту — находят бар с коньяком и хамон; Дрика обшаривает соседние лодки.",
+      "types": [
+        "resources",
+        "encounter"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.49,
+        "resources": 0.33,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.17,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book02-ch042",
+      "seq": 78,
+      "book": 2,
+      "book_id": "book02",
+      "chapter_num": 43,
+      "date": "30 апреля",
+      "day": 30,
+      "month": 4,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Нью-Йорк Сити, США",
+      "raw_title": "30 апреля, среда, вечер. Нью-Йорк Сити, США",
+      "pov": "protagonist",
+      "summary": "Обшаривают судно палуба за палубой, перегружают воду и напитки с помощью генератора и лифта; готовятся к отплытию.",
+      "types": [
+        "resources"
+      ],
+      "type_labels": [
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.27,
+        "resources": 0.85,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.85,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch000",
+      "seq": 79,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 1,
+      "date": "5 мая",
+      "day": 5,
+      "month": 5,
+      "weekday": "суббота",
+      "time": "середина дня",
+      "location": "Северная Атлантика, южнее Пласентиа Бэй, полуостров Ньюфаундленд",
+      "raw_title": "5 мая, суббота, середина дня. Северная Атлантика, южнее Пласентиа Бэй, полуостров Ньюфаундленд",
+      "pov": "protagonist",
+      "summary": "Выход в Северную Атлантику на траулере: герой за штурвалом, Дрика и Сэм на вахте; 8 узлов, недели три пути.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.18,
+        "repair": 0.0,
+        "movement": 0.35,
+        "trade": 0.0,
+        "danger": 0.18
+      }
+    },
+    {
+      "chapter_id": "book03-ch001",
+      "seq": 80,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 2,
+      "date": "10 мая",
+      "day": 10,
+      "month": 5,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Северная Атлантика, где-то в самой середине",
+      "raw_title": "10 мая, четверг, утро. Северная Атлантика, где-то в самой середине",
+      "pov": "protagonist",
+      "summary": "Середина Атлантики: быт и шашлык из тунца; в четверг погода портится — начинается шторм, держат нос к волне.",
+      "types": [
+        "other",
+        "danger"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Опасность / засада"
+      ],
+      "pivots": [
+        "weather",
+        "route"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.49,
+        "encounter": 0.49,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.49
+      }
+    },
+    {
+      "chapter_id": "book03-ch002",
+      "seq": 81,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 3,
+      "date": "10 мая",
+      "day": 10,
+      "month": 5,
+      "weekday": "четверг",
+      "time": "день",
+      "location": "Северная Атлантика, где-то в самой середине",
+      "raw_title": "10 мая, четверг, день. Северная Атлантика, где-то в самой середине",
+      "pov": "protagonist",
+      "summary": "Шторм треплет 80-футовый траулер; Дрика и герой по очереди держат штурвал.",
+      "types": [
+        "danger"
+      ],
+      "type_labels": [
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch003",
+      "seq": 82,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 4,
+      "date": "12 мая",
+      "day": 12,
+      "month": 5,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Северная Атлантика",
+      "raw_title": "12 мая, суббота, день. Северная Атлантика",
+      "pov": "protagonist",
+      "summary": "Шторм не стихает вторые сутки и выматывает всех.",
+      "types": [
+        "danger"
+      ],
+      "type_labels": [
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch004",
+      "seq": 83,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 5,
+      "date": "18 мая",
+      "day": 18,
+      "month": 5,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Северная Атлантика",
+      "raw_title": "18 мая, пятница, день. Северная Атлантика",
+      "pov": "protagonist",
+      "summary": "Непогода сбивает планы: идут навстречу волне вдали от Ла-Манша, топливо тает; курс к Европе с риском уйти к Африке.",
+      "types": [
+        "danger",
+        "movement"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "weather",
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.79,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch005",
+      "seq": 84,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 6,
+      "date": "24 мая",
+      "day": 24,
+      "month": 5,
+      "weekday": "четверг",
+      "time": "ночь",
+      "location": "Средиземное море, побережье Андалусии",
+      "raw_title": "24 мая, четверг, ночь. Средиземное море, побережье Андалусии",
+      "pov": "protagonist",
+      "summary": "В Средиземном море у Гибралтара: качка, морская болезнь, «лечение алкоголем»; чудом проходят пролив.",
+      "types": [
+        "danger",
+        "movement"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.15,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch006",
+      "seq": 85,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 7,
+      "date": "24 мая",
+      "day": 24,
+      "month": 5,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Спортивный порт в Пуэрто-Банусе",
+      "raw_title": "24 мая, четверг, утро. Спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "Прибытие в марину Пуэрто-Банус: океан позади, роскошная марина после Нью-Йорка.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.56,
+        "repair": 0.0,
+        "movement": 0.56,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch007",
+      "seq": 86,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 8,
+      "date": "25 мая",
+      "day": 25,
+      "month": 5,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Спортивный порт в Пуэрто-Банусе",
+      "raw_title": "25 мая, пятница, утро. Спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "Утро в Пуэрто-Банусе: отдых, наблюдают за берегом; вооружаются и сходят на берег.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.56,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.56,
+        "trade": 0.0,
+        "danger": 0.56
+      }
+    },
+    {
+      "chapter_id": "book03-ch008",
+      "seq": 87,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 9,
+      "date": "25 мая",
+      "day": 25,
+      "month": 5,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Спортивный порт в Пуэрто-Банусе",
+      "raw_title": "25 мая, пятница, день. Спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "На берегу: топлива в яхтах нет; герой спускает мотоцикл и едет по набережной, объезжая трупы, ищет заправку.",
+      "types": [
+        "movement",
+        "resources"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.29,
+        "resources": 0.2,
+        "encounter": 0.1,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.28,
+        "trade": 0.0,
+        "danger": 0.2
+      }
+    },
+    {
+      "chapter_id": "book03-ch009",
+      "seq": 88,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 10,
+      "date": "25 мая",
+      "day": 25,
+      "month": 5,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Спортивный порт в Пуэрто-Банусе",
+      "raw_title": "25 мая, пятница, день. Спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "Дрика подгоняет лодку; герой берёт М-16 с оптикой и первым выстрелом в Испании снимает зомби.",
+      "types": [
+        "combat"
+      ],
+      "type_labels": [
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.43,
+        "resources": 2.87,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 4.3,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch010",
+      "seq": 89,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 11,
+      "date": "26 мая",
+      "day": 26,
+      "month": 5,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Спортивный порт в Пуэрто-Банусе",
+      "raw_title": "26 мая, суббота, утро. Спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "Высадка на пляж с Сэмом; ставят навигатор, выбирают бесплатные дороги, чтобы осматривать городки.",
+      "types": [
+        "movement",
+        "resources"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.06,
+        "resources": 0.58,
+        "encounter": 0.19,
+        "rest": 0.06,
+        "repair": 0.0,
+        "movement": 1.41,
+        "trade": 0.0,
+        "danger": 0.26
+      }
+    },
+    {
+      "chapter_id": "book03-ch011",
+      "seq": 90,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 12,
+      "date": "26 мая",
+      "day": 26,
+      "month": 5,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Коста-дель-Соль, окраина Марбельи",
+      "raw_title": "26 мая, суббота, утро. Коста-дель-Соль, окраина Марбельи",
+      "pov": "protagonist",
+      "summary": "Заправка пуста — перекачивают ~200 л солярки из грузовика, отстреливают двух мертвецов; военные советуют при отходе идти к Ронде.",
+      "types": [
+        "resources",
+        "combat",
+        "encounter"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Бой / столкновение",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.92,
+        "resources": 0.46,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.23,
+        "movement": 2.07,
+        "trade": 0.0,
+        "danger": 0.46
+      }
+    },
+    {
+      "chapter_id": "book03-ch012",
+      "seq": 91,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 13,
+      "date": "26 мая",
+      "day": 26,
+      "month": 5,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Коста-дель-Соль, спортивный порт в Пуэрто-Банусе",
+      "raw_title": "26 мая, суббота, вечер. Коста-дель-Соль, спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "Размышления: найдётся ли мать Дрики в Нидерландах; вестей оттуда нет.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.2,
+        "trade": 0.0,
+        "danger": 1.2
+      }
+    },
+    {
+      "chapter_id": "book03-ch013",
+      "seq": 92,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 14,
+      "date": "27 мая",
+      "day": 27,
+      "month": 5,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Коста-дель-Соль, спортивный порт в Пуэрто-Банусе",
+      "raw_title": "27 мая, воскресенье, утро. Коста-дель-Соль, спортивный порт в Пуэрто-Банусе",
+      "pov": "protagonist",
+      "summary": "Переставляет грузовик-эвакуатор задним ходом у яхты; выбирает безопасное место у порта.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "weather"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.21,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch014",
+      "seq": 93,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 15,
+      "date": "27 мая",
+      "day": 27,
+      "month": 5,
+      "weekday": "воскресенье",
+      "time": "день",
+      "location": "Старинный форт возле г. Фуэнхирола",
+      "raw_title": "27 мая, воскресенье, день. Старинный форт возле г. Фуэнхирола",
+      "pov": "protagonist",
+      "summary": "Ирландцы пускают в форт у Фуэнхиролы; дарят пожарный генератор; герой прикидывает укрепления и обмен грузовика на пулемёт.",
+      "types": [
+        "encounter",
+        "trade",
+        "resources"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Торговля / обмен",
+        "Поиск ресурсов"
+      ],
+      "pivots": [
+        "weather",
+        "plan"
+      ],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.76,
+        "encounter": 0.0,
+        "rest": 0.76,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch015",
+      "seq": 94,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 16,
+      "date": "28 мая",
+      "day": 28,
+      "month": 5,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Андалусия, автотрасса «Сьерра-Невада»",
+      "raw_title": "28 мая, понедельник, утро. Андалусия, автотрасса «Сьерра-Невада»",
+      "pov": "protagonist",
+      "summary": "Выезжают по трассе «Сьерра-Невада»; минуют Малагу и военные КПП у Антекеры.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.48,
+        "encounter": 0.0,
+        "rest": 0.16,
+        "repair": 0.0,
+        "movement": 1.44,
+        "trade": 0.0,
+        "danger": 0.16
+      }
+    },
+    {
+      "chapter_id": "book03-ch016",
+      "seq": 95,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 17,
+      "date": "29 мая",
+      "day": 29,
+      "month": 5,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Баскония, автотрасса «дель Кантабрико»",
+      "raw_title": "29 мая, вторник, утро. Баскония, автотрасса «дель Кантабрико»",
+      "pov": "protagonist",
+      "summary": "По трассе «дель Кантибрико» в Басконии; ночью рядом перестрелка (не с ними), едут осторожно, слушая рацию.",
+      "types": [
+        "movement",
+        "danger"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.19,
+        "encounter": 0.19,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.26,
+        "trade": 0.0,
+        "danger": 0.19
+      }
+    },
+    {
+      "chapter_id": "book03-ch017",
+      "seq": 96,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 18,
+      "date": "2 июня",
+      "day": 2,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Бельгия, Антверпен",
+      "raw_title": "2 июня, суббота, утро. Бельгия, Антверпен",
+      "pov": "protagonist",
+      "summary": "Прибытие в Антверпен; остановились у дорожного указателя.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.38,
+        "encounter": 0.58,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.96,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch018",
+      "seq": 97,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 19,
+      "date": "2 июня",
+      "day": 2,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Бельгия, Антверпен",
+      "raw_title": "2 июня, суббота, день. Бельгия, Антверпен",
+      "pov": "protagonist",
+      "summary": "На антверпенском рынке торгуются за оружие и жетоны; герой присматривает и берёт пистолет с кобурой.",
+      "types": [
+        "trade",
+        "encounter"
+      ],
+      "type_labels": [
+        "Торговля / обмен",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.22,
+        "resources": 0.22,
+        "encounter": 0.22,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.22,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch019",
+      "seq": 98,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 20,
+      "date": "3 июня",
+      "day": 3,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Бельгия, Антверпен",
+      "raw_title": "3 июня, воскресенье, утро. Бельгия, Антверпен",
+      "pov": "protagonist",
+      "summary": "У Информцентра в Антверпене Дрика ищет мать; заполняет анкету с обещанием обратиться в местный центр поиска.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.54,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.54,
+        "trade": 0.0,
+        "danger": 1.08
+      }
+    },
+    {
+      "chapter_id": "book03-ch020",
+      "seq": 99,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 21,
+      "date": "4 июня",
+      "day": 4,
+      "month": 6,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Бельгия, Антверпен",
+      "raw_title": "4 июня, понедельник, утро. Бельгия, Антверпен",
+      "pov": "protagonist",
+      "summary": "Димитр приглашает Дрику на прогулку; герой ему не доверяет, но не мешает — впервые близко к разгадке по её матери.",
+      "types": [
+        "encounter",
+        "danger"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.23,
+        "resources": 0.34,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.84,
+        "trade": 0.0,
+        "danger": 0.06
+      }
+    },
+    {
+      "chapter_id": "book03-ch021",
+      "seq": 100,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 22,
+      "date": "5 июня",
+      "day": 5,
+      "month": 6,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Нидерланды, деревня Кааг",
+      "raw_title": "5 июня, вторник, утро. Нидерланды, деревня Кааг",
+      "pov": "protagonist",
+      "summary": "Выезжает из Каага на мотоцикле с глушителем, переплывает канал на камере, снимает зомби у отстойника — разведка.",
+      "types": [
+        "movement",
+        "combat"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Бой / столкновение"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.34,
+        "resources": 0.17,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.18,
+        "trade": 0.0,
+        "danger": 0.17
+      }
+    },
+    {
+      "chapter_id": "book03-ch022",
+      "seq": 101,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 23,
+      "date": "5 июня",
+      "day": 5,
+      "month": 6,
+      "weekday": "вторник",
+      "time": "день",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "5 июня, вторник, день. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Затаивается; внедорожник с пулемётом идёт по его следам, но герой сворачивает и уходит.",
+      "types": [
+        "danger",
+        "movement"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.58,
+        "resources": 0.58,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 3.48,
+        "trade": 0.0,
+        "danger": 0.29
+      }
+    },
+    {
+      "chapter_id": "book03-ch023",
+      "seq": 102,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 24,
+      "date": "5 июня",
+      "day": 5,
+      "month": 6,
+      "weekday": "вторник",
+      "time": "вечер",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "5 июня, вторник, вечер. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "На ферме без засады: кот Тигр встречает; чистит винтовку, отдыхает и прикидывает, что у него козыри.",
+      "types": [
+        "rest",
+        "other"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.56,
+        "resources": 1.04,
+        "encounter": 0.52,
+        "rest": 0.52,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.52
+      }
+    },
+    {
+      "chapter_id": "book03-ch024",
+      "seq": 103,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 25,
+      "date": "6 июня",
+      "day": 6,
+      "month": 6,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "6 июня, среда, утро. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Снимает двух спящих зомби; оставив кота на охране, едет к лодочной стоянке за водным транспортом и заводит катер.",
+      "types": [
+        "combat",
+        "movement"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "supplies"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.2,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.81,
+        "trade": 0.0,
+        "danger": 0.81
+      }
+    },
+    {
+      "chapter_id": "book03-ch025",
+      "seq": 104,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 26,
+      "date": "6 июня",
+      "day": 6,
+      "month": 6,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "6 июня, среда, день. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Три часа наблюдает за домом — засады нет; готовится к решительному моменту.",
+      "types": [
+        "danger",
+        "combat"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.67,
+        "resources": 0.22,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.9,
+        "trade": 0.22,
+        "danger": 0.67
+      }
+    },
+    {
+      "chapter_id": "book03-ch026",
+      "seq": 105,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 27,
+      "date": "7 июня",
+      "day": 7,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "раннее утро",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "7 июня, четверг, раннее утро. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Ночью под дождём идёт на лодке по каналам, считая повороты, к туристической барже.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.66,
+        "resources": 0.87,
+        "encounter": 0.0,
+        "rest": 0.22,
+        "repair": 0.0,
+        "movement": 0.44,
+        "trade": 0.0,
+        "danger": 0.22
+      }
+    },
+    {
+      "chapter_id": "book03-ch027",
+      "seq": 106,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 28,
+      "date": "7 июня",
+      "day": 7,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "раннее утро",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "7 июня, четверг, раннее утро. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Из пулемёта двумя короткими очередями снимает цель; уходит к лодке у дренажного пруда.",
+      "types": [
+        "combat"
+      ],
+      "type_labels": [
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.65,
+        "resources": 1.31,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch028",
+      "seq": 107,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 29,
+      "date": "8 июня",
+      "day": 8,
+      "month": 6,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "8 июня, пятница, утро. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "День на базе у водохранилища: чистка оружия, стрелковые упражнения (500 м — предел), трофейная рация.",
+      "types": [
+        "rest",
+        "other",
+        "repair"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Прочее",
+        "Ремонт / дозаправка"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.62,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.62,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch029",
+      "seq": 108,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 30,
+      "date": "8 июня",
+      "day": 8,
+      "month": 6,
+      "weekday": "пятница",
+      "time": "вечер",
+      "location": "Нидерланды, окрестности деревни Кааг",
+      "raw_title": "8 июня, пятница, вечер. Нидерланды, окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Кот встречает; герой готовит, но чувствует, что «не расквитался» — вспоминает людей, копавших землю под конвоем.",
+      "types": [
+        "other",
+        "rest"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.25,
+        "resources": 0.25,
+        "encounter": 0.25,
+        "rest": 0.0,
+        "repair": 0.25,
+        "movement": 0.76,
+        "trade": 0.25,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch030",
+      "seq": 109,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 31,
+      "date": "9 июня",
+      "day": 9,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "9 июня, суббота, день. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Едет в Мюйден, кот едет с ним; осторожно пробирается к шоссе, считая погибших знакомых.",
+      "types": [
+        "movement"
+      ],
+      "type_labels": [
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.44,
+        "encounter": 0.29,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.47,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch031",
+      "seq": 110,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 32,
+      "date": "9 июня",
+      "day": 9,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "9 июня, суббота, вечер. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "На блошином рынке берёт патроны; компания из пяти (говорит по-русски) проявляет интерес к его оружию и грузу.",
+      "types": [
+        "resources",
+        "encounter"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 1.07,
+        "encounter": 0.81,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.81,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch032",
+      "seq": 111,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 33,
+      "date": "9 июня",
+      "day": 9,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "9 июня, суббота, вечер. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "В баре у крепости знакомится с той компанией; заказывает пиво, разглядывает спутниц.",
+      "types": [
+        "encounter",
+        "rest"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.24,
+        "encounter": 0.48,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.19,
+        "trade": 0.0,
+        "danger": 0.24
+      }
+    },
+    {
+      "chapter_id": "book03-ch033",
+      "seq": 112,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 34,
+      "date": "10 июня",
+      "day": 10,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "10 июня, воскресенье, утро. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Утром в бар приходят разведчики; герой угощает их кофе и замечает у них новенькие автоматы с прицелами.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "encounter"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.52,
+        "resources": 0.0,
+        "encounter": 0.52,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch034",
+      "seq": 113,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 35,
+      "date": "10 июня",
+      "day": 10,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "день",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "10 июня, воскресенье, день. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Разведгруппы размещаются у Каага; герой размечает посты, маршруты патрулей и точки боёв; его просят не лезть в работу.",
+      "types": [
+        "other",
+        "encounter"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.95,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch035",
+      "seq": 114,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 36,
+      "date": "12 июня",
+      "day": 12,
+      "month": 6,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "12 июня, вторник, утро. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Бастиан показывает электронику; герой оценивает голландских профессионалов (ротмистр Де Гроот), но его отключают от связи.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.08,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch036",
+      "seq": 115,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 37,
+      "date": "14 июня",
+      "day": 14,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "ночь",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "14 июня, четверг, ночь. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Операция против албанцев на острове; герой занимает позицию и готовит проникновение через окно мансарды.",
+      "types": [
+        "combat",
+        "movement"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.5,
+        "resources": 0.67,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.5,
+        "trade": 0.0,
+        "danger": 0.33
+      }
+    },
+    {
+      "chapter_id": "book03-ch037",
+      "seq": 116,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 38,
+      "date": "14 июня",
+      "day": 14,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "раннее утро",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "14 июня, четверг, раннее утро. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "После штурма: делает укол обезболивающего раненому Дитмиру, снимает пулемёт, два канадских M4 и бесшумную винтовку.",
+      "types": [
+        "combat",
+        "resources"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.2,
+        "resources": 0.41,
+        "encounter": 0.2,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.84,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch038",
+      "seq": 117,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 39,
+      "date": "14 июня",
+      "day": 14,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "14 июня, четверг, утро. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Гибель Сэма: он толкнул раненую Дрику к машине и упал, пробитый пулями; Дитмир везёт его тело на тачке, герой идёт следом.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [
+        "death"
+      ],
+      "importance": 3,
+      "density": {
+        "combat": 0.98,
+        "resources": 0.0,
+        "encounter": 0.33,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.98,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch039",
+      "seq": 118,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 40,
+      "date": "14 июня",
+      "day": 14,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "вечер",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "14 июня, четверг, вечер. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Голландцы выручают с транспортом: броневик вокруг водохранилища к лодочной стоянке, Вим прикрывает из пулемёта.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.31,
+        "resources": 0.66,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.31,
+        "trade": 0.0,
+        "danger": 0.66
+      }
+    },
+    {
+      "chapter_id": "book03-ch040",
+      "seq": 119,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 41,
+      "date": "15 июня",
+      "day": 15,
+      "month": 6,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Окрестности деревни Кааг",
+      "raw_title": "15 июня, пятница, день. Окрестности деревни Кааг",
+      "pov": "protagonist",
+      "summary": "Готовит судно: перекачивает солярку в бочки, крепит транспорт к мачте; кот занял рубку — этап пути позади.",
+      "types": [
+        "movement",
+        "repair"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Ремонт / дозаправка"
+      ],
+      "pivots": [
+        "supplies"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.35,
+        "encounter": 0.18,
+        "rest": 0.18,
+        "repair": 0.0,
+        "movement": 0.88,
+        "trade": 0.0,
+        "danger": 0.18
+      }
+    },
+    {
+      "chapter_id": "book03-ch041",
+      "seq": 120,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 42,
+      "date": "15 июня",
+      "day": 15,
+      "month": 6,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "15 июня, пятница, день. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Вход в гавань Мюйдена: полицейские помогают пришвартоваться; герой берёт велосипед и едет через мирный город к замку.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.76,
+        "encounter": 0.57,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.76,
+        "trade": 0.0,
+        "danger": 0.19
+      }
+    },
+    {
+      "chapter_id": "book03-ch042",
+      "seq": 121,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 43,
+      "date": "16 июня",
+      "day": 16,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "16 июня, суббота, утро. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "В Мюйдене присматривает судно (похожее на антверпенское) для финального перехода домой.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.26,
+        "resources": 2.07,
+        "encounter": 0.52,
+        "rest": 0.0,
+        "repair": 0.26,
+        "movement": 0.78,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch043",
+      "seq": 122,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 44,
+      "date": "18 июня",
+      "day": 18,
+      "month": 6,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "18 июня, понедельник, утро. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Последние сборы и обмены в Мюйдене; тревога за семью, мороз по спине; груз большой — припасы и оружие.",
+      "types": [
+        "other",
+        "trade"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Торговля / обмен"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.41,
+        "resources": 0.7,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch044",
+      "seq": 123,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 45,
+      "date": "18 июня",
+      "day": 18,
+      "month": 6,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Подмосковье, учебный центр «Пламя»",
+      "raw_title": "18 июня, понедельник, утро. Подмосковье, учебный центр «Пламя»",
+      "pov": "family_ru",
+      "summary": "Маше велик, ярко-красный, японский и очень дорогой , достался сразу после того, как она взяла на себя преподавание английского и испанского в местной школе. Маша выехала на дорожку и покатила в сторону штаба.",
+      "types": [
+        "movement",
+        "resources"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 0,
+      "density": {
+        "combat": 0.3,
+        "resources": 0.61,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.91,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch045",
+      "seq": 124,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 46,
+      "date": "19 июня",
+      "day": 19,
+      "month": 6,
+      "weekday": "вторник",
+      "time": "день",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "19 июня, вторник, день. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Утром едет на могилы Дрики и Сэма проститься; встречает Вима, вместе пьют пиво у окна и расходятся.",
+      "types": [
+        "other",
+        "encounter"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "death"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 1.35,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.03,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch046",
+      "seq": 125,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 47,
+      "date": "20 июня",
+      "day": 20,
+      "month": 6,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "20 июня, среда, утро. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "После вчерашней пьянки герой ждёт вестей; знакомится с Корне, живущим на барже-доме.",
+      "types": [
+        "rest",
+        "encounter"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.5,
+        "encounter": 0.5,
+        "rest": 0.5,
+        "repair": 0.0,
+        "movement": 3.47,
+        "trade": 0.5,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch047",
+      "seq": 126,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 48,
+      "date": "20 июня",
+      "day": 20,
+      "month": 6,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Подмосковье, учебный центр «Пламя»",
+      "raw_title": "20 июня, среда, день. Подмосковье, учебный центр «Пламя»",
+      "pov": "family_ru",
+      "summary": "Подмосковье, учебный центр На узле связи собрались все, включая даже прибежавшего из госпиталя Володю, – Настя должна была родить буквально с минуты на минуты. Узнала, что добрался он из Америки на корабле с попутчиками до Испании, там разжился машиной.",
+      "types": [
+        "resources"
+      ],
+      "type_labels": [
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 0,
+      "density": {
+        "combat": 0.0,
+        "resources": 1.58,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.79,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch048",
+      "seq": 127,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 49,
+      "date": "21 июня",
+      "day": 21,
+      "month": 6,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "21 июня, четверг, утро. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "В баре договаривается с русскими (Витя, Паша, Дима): лодка у него есть, пойдут каботажем вдоль берега.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 1.09,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 3.28,
+        "trade": 0.0,
+        "danger": 1.09
+      }
+    },
+    {
+      "chapter_id": "book03-ch049",
+      "seq": 128,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 50,
+      "date": "22 июня",
+      "day": 22,
+      "month": 6,
+      "weekday": "пятница",
+      "time": "раннее утро",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "22 июня, пятница, раннее утро. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Учит Витю и Пашу обращаться с оружием и судном; к вечеру выходят в Северное море.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 1.72,
+        "encounter": 0.86,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch050",
+      "seq": 129,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 51,
+      "date": "23 июня",
+      "day": 23,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Дельфзийль, северо-восток Нидерландов",
+      "raw_title": "23 июня, суббота, утро. Дельфзийль, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "Подходят к Дельфзийлю; герой готовит пулемёт против мутантов (совет ирландцев из Фуэнхиролы); кругом химические заводы.",
+      "types": [
+        "movement",
+        "danger"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.31,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.79,
+        "trade": 0.0,
+        "danger": 0.08
+      }
+    },
+    {
+      "chapter_id": "book03-ch051",
+      "seq": 130,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 52,
+      "date": "23 июня",
+      "day": 23,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "день",
+      "location": "Дельфзийль, северо-восток Нидерландов",
+      "raw_title": "23 июня, суббота, день. Дельфзийль, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "В Дельфзийле: лодку не тронули, два зомби у судоремонтного; сходят на берег, тщательно проверяют здания.",
+      "types": [
+        "danger",
+        "movement"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.21,
+        "resources": 0.42,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.42,
+        "trade": 0.0,
+        "danger": 0.21
+      }
+    },
+    {
+      "chapter_id": "book03-ch052",
+      "seq": 131,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 53,
+      "date": "23 июня",
+      "day": 23,
+      "month": 6,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Дельфзийль, северо-восток Нидерландов",
+      "raw_title": "23 июня, суббота, вечер. Дельфзийль, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "На судне у заправочного терминала в Дельфзийле: заливают цистерны, обживаются; Дима раздражает, женщины готовят ужин.",
+      "types": [
+        "repair",
+        "resources",
+        "encounter"
+      ],
+      "type_labels": [
+        "Ремонт / дозаправка",
+        "Поиск ресурсов",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.7,
+        "resources": 0.7,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.35,
+        "trade": 0.0,
+        "danger": 0.35
+      }
+    },
+    {
+      "chapter_id": "book03-ch053",
+      "seq": 132,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 54,
+      "date": "24 июня",
+      "day": 24,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "raw_title": "24 июня, воскресенье, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "На рассвете — мертвяки кормятся телами, что он настрелял; замечает, что Дима спал на посту.",
+      "types": [
+        "danger",
+        "other"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.18,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.18,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch054",
+      "seq": 133,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 55,
+      "date": "24 июня",
+      "day": 24,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "утро",
+      "location": "Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "raw_title": "24 июня, воскресенье, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "Схватка с зомби: Пашу тошнит, герой снимает мертвяка в зелёном комбинезоне, приматывает калитку и бежит наверх с пулемётом.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.64,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch055",
+      "seq": 134,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 56,
+      "date": "24 июня",
+      "day": 24,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "день",
+      "location": "Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "raw_title": "24 июня, воскресенье, день. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "Стрельба запускает цепочку: вместо вялых зомби — активная нежить рядом; герой бережёт патроны, Пашу на борт, Витю на цистерну.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.6,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.9,
+        "trade": 0.0,
+        "danger": 0.3
+      }
+    },
+    {
+      "chapter_id": "book03-ch056",
+      "seq": 135,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 57,
+      "date": "24 июня",
+      "day": 24,
+      "month": 6,
+      "weekday": "воскресенье",
+      "time": "вечер",
+      "location": "Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "raw_title": "24 июня, воскресенье, вечер. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "День у нефтебазы: в трюме ~100 кубов солярки; мутант исчез из укрытия — кто-то ловко взбирается на борт.",
+      "types": [
+        "danger",
+        "resources"
+      ],
+      "type_labels": [
+        "Опасность / засада",
+        "Поиск ресурсов"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.45,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.67
+      }
+    },
+    {
+      "chapter_id": "book03-ch057",
+      "seq": 136,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 58,
+      "date": "25 июня",
+      "day": 25,
+      "month": 6,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "raw_title": "25 июня, понедельник, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "Ночь у нефтебазы на вахтах; Дима в истерике пьёт ром; к утру собирается толпа мертвецов — герой отстреливает их с крыла мостика.",
+      "types": [
+        "combat",
+        "danger"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Опасность / засада"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.16,
+        "resources": 0.47,
+        "encounter": 0.0,
+        "rest": 0.16,
+        "repair": 0.0,
+        "movement": 0.47,
+        "trade": 0.0,
+        "danger": 0.16
+      }
+    },
+    {
+      "chapter_id": "book03-ch058",
+      "seq": 137,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 59,
+      "date": "25 июня",
+      "day": 25,
+      "month": 6,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "raw_title": "25 июня, понедельник, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "pov": "protagonist",
+      "summary": "Мертвяков прибывает; отходят на судно, герой гонит Димy с борта и стреляет по толпе с палубы.",
+      "types": [
+        "combat",
+        "movement"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.79,
+        "resources": 0.63,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.16
+      }
+    },
+    {
+      "chapter_id": "book03-ch059",
+      "seq": 138,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 60,
+      "date": "29 июня",
+      "day": 29,
+      "month": 6,
+      "weekday": "пятница",
+      "time": "вечер",
+      "location": "Мюйден, окрестности Амстердама",
+      "raw_title": "29 июня, пятница, вечер. Мюйден, окрестности Амстердама",
+      "pov": "protagonist",
+      "summary": "Вернулись в Мюйден; в Дельфзийле нашли склад, погрузили ~15 т тварона и ~30 т полиэтилена.",
+      "types": [
+        "resources",
+        "movement"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Движение / переезд"
+      ],
+      "pivots": [
+        "supplies"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 1.51,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch060",
+      "seq": 139,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 61,
+      "date": "4 июля",
+      "day": 4,
+      "month": 7,
+      "weekday": "среда",
+      "time": "день",
+      "location": "Борт «Мариетты», неподалеку от острова Готланд, Балтийское море",
+      "raw_title": "4 июля, среда, день. Борт «Мариетты», неподалеку от острова Готланд, Балтийское море",
+      "pov": "protagonist",
+      "summary": "Идёт на «Мариетте» пассажиром у Готланда; стрижёт и бреет голову; случайно слышит подозрительный разговор Димы с Пашей.",
+      "types": [
+        "other",
+        "movement"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.92,
+        "resources": 0.92,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.92,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch061",
+      "seq": 140,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 62,
+      "date": "8 июля",
+      "day": 8,
+      "month": 7,
+      "weekday": "воскресенье",
+      "time": "поздний вечер",
+      "location": "Кронштадт, городская больница № 36, приемный покой",
+      "raw_title": "8 июля, воскресенье, поздний вечер. Кронштадт, городская больница № 36, приемный покой",
+      "pov": "protagonist",
+      "summary": "Прибытие в Кронштадт: героя и конвоируемого Димy везут в больницу №36; весь издырявлен дробью, боится обратиться.",
+      "types": [
+        "other",
+        "danger"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Опасность / засада"
+      ],
+      "pivots": [
+        "route"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.54,
+        "encounter": 0.54,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch062",
+      "seq": 141,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 63,
+      "date": "9 июля",
+      "day": 9,
+      "month": 7,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Кронштадт, городская больница № 36",
+      "raw_title": "9 июля, понедельник, утро. Кронштадт, городская больница № 36",
+      "pov": "protagonist",
+      "summary": "Обследования и рентген; готовят к операции, вокруг студенты-практиканты.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.45,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.9,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch063",
+      "seq": 142,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 64,
+      "date": "9 июля",
+      "day": 9,
+      "month": 7,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Кронштадт",
+      "raw_title": "9 июля, понедельник, утро. Кронштадт",
+      "pov": "protagonist",
+      "summary": "Доктор везёт по Кронштадту в гавань Базы Литке; видит своё судно (Витек красит) и кота Тигра на коленях у Дылды.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.39,
+        "resources": 0.0,
+        "encounter": 1.18,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.37,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch064",
+      "seq": 143,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 65,
+      "date": "10 июля",
+      "day": 10,
+      "month": 7,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Кронштадт, городская больница № 36",
+      "raw_title": "10 июля, вторник, утро. Кронштадт, городская больница № 36",
+      "pov": "protagonist",
+      "summary": "Допрос в УВД, подписывает протоколы; понимает, что Диме конец; переодевается в палате.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.59,
+        "encounter": 0.59,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.3,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch065",
+      "seq": 144,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 66,
+      "date": "10 июля",
+      "day": 10,
+      "month": 7,
+      "weekday": "вторник",
+      "time": "утро",
+      "location": "Кронштадт",
+      "raw_title": "10 июля, вторник, утро. Кронштадт",
+      "pov": "protagonist",
+      "summary": "Выписывают синий пропуск (комендантский час до 22:00); доктор вносит аванс; ужин в кафе.",
+      "types": [
+        "other",
+        "encounter"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.6,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.6,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch066",
+      "seq": 145,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 67,
+      "date": "11 июля",
+      "day": 11,
+      "month": 7,
+      "weekday": "среда",
+      "time": "утро",
+      "location": "Кронштадт",
+      "raw_title": "11 июля, среда, утро. Кронштадт",
+      "pov": "protagonist",
+      "summary": "Заселяется в гостиницу, открывает счёт в банке, решает дела в офисе; выписывают из больницы.",
+      "types": [
+        "other",
+        "encounter"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.41,
+        "resources": 0.41,
+        "encounter": 0.82,
+        "rest": 0.14,
+        "repair": 0.0,
+        "movement": 1.51,
+        "trade": 0.0,
+        "danger": 0.14
+      }
+    },
+    {
+      "chapter_id": "book03-ch067",
+      "seq": 146,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 68,
+      "date": "11 июля",
+      "day": 11,
+      "month": 7,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Кронштадт",
+      "raw_title": "11 июля, среда, вечер. Кронштадт",
+      "pov": "protagonist",
+      "summary": "Формирует новый экипаж, получает накладные; оставляет кота и груз в номере, идёт в кафе.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.36,
+        "resources": 0.36,
+        "encounter": 1.44,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.16,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch068",
+      "seq": 147,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 69,
+      "date": "12 июля",
+      "day": 12,
+      "month": 7,
+      "weekday": "четверг",
+      "time": "утро",
+      "location": "Кронштадт",
+      "raw_title": "12 июля, четверг, утро. Кронштадт",
+      "pov": "protagonist",
+      "summary": "Распродаёт свою долю груза (пиломатериалы, полимер); его часть едет в Тверь; расчёты и ужин с Доком.",
+      "types": [
+        "trade",
+        "encounter"
+      ],
+      "type_labels": [
+        "Торговля / обмен",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.71,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 2.85,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch069",
+      "seq": 148,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 70,
+      "date": "13 июля",
+      "day": 13,
+      "month": 7,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Дорога Санкт-Петербург – Москва",
+      "raw_title": "13 июля, пятница, утро. Дорога Санкт-Петербург – Москва",
+      "pov": "protagonist",
+      "summary": "Колонна идёт по трассе Санкт-Петербург–Москва; герой с Сержем в командирском «Газоне», кот рядом; дарит Сержу М4.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.38,
+        "resources": 0.0,
+        "encounter": 0.38,
+        "rest": 0.38,
+        "repair": 0.0,
+        "movement": 2.66,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch070",
+      "seq": 149,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 71,
+      "date": "14 июля",
+      "day": 14,
+      "month": 7,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Тверская обл., Ржев",
+      "raw_title": "14 июля, суббота, утро. Тверская обл., Ржев",
+      "pov": "protagonist",
+      "summary": "В Ржеве герой встречает старого друга Павла; разбирается с местными деньгами и понимает — до дома близко.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.28,
+        "resources": 0.56,
+        "encounter": 0.0,
+        "rest": 0.56,
+        "repair": 0.0,
+        "movement": 0.56,
+        "trade": 0.0,
+        "danger": 0.28
+      }
+    },
+    {
+      "chapter_id": "book03-ch071",
+      "seq": 150,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 72,
+      "date": "14 июля",
+      "day": 14,
+      "month": 7,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Тверская обл., Ржев",
+      "raw_title": "14 июля, суббота, вечер. Тверская обл., Ржев",
+      "pov": "protagonist",
+      "summary": "Встреча друзей в Ржеве: примчался Макс из Андреаполя; сидят за «столом почётных гостей».",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "encounter"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch072",
+      "seq": 151,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 73,
+      "date": "16 июля",
+      "day": 16,
+      "month": 7,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Тверская обл., Ржев",
+      "raw_title": "16 июля, понедельник, утро. Тверская обл., Ржев",
+      "pov": "protagonist",
+      "summary": "Под новую работу занимают пустующий автосервис; оформляют официальный статус, набирают людей.",
+      "types": [
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.64,
+        "encounter": 0.32,
+        "rest": 0.0,
+        "repair": 0.32,
+        "movement": 0.95,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch073",
+      "seq": 152,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 74,
+      "date": "16 июля",
+      "day": 16,
+      "month": 7,
+      "weekday": "понедельник",
+      "time": "вечер",
+      "location": "Тверская обл., Ржев",
+      "raw_title": "16 июля, понедельник, вечер. Тверская обл., Ржев",
+      "pov": "protagonist",
+      "summary": "Заселяется в дом под Ржевом, подключает генератор с испанской пожарной машины; готовится убедить жену переехать.",
+      "types": [
+        "other",
+        "repair"
+      ],
+      "type_labels": [
+        "Прочее",
+        "Ремонт / дозаправка"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.42,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.27,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch074",
+      "seq": 153,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 75,
+      "date": "20 июля",
+      "day": 20,
+      "month": 7,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Тверская обл., Ржев",
+      "raw_title": "20 июля, пятница, утро. Тверская обл., Ржев",
+      "pov": "protagonist",
+      "summary": "Выделяют два КамАЗа и БРДМ-2; Вовка организует связь с женой; герой собирается навестить Нахабино.",
+      "types": [
+        "movement",
+        "encounter",
+        "other"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.14,
+        "resources": 0.28,
+        "encounter": 0.14,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.7,
+        "trade": 0.0,
+        "danger": 0.14
+      }
+    },
+    {
+      "chapter_id": "book03-ch075",
+      "seq": 154,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 76,
+      "date": "20 июля",
+      "day": 20,
+      "month": 7,
+      "weekday": "пятница",
+      "time": "утро",
+      "location": "Учебный центр «Пламя»",
+      "raw_title": "20 июля, пятница, утро. Учебный центр «Пламя»",
+      "pov": "protagonist",
+      "summary": "Приезжает в учебный центр «Пламя» через КПП; лейтенант направляет по домашнему адресу.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.71,
+        "encounter": 0.36,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.71,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch076",
+      "seq": 155,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 77,
+      "date": "20 июля",
+      "day": 20,
+      "month": 7,
+      "weekday": "пятница",
+      "time": "день",
+      "location": "Учебный центр «Пламя», Московская обл",
+      "raw_title": "20 июля, пятница, день. Учебный центр «Пламя», Московская обл",
+      "pov": "protagonist",
+      "summary": "Финал: герой воссоединяется с семьёй — Маша, коты, дом; «я с семьёй, больше мне не нужно ничего».",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "home"
+      ],
+      "importance": 3,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.31,
+        "trade": 0.0,
+        "danger": 0.44
+      }
+    },
+    {
+      "chapter_id": "book03-ch077",
+      "seq": 156,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 78,
+      "date": "20 июля",
+      "day": 20,
+      "month": 7,
+      "weekday": "пятница",
+      "time": "вечер",
+      "location": "Московская обл., Нахабино",
+      "raw_title": "20 июля, пятница, вечер. Московская обл., Нахабино",
+      "pov": "protagonist",
+      "summary": "Ночь в гостевой даче у части в Нахабине; кованая кровать, тепло, но в ночи слышны выстрелы.",
+      "types": [
+        "rest"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.45,
+        "resources": 0.0,
+        "encounter": 0.45,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.45,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch078",
+      "seq": 157,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 79,
+      "date": "21 июля",
+      "day": 21,
+      "month": 7,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Московская обл., Нахабино",
+      "raw_title": "21 июля, суббота, утро. Московская обл., Нахабино",
+      "pov": "protagonist",
+      "summary": "Впервые с отъезда в Америку на душе хорошо; едет с Саньком на УАЗе в Снегири.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.55,
+        "resources": 0.41,
+        "encounter": 0.0,
+        "rest": 0.14,
+        "repair": 0.0,
+        "movement": 0.69,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch079",
+      "seq": 158,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 80,
+      "date": "21 июля",
+      "day": 21,
+      "month": 7,
+      "weekday": "суббота",
+      "time": "утро",
+      "location": "Московская обл., п. Снегири",
+      "raw_title": "21 июля, суббота, утро. Московская обл., п. Снегири",
+      "pov": "protagonist",
+      "summary": "Забирает трофейный АК-103 и рацию; едут в новом трофейном джипе; сближается с Игорем.",
+      "types": [
+        "resources",
+        "encounter"
+      ],
+      "type_labels": [
+        "Поиск ресурсов",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.47,
+        "resources": 1.41,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.41,
+        "trade": 0.0,
+        "danger": 0.47
+      }
+    },
+    {
+      "chapter_id": "book03-ch080",
+      "seq": 159,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 81,
+      "date": "21 июля",
+      "day": 21,
+      "month": 7,
+      "weekday": "суббота",
+      "time": "вечер",
+      "location": "Московская обл., Нахабино",
+      "raw_title": "21 июля, суббота, вечер. Московская обл., Нахабино",
+      "pov": "protagonist",
+      "summary": "Убеждает друзей влезть в дело против банды Сухого; обещает разведку; у него личная жажда крови к нечисти.",
+      "types": [
+        "encounter"
+      ],
+      "type_labels": [
+        "Встреча с людьми"
+      ],
+      "pivots": [
+        "decision"
+      ],
+      "importance": 2,
+      "density": {
+        "combat": 0.82,
+        "resources": 0.82,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.82,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch081",
+      "seq": 160,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 82,
+      "date": "22 июля",
+      "day": 22,
+      "month": 7,
+      "weekday": "воскресенье",
+      "time": "раннее утро",
+      "location": "Московская обл., коттеджный поселок «Гринвич»",
+      "raw_title": "22 июля, воскресенье, раннее утро. Московская обл., коттеджный поселок «Гринвич»",
+      "pov": "protagonist",
+      "summary": "На рассвете у коттеджного посёлка «Гринвич»: четыре больших дома, готовится штурм.",
+      "types": [
+        "combat",
+        "movement"
+      ],
+      "type_labels": [
+        "Бой / столкновение",
+        "Движение / переезд"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 1.69,
+        "resources": 0.68,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.68,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch082",
+      "seq": 161,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 83,
+      "date": "23 июля",
+      "day": 23,
+      "month": 7,
+      "weekday": "понедельник",
+      "time": "утро",
+      "location": "Московская обл., Нахабино",
+      "raw_title": "23 июля, понедельник, утро. Московская обл., Нахабино",
+      "pov": "protagonist",
+      "summary": "Ранним утром колонной едут во Ржев; семья в трофейном джипе; показания пленных бандитов требуют закончить дело.",
+      "types": [
+        "movement",
+        "combat"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Бой / столкновение"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.27,
+        "encounter": 0.27,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.1,
+        "trade": 0.0,
+        "danger": 0.27
+      }
+    },
+    {
+      "chapter_id": "book03-ch083",
+      "seq": 162,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 84,
+      "date": "25 июля",
+      "day": 25,
+      "month": 7,
+      "weekday": "среда",
+      "time": "вечер",
+      "location": "Тверская обл., Ржев",
+      "raw_title": "25 июля, среда, вечер. Тверская обл., Ржев",
+      "pov": "protagonist",
+      "summary": "Отдых в бане во Ржеве; герой решает больше сам в авантюры не лезть — он теперь начальство.",
+      "types": [
+        "rest",
+        "other"
+      ],
+      "type_labels": [
+        "Ночёвка / отдых",
+        "Прочее"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.59,
+        "resources": 1.18,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 1.18,
+        "trade": 0.0,
+        "danger": 0.59
+      }
+    },
+    {
+      "chapter_id": "book03-ch084",
+      "seq": 163,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 85,
+      "date": "26 июля",
+      "day": 26,
+      "month": 7,
+      "weekday": "четверг",
+      "time": "день",
+      "location": "Московская обл., Нахабино",
+      "raw_title": "26 июля, четверг, день. Московская обл., Нахабино",
+      "pov": "protagonist",
+      "summary": "Возвращается в Нахабино, забирает оружие; поднимается на крыльцо и открывает дверь дома.",
+      "types": [
+        "movement",
+        "encounter"
+      ],
+      "type_labels": [
+        "Движение / переезд",
+        "Встреча с людьми"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.91,
+        "resources": 0.45,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.91,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    },
+    {
+      "chapter_id": "book03-ch085",
+      "seq": 164,
+      "book": 3,
+      "book_id": "book03",
+      "chapter_num": 86,
+      "date": "",
+      "day": null,
+      "month": null,
+      "weekday": "",
+      "time": "",
+      "location": "Москва (эпилог)",
+      "raw_title": "Эпилог",
+      "pov": "protagonist",
+      "summary": "Эпилог: герой за рулём в Москве, у забора — тварь-«бабуин»; показывает ей палец и едет дальше.",
+      "types": [
+        "other"
+      ],
+      "type_labels": [
+        "Эпилог"
+      ],
+      "pivots": [],
+      "importance": 1,
+      "density": {
+        "combat": 0.0,
+        "resources": 0.0,
+        "encounter": 0.0,
+        "rest": 0.0,
+        "repair": 0.0,
+        "movement": 0.0,
+        "trade": 0.0,
+        "danger": 0.0
+      }
+    }
+  ]
+}

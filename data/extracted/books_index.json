@@ -1,0 +1,23 @@
+[
+  {
+    "book_id": "book01",
+    "title": "Я еду домой!",
+    "chapters": 35,
+    "chars": 803811,
+    "txt": "data/raw/book01.txt"
+  },
+  {
+    "book_id": "book02",
+    "title": "От чужих берегов",
+    "chapters": 43,
+    "chars": 853313,
+    "txt": "data/raw/book02.txt"
+  },
+  {
+    "book_id": "book03",
+    "title": "Те, кто выжил",
+    "chapters": 86,
+    "chars": 995848,
+    "txt": "data/raw/book03.txt"
+  }
+]

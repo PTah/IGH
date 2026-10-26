@@ -1,0 +1,41 @@
+# Full book text — personal library copies, do not publish
+data/raw/
+data/extracted/_*.txt
+*.fb2
+
+# Local secrets / API keys
+.env
+.env.*
+deploy/secrets.env
+
+# Tooling
+.cursor/
+.cursorignore
+AGENTS.md
+CURSOR.md
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Generated GeoJSON copies (карта читает map/data.js)
+map/geo/
+
+# Offline raster tiles (generate: python scripts/prepare_offline_assets.py)
+map/tiles/
+map/tiles-cache/
+
+# Runtime next to launcher / exe
+igh.log
+igh.state.json
+igh.stop
+igh.lock
+igh.browser
+
+# Release / PyInstaller
+dist/
+build/
+*.spec

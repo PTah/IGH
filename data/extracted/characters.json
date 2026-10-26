@@ -1,0 +1,120 @@
+{
+  "characters": [
+    {
+      "id": "c-drika",
+      "name_book": "Дрика",
+      "name_full": "Хендрике (Дрика)",
+      "role": "companion",
+      "importance": "key",
+      "notes": "Голландка из Амстердама; спасена в Юме; через США и Европу до Каага.",
+      "first_meet": {
+        "chapter_id": "book01-ch022",
+        "place_hint": "Округ Юма, Аризона",
+        "event_type": "meet_key"
+      },
+      "last_arc": {
+        "chapter_id": "book03-ch036",
+        "place_hint": "Кааг, Нидерланды",
+        "event_ids": ["e-b03-companions-dead", "e-b03-farewell-graves"],
+        "event_type": "farewell_key",
+        "notes": "Гибель; похоронена героем у теплиц"
+      }
+    },
+    {
+      "id": "c-sam",
+      "name_book": "Сэм",
+      "role": "companion",
+      "importance": "key",
+      "notes": "Джастисбёрг → Европа; погиб, прикрывая отход раненой Дрики.",
+      "first_meet": {
+        "chapter_id": "book02-ch008",
+        "place_hint": "Джастисбёрг, Техас",
+        "event_type": "meet_key"
+      },
+      "last_arc": {
+        "chapter_id": "book03-ch038",
+        "place_hint": "Кааг, Нидерланды",
+        "event_ids": ["e-b03-companions-dead", "e-b03-bury-sam"],
+        "event_type": "farewell_key",
+        "notes": "Тело из силосной ямы; могила рядом с Дрикой"
+      }
+    },
+    {
+      "id": "c-tiger",
+      "name_book": "Тигр",
+      "role": "companion",
+      "importance": "key",
+      "species": "cat",
+      "notes": "Викенбург → до РФ; остаётся со героем (в т.ч. офис во Ржеве).",
+      "first_meet": {
+        "chapter_id": "book02-ch000",
+        "place_hint": "Викенбург, Аризона",
+        "place_map": "Wickenburg, Arizona, USA",
+        "event_id": "e-b02-find-tiger",
+        "event_type": "meet_key"
+      }
+    },
+    {
+      "id": "c-sox",
+      "name_book": "Сокс",
+      "role": "companion",
+      "importance": "major",
+      "species": "dog",
+      "notes": "Пёс Сэма; с Джастисбёрга"
+    },
+    {
+      "id": "c-jack",
+      "name_book": "Джек Симмонс",
+      "role": "ally",
+      "importance": "major",
+      "notes": "Партнёр в Юме"
+    },
+    {
+      "id": "c-pablito",
+      "name_book": "Пабло / Паблито",
+      "role": "ally",
+      "importance": "major",
+      "notes": "Работник в Юме"
+    },
+    {
+      "id": "c-jeff",
+      "name_book": "Джефф",
+      "role": "ally",
+      "importance": "key",
+      "notes": "Убит в засаде book01-ch030; похоронен на холме.",
+      "last_arc": {
+        "chapter_id": "book01-ch032",
+        "event_ids": ["e-b01-jeff-dies", "e-b01-bury-jeff"],
+        "event_type": "farewell_key"
+      }
+    },
+    {
+      "id": "c-dimitr",
+      "name_book": "Димитр",
+      "role": "ally",
+      "importance": "major",
+      "notes": "Антверпен; дал Дрике надежду; вёл группу к Каагу (book03)"
+    },
+    {
+      "id": "c-ditmir",
+      "name_book": "Дитмир",
+      "role": "antagonist",
+      "importance": "major",
+      "notes": "Албанец Каага; копал могилу Сэма; скормлен мертвякам"
+    },
+    {
+      "id": "c-wim",
+      "name_book": "Вим",
+      "role": "ally",
+      "importance": "major",
+      "notes": "Мюйден; союзник в операции против Каага"
+    },
+    {
+      "id": "c-dima-crew",
+      "name_book": "Дима (экипаж «Мариетты»)",
+      "role": "ally",
+      "importance": "major",
+      "notes": "Дельфзийль / Балтика"
+    }
+  ]
+}

@@ -1,0 +1,1510 @@
+{
+  "book_id": "book02",
+  "title": "От чужих берегов",
+  "status": "complete_v1",
+  "progress": {
+    "chapters_total": 43,
+    "chapters_digested": 43,
+    "note": "Вычитка book02 v1. Маршрут AZ→NM→TX→(авиа Wichita)→TX→TN→OH→NY→NYC/Hudson→отплытие."
+  },
+  "route_summary": [
+    "Юма → Кварцсайт → Паркер/72 → Боус → Агила → Викенбург (Тигр) → Морристаун → Марикопа/Финикс → Пэйсон (Хила) → округ Апач → Сокорро NM → Альбукерке → Торрэнс/Йесо → Джастисбёрг (Сэм+Сокс)",
+    "→ Порт-Артур (судов нет) → Морганз Пойнт / Ла-Порт (Скайлэйн)",
+    "авиа → Уичита (Карго-Мастер / церковь Преподобного) → побег под огнём → обратно Ла-Порт",
+    "→ Лафкин (5 дней, колонна) → Мак-Кензи TN → KY → парк Уэйн OH → Хёрли/Лэйк-Катрин NY (мост взорван) → Покипси / Мальборо (байкеры, «Туга») → Нью-Гамбург → NYC / Линкольн-Харбор («Проныра», «Крыло бури», «Дух Нью-Джерси») → отплытие в Атлантику"
+  ],
+  "places": [
+    {
+      "id": "p-yuma-county",
+      "name_book": "Округ Юма",
+      "name_map": "Yuma County, Arizona, USA",
+      "kind": "county",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-quartzsite",
+      "name_book": "Кварцсайт",
+      "name_map": "Quartzsite, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-parker-az",
+      "name_book": "Паркер (поворот на 72)",
+      "name_map": "Parker, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-bouse",
+      "name_book": "Боус",
+      "name_map": "Bouse, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-aguila",
+      "name_book": "Агила",
+      "name_map": "Aguila, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-wickenburg",
+      "name_book": "Викенбург",
+      "name_map": "Wickenburg, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-morristown-az",
+      "name_book": "Морристаун",
+      "name_map": "Morristown, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-maricopa",
+      "name_book": "Округ Марикопа / Финикс",
+      "name_map": "Maricopa County / Phoenix, Arizona, USA",
+      "kind": "county",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-payson",
+      "name_book": "Пэйсон (округ Хила)",
+      "name_map": "Payson, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-apache-county",
+      "name_book": "Округ Апач",
+      "name_map": "Apache County, Arizona, USA",
+      "kind": "county",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-socorro",
+      "name_book": "Округ Сокорро, Нью-Мексико",
+      "name_map": "Socorro County, New Mexico, USA",
+      "kind": "county",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-albuquerque",
+      "name_book": "Альбукерке",
+      "name_map": "Albuquerque, New Mexico, USA",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-torrance-nm",
+      "name_book": "Округ Торрэнс / Йесо",
+      "name_map": "Torrance County / Yeso, New Mexico, USA",
+      "kind": "county",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-justiceburg",
+      "name_book": "Джастисбёрг",
+      "name_map": "Justiceburg, Texas, USA",
+      "kind": "town",
+      "pov_default": "protagonist",
+      "notes": "Встреча с Сэмом и псом Соксом"
+    },
+    {
+      "id": "p-port-arthur",
+      "name_book": "Порт-Артур, Техас",
+      "name_map": "Port Arthur, Texas, USA",
+      "kind": "port",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-beaumont",
+      "name_book": "Бимонт (рядом с Порт-Артуром)",
+      "name_map": "Beaumont, Texas, USA",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-morgans-point",
+      "name_book": "Морганз Пойнт, округ Харрис",
+      "name_map": "Morgans Point, Harris County, Texas, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-la-porte",
+      "name_book": "Ла-Порт / аэродром Ла-Порта",
+      "name_map": "La Porte, Texas, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-wichita",
+      "name_book": "Уичита Метрополитэн (аэродром Cessna)",
+      "name_map": "Wichita Dwight D. Eisenhower National Airport / Cessna field, Wichita, Kansas, USA",
+      "kind": "airport",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-lufkin",
+      "name_book": "Лафкин, округ Анджелина",
+      "name_map": "Lufkin, Texas, USA",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-expo-inn-lufkin",
+      "name_book": "мотель Expo-Inn Лафкин",
+      "name_map": "Expo Inn, Lufkin, Texas, USA",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-mckenzie",
+      "name_book": "Мак-Кензи, округ Генри, Теннесси",
+      "name_map": "McKenzie, Tennessee, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-wayne-np",
+      "name_book": "Национальный парк Уэйн, округ Атенс, Огайо",
+      "name_map": "Wayne National Forest, Athens County, Ohio, USA",
+      "kind": "region",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-hurley-ny",
+      "name_book": "Хёрли, округ Алстер, NY",
+      "name_map": "Hurley, Ulster County, New York, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-lake-katrine",
+      "name_book": "Лэйк-Катрин; мост по 199 взорван",
+      "name_map": "Lake Katrine, Ulster County, New York, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-poughkeepsie",
+      "name_book": "Покипси / мост перед Покипси",
+      "name_map": "Poughkeepsie, Dutchess County, New York, USA",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-marlboro-ny",
+      "name_book": "Мальборо, округ Алстер",
+      "name_map": "Marlboro, Ulster County, New York, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-new-hamburg",
+      "name_book": "Нью-Гамбург (яхт-клуб)",
+      "name_map": "New Hamburg, Dutchess County, New York, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-nyc",
+      "name_book": "Нью-Йорк Сити",
+      "name_map": "New York City, USA",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-lincoln-harbor",
+      "name_book": "яхт-клуб Линкольн-Харбор (NJ сторона)",
+      "name_map": "Lincoln Harbor Yacht Club / Weehawken, New Jersey, USA",
+      "kind": "port",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-hudson-river",
+      "name_book": "река Гудзон",
+      "name_map": "Hudson River, New York, USA",
+      "kind": "region",
+      "pov_default": "protagonist"
+    }
+  ],
+  "events": [
+    {
+      "id": "e-b02-depart-yuma",
+      "chapter_id": "book02-ch000",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Старт из Юмы с Дрикой",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Фургон + эндуро; через полигон, Кварцсайт, Паркер/72, Боус, Агила."
+    },
+    {
+      "id": "e-b02-find-tiger",
+      "chapter_id": "book02-ch000",
+      "place_id": "p-wickenburg",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Находка кота Тигра",
+      "characters": [
+        "c-tiger",
+        "c-drika"
+      ],
+      "summary": "На крыше «Додж Караван»; чутьё на собак; имя дала Дрика."
+    },
+    {
+      "id": "e-b02-maricopa-day",
+      "chapter_id": "book02-ch001",
+      "place_id": "p-maricopa",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "День в Марикопе / у Финикса",
+      "characters": [
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "После Викенбурга и Морристауна; бои/скавендж у шоссе."
+    },
+    {
+      "id": "e-b02-payson-beach-kids",
+      "chapter_id": "book02-ch002",
+      "place_id": "p-payson",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "major",
+      "impact": "major",
+      "title": "Встреча с «пляжной» молодёжью у Пэйсона",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Совет укрыться; Лори и компания; риск привлечь неприятности."
+    },
+    {
+      "id": "e-b02-payson-combat",
+      "chapter_id": "book02-ch003",
+      "place_id": "p-payson",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Бой у Пэйсона",
+      "summary": "Перестрелка и потери в зоне Пэйсона. Связь с Хэдли, раненые — цена попутчиков на шоссе.",
+      "outcome": "Потери в компании; дальше осторожнее"
+    },
+    {
+      "id": "e-b02-apache-farewell",
+      "chapter_id": "book02-ch004",
+      "place_id": "p-apache-county",
+      "pov": "protagonist",
+      "type": "farewell_key",
+      "importance": "major",
+      "impact": "major",
+      "title": "Похороны попутчиков колонны; округ Апач",
+      "summary": "Не Джефф, не Сэм и не Дрика: хоронят погибших из попутной компании (после боёв у Пэйсона и дороги; позже герой вспоминает «семь погибших»). Пикапы чужих не завелись (иммобилайзеры). Герой снова «поздно понял человека».",
+      "characters": [
+        "c-drika",
+        "c-tiger"
+      ]
+    },
+    {
+      "id": "e-b02-socorro-camp",
+      "chapter_id": "book02-ch005",
+      "place_id": "p-socorro",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "minor",
+      "title": "Ночёвка у Сокорро (Нью-Мексико)",
+      "characters": [
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Округ Сокорро, NM (город Сокорро ~34.06°N — не техасский и не другой штат): колонна сворачивает к пойме/озеру, купание и передышка. Тигр с ними. Дальше — к Альбукерке и на восток."
+    },
+    {
+      "id": "e-b02-albuquerque",
+      "chapter_id": "book02-ch007",
+      "place_id": "p-albuquerque",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "major",
+      "impact": "minor",
+      "title": "Мёртвый Альбукерке; расставание с попутчиками",
+      "summary": "Крупный город пуст; на перекрёстке пути расходятся."
+    },
+    {
+      "id": "e-b02-meet-sam",
+      "chapter_id": "book02-ch008",
+      "place_id": "p-justiceburg",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Встреча с Сэмом (и псом Соксом) в Джастисбёрге",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Заброшенный городок; Сэм на крыльце с собакой; ночёвка у него."
+    },
+    {
+      "id": "e-b02-sam-joins",
+      "chapter_id": "book02-ch009",
+      "place_id": "p-justiceburg",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Сэм присоединяется к пути",
+      "characters": [
+        "c-sam"
+      ],
+      "summary": "Мутант у школы (бывший Баз Мэлли); Сэм едет дальше с героем и Дрикой."
+    },
+    {
+      "id": "e-b02-arrive-port-arthur",
+      "chapter_id": "book02-ch010",
+      "place_id": "p-port-arthur",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "major",
+      "title": "Прибытие в Порт-Артур",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Сутки с Сэмом через Техас; оборона порта; запах нефти / Джеймс-ривер."
+    },
+    {
+      "id": "e-b02-no-ships",
+      "chapter_id": "book02-ch011",
+      "place_id": "p-port-arthur",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Судов нет / никого не отпустят",
+      "summary": "Команды остались; офицер: езжайте, удачи. Цель «сесть на корабль здесь» закрыта.",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-to-morgans-point",
+      "chapter_id": "book02-ch012",
+      "place_id": "p-morgans-point",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "major",
+      "impact": "reroutes",
+      "title": "От Порт-Артура к Морганз Пойнт / Хьюстонский канал",
+      "summary": "Мост Хартмана, Галвестон в контексте; ураганный фон побережья.",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ]
+    },
+    {
+      "id": "e-b02-harbor-night",
+      "chapter_id": "book02-ch013",
+      "place_id": "p-morgans-point",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Ночь в порту: зомби у судов",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "У Морганз Пойнт / канала — ночные атаки и попытки подобраться к кораблям. Порт живёт своей войной.",
+      "sought": "Добраться до живого судна или другого выхода"
+    },
+    {
+      "id": "e-b02-find-skylane",
+      "chapter_id": "book02-ch014",
+      "place_id": "p-la-porte",
+      "pov": "protagonist",
+      "type": "vehicle",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Находка «Скайлэйн» / аэродром Ла-Порта",
+      "summary": "Ураган побил много бортов; живой самолёт + ангар; решение лететь.",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-plan-wichita",
+      "chapter_id": "book02-ch015",
+      "place_id": "p-la-porte",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "key",
+      "impact": "critical",
+      "title": "План: Уичита за «Карго-Мастер»",
+      "sought": "Cessna Cargo-Master — дальний транспортный самолёт с завода в Уичите",
+      "summary": "В авиажурнале нашли статью: на аэродроме/заводе Cessna в Уичите стоят Cargo-Master. Идея — долететь на Скайлэйн и взять борт, способный пересечь океан или дотянуть дальше на восток.",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-fly-wichita",
+      "chapter_id": "book02-ch016",
+      "place_id": "p-wichita",
+      "pov": "protagonist",
+      "type": "air",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Перелёт Ла-Порт → Уичита",
+      "sought": "Cessna Cargo-Master (завод / аэродром Уичиты)",
+      "outcome": "Добрались до Уичиты; «Карго-Мастер» как планировали не взяли",
+      "summary": "Зачем: раздобыть на заводе Cessna в Уичите дальнемагистральный Cargo-Master — Скайлэйн для океана мал. Герой пилотирует, Дрика на радио; Сэм настоял не лететь совсем налегке (оружие/запас).",
+      "characters": [
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-wichita-church",
+      "chapter_id": "book02-ch018",
+      "place_id": "p-wichita",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "major",
+      "impact": "major",
+      "title": "Аэродромная община / Преподобный",
+      "sought": "Доступ к аэродрому и Cargo-Master через местных",
+      "summary": "На аэродроме — религиозная община (Маркус, Сэйра). Кормят, ведут к Преподобному: без их «разрешения» к бортам не подходят.",
+      "characters": [
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-escape-wichita",
+      "chapter_id": "book02-ch020",
+      "place_id": "p-wichita",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Побег из Уичиты под огнём с грузом",
+      "sought": "Cargo-Master",
+      "outcome": "План провален: взлёт под огнём, увезли трофеи (в т.ч. Мак-Кинли), не целевой борт",
+      "summary": "Сделка/доступ сорвались. Взлёт с полосы под стрельбой общины; вместо «Карго-Мастер» — то, что успели утащить. Дальше только назад в Ла-Порт и снова суша/море на восток.",
+      "characters": [
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-return-laporte",
+      "chapter_id": "book02-ch021",
+      "place_id": "p-la-porte",
+      "pov": "protagonist",
+      "type": "air",
+      "importance": "key",
+      "impact": "reroutes",
+      "title": "Возврат в Ла-Порт; снова суша/море на восток",
+      "sought": "Безопасная база после провала Уичиты",
+      "outcome": "Координаты «светили» — быстрый отход; план авиа через Уичиту закрыт",
+      "summary": "Обратный рейс с трофеями. Идея «взять дальний борт в Уичите» умерла — снова сухопутный рывок на восток к портам/Атлантике.",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ]
+    },
+    {
+      "id": "e-b02-lufkin-base",
+      "chapter_id": "book02-ch022",
+      "place_id": "p-lufkin",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "major",
+      "title": "Лафкин: база и стрельбище",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "После провала Уичиты — Лафкин. Место передохнуть, привести оружие в порядок, понять следующий ход на восток.",
+      "sought": "Безопасная стоянка"
+    },
+    {
+      "id": "e-b02-lufkin-motel",
+      "chapter_id": "book02-ch023",
+      "place_id": "p-expo-inn-lufkin",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "normal",
+      "impact": "flavor",
+      "title": "Мотель Expo-Inn",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Короткий кусок «цивилизации»: мотель в Лафкине. Редкое ощущение нормальной кровати среди хаоса."
+    },
+    {
+      "id": "e-b02-lufkin-convoy",
+      "chapter_id": "book02-ch024",
+      "place_id": "p-lufkin",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Колонна Зака → Мак-Кензи (Теннесси)",
+      "summary": "~700 миль с охраной наливников; 5 дней ожидания; солярка со станции.",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ]
+    },
+    {
+      "id": "e-b02-leave-lufkin",
+      "chapter_id": "book02-ch025",
+      "place_id": "p-lufkin",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "major",
+      "impact": "major",
+      "title": "Выход с колонной на северо-восток",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Уходят из Лафкина с колонной Зака — охрана наливников даёт шанс безопасно пройти сотни миль.",
+      "sought": "Доехать до Мак-Кензи под прикрытием колонны"
+    },
+    {
+      "id": "e-b02-mckenzie-trade",
+      "chapter_id": "book02-ch026",
+      "place_id": "p-mckenzie",
+      "pov": "protagonist",
+      "type": "trade",
+      "importance": "major",
+      "impact": "enables",
+      "title": "Мак-Кензи: торговля и развилка",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "В Мак-Кензи меняют трофеи на жилеты и припасы. Колонна дальше не везёт — снова сами на северо-восток.",
+      "sought": "Снаряжение и решение, куда дальше",
+      "outcome": "Дальше без колонны, своим ходом"
+    },
+    {
+      "id": "e-b02-through-kentucky",
+      "chapter_id": "book02-ch027",
+      "place_id": "p-mckenzie",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "major",
+      "impact": "minor",
+      "title": "Путь через Кентукки (Боулинг-Грин / Эдмонтон / Глазго…)",
+      "summary": "Герой, Сэм и Дрика своим ходом уходят из Мак-Кензи на северо-восток через Кентукки (Боулинг-Грин, Эдмонтон, Глазго) — дальше к «большим проблемам» востока США и в итоге к Европе.",
+      "sought": "Пройти Кентукки к восточному побережью",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-wayne-camp",
+      "chapter_id": "book02-ch028",
+      "place_id": "p-wayne-np",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "minor",
+      "title": "Ночёвка в парке Уэйн (Огайо)",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Лесная остановка в Огайо по пути к Нью-Йорку. Короткая передышка перед восточным побережьем."
+    },
+    {
+      "id": "e-b02-hurley",
+      "chapter_id": "book02-ch029",
+      "place_id": "p-hurley-ny",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Хёрли: перестрелка",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "В Хёрли (штат Нью-Йорк) — бой с мертвецами/людьми. Близко к Гудзону, до мостов рукой подать."
+    },
+    {
+      "id": "e-b02-bridge-blown",
+      "chapter_id": "book02-ch030",
+      "place_id": "p-lake-katrine",
+      "pov": "protagonist",
+      "type": "vehicle",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Мост через Гудзон взорван",
+      "summary": "Мост по дороге 199 уничтожен. Прямой путь закрыт — только объезд к другому мосту у Покипси.",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "sought": "Переправиться через Гудзон",
+      "outcome": "Объезд к Покипси"
+    },
+    {
+      "id": "e-b02-bikers-meet",
+      "chapter_id": "book02-ch031",
+      "place_id": "p-poughkeepsie",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Встреча с байкерами у моста Покипси",
+      "summary": "Гостеприимство, пиво, топливо; Дрика производит впечатление.",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ]
+    },
+    {
+      "id": "e-b02-poughkeepsie-raid",
+      "chapter_id": "book02-ch032",
+      "place_id": "p-poughkeepsie",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "major",
+      "title": "Рейд в Покипси с байкерами",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Совместная вылазка с байкерами в город. Трофеи и закрепление союза перед спуском на реку.",
+      "sought": "Припасы и поддержка байкеров"
+    },
+    {
+      "id": "e-b02-tug-boat",
+      "chapter_id": "book02-ch033",
+      "place_id": "p-marlboro-ny",
+      "pov": "protagonist",
+      "type": "vehicle",
+      "importance": "key",
+      "impact": "critical",
+      "title": "«Туга» — переход на реку Гудзон",
+      "summary": "Мальборо: обмен/помощь байкеров; спуск на воду; кранцы.",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ]
+    },
+    {
+      "id": "e-b02-cement-zombies",
+      "chapter_id": "book02-ch034",
+      "place_id": "p-poughkeepsie",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "minor",
+      "title": "Толпа у цементного завода",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "На Гудзоне натыкаются на огромную толпу мертвецов у цементного завода. Проход только очень осторожно."
+    },
+    {
+      "id": "e-b02-new-hamburg",
+      "chapter_id": "book02-ch035",
+      "place_id": "p-new-hamburg",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "major",
+      "title": "Ночёвка у яхт-клуба Нью-Гамбург",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Остановка у яхт-клуба ниже по Гудзону. Ближе к Нью-Йорку — готовят лодку и нервы."
+    },
+    {
+      "id": "e-b02-nyc-arrive",
+      "chapter_id": "book02-ch036",
+      "place_id": "p-nyc",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Нью-Йорк: мёртвый мегаполис",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Гудзон выносит к Нью-Йорку. Город пуст и страшен — но здесь можно искать большую яхту и топливо для океана.",
+      "sought": "Суда и топливо для Атлантики"
+    },
+    {
+      "id": "e-b02-yacht-scout",
+      "chapter_id": "book02-ch037",
+      "place_id": "p-lincoln-harbor",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "enables",
+      "title": "Разведка яхт",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Ищут подходящий борт. Чужое топливо и чужие лодки — риск попасть под разборку мародёров.",
+      "sought": "Живая яхта для океана"
+    },
+    {
+      "id": "e-b02-water-run",
+      "chapter_id": "book02-ch038",
+      "place_id": "p-nyc",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "major",
+      "title": "Рейд за водой",
+      "characters": [
+        "c-tiger"
+      ],
+      "summary": "Пресная вода критична. Рейд с лодки; Тигр тоже в деле — маленький, но свой.",
+      "sought": "Питъевая вода"
+    },
+    {
+      "id": "e-b02-fuel-heist",
+      "chapter_id": "book02-ch039",
+      "place_id": "p-nyc",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Заправка с терминала",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Шланги и налив под прикрытием: воруют/забирают топливо с терминала. Без этого океанский переход не состоится.",
+      "sought": "Топливо для дальнего перехода",
+      "outcome": "Есть горючее под выход в Атлантику"
+    },
+    {
+      "id": "e-b02-tanker-drive",
+      "chapter_id": "book02-ch040",
+      "place_id": "p-nyc",
+      "pov": "protagonist",
+      "type": "vehicle",
+      "importance": "major",
+      "impact": "major",
+      "title": "Сэм ведёт наливник к доку",
+      "characters": [
+        "c-sam"
+      ],
+      "summary": "Сэм за рулём наливника — топливо надо подогнать к причалу. Без этого океанский переход не взлетит.",
+      "sought": "Доставить топливо к яхте"
+    },
+    {
+      "id": "e-b02-storm-wing",
+      "chapter_id": "book02-ch041",
+      "place_id": "p-lincoln-harbor",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "«Крыло бури» / Линкольн-Харбор: бой, переход на большую яхту",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "«Проныра» в доке; пересадка на 30-м яхту; убийства людей — тяжёлый след."
+    },
+    {
+      "id": "e-b02-spirit-nj",
+      "chapter_id": "book02-ch042",
+      "place_id": "p-nyc",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "enables",
+      "title": "«Дух Нью-Джерси»: вода",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Мародёрский рейд за водой у берега Нью-Джерси. Последние сборы перед выходом в океан.",
+      "sought": "Вода на переход"
+    },
+    {
+      "id": "e-b02-set-sail",
+      "chapter_id": "book02-ch042",
+      "place_id": "p-lincoln-harbor",
+      "pov": "protagonist",
+      "type": "sea",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Отплытие в Атлантику",
+      "characters": [
+        "c-sam",
+        "c-drika",
+        "c-tiger"
+      ],
+      "summary": "Якорь вверх: конец сухопутной Америки. Дальше — Северная Атлантика и книга 3.",
+      "sought": "Выйти в океан к Европе",
+      "outcome": "Старт океанского перехода"
+    }
+  ],
+  "edges": [
+    {
+      "id": "l-b02-tiger-joins",
+      "from": "e-b02-find-tiger",
+      "to": "companion-arc-tiger",
+      "kind": "joins",
+      "summary": "Тигр — постоянный спутник; early warning"
+    },
+    {
+      "id": "l-b02-sam-joins",
+      "from": "e-b02-sam-joins",
+      "to": "companion-arc-sam",
+      "kind": "joins",
+      "summary": "Сэм (+Сокс) до Европы/Каага"
+    },
+    {
+      "id": "l-b02-no-ships-reroute",
+      "from": "e-b02-no-ships",
+      "to": "e-b02-to-morgans-point",
+      "kind": "reroutes",
+      "summary": "Нет кораблей в Порт-Артуре → канал/Ла-Порт"
+    },
+    {
+      "id": "l-b02-skylane-enables",
+      "from": "e-b02-find-skylane",
+      "to": "e-b02-plan-wichita",
+      "kind": "enables",
+      "summary": "Самолёт → план Уичиты"
+    },
+    {
+      "id": "l-b02-article-causes-flight",
+      "from": "e-b02-plan-wichita",
+      "to": "e-b02-fly-wichita",
+      "kind": "causes",
+      "summary": "Статья про Карго-Мастер → перелёт"
+    },
+    {
+      "id": "l-b02-wichita-fail-reroute",
+      "from": "e-b02-escape-wichita",
+      "to": "e-b02-return-laporte",
+      "kind": "reroutes",
+      "summary": "Карго-Мастер не взят как планировали → обратно + трофеи + суша на восток"
+    },
+    {
+      "id": "l-b02-convoy-enables",
+      "from": "e-b02-lufkin-convoy",
+      "to": "e-b02-mckenzie-trade",
+      "kind": "enables",
+      "summary": "Колонна безопасно доставляет до Теннесси"
+    },
+    {
+      "id": "l-b02-bridge-reroute",
+      "from": "e-b02-bridge-blown",
+      "to": "e-b02-bikers-meet",
+      "kind": "reroutes",
+      "summary": "Взорванный мост → другой переход / байкеры"
+    },
+    {
+      "id": "l-b02-bikers-enable-boat",
+      "from": "e-b02-bikers-meet",
+      "to": "e-b02-tug-boat",
+      "kind": "enables",
+      "summary": "Байкеры помогают с речным этапом"
+    },
+    {
+      "id": "l-b02-tug-enables-nyc",
+      "from": "e-b02-tug-boat",
+      "to": "e-b02-nyc-arrive",
+      "kind": "leads_to",
+      "summary": "Гудзон вниз к NYC"
+    },
+    {
+      "id": "l-b02-fuel-enables-sail",
+      "from": "e-b02-fuel-heist",
+      "to": "e-b02-set-sail",
+      "kind": "enables",
+      "summary": "Топливо с терминала → атлантический переход"
+    },
+    {
+      "id": "l-b02-sail-to-book3",
+      "from": "e-b02-set-sail",
+      "to": "book03-arc",
+      "kind": "leads_to",
+      "summary": "Старт морской части (книга 3)"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "book02-ch000",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county",
+        "p-quartzsite",
+        "p-parker-az",
+        "p-bouse",
+        "p-aguila",
+        "p-wickenburg"
+      ],
+      "digest": "Старт; Тигр в Викенбурге.",
+      "event_ids": [
+        "e-b02-depart-yuma",
+        "e-b02-find-tiger"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch001",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-morristown-az",
+        "p-maricopa"
+      ],
+      "digest": "Марикопа/Финикс.",
+      "event_ids": [
+        "e-b02-maricopa-day"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch002",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-payson"
+      ],
+      "digest": "Пэйсон, пляжники.",
+      "event_ids": [
+        "e-b02-payson-beach-kids"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch003",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-payson"
+      ],
+      "digest": "Бой у Пэйсона.",
+      "event_ids": [
+        "e-b02-payson-combat"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch004",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-apache-county"
+      ],
+      "digest": "Апач; потери.",
+      "event_ids": [
+        "e-b02-apache-farewell"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch005",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-socorro"
+      ],
+      "digest": "Сокорро NM.",
+      "event_ids": [
+        "e-b02-socorro-camp"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch006",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-socorro"
+      ],
+      "digest": "Утро; дальше на восток.",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch007",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-albuquerque",
+        "p-torrance-nm"
+      ],
+      "digest": "Альбукерке мёртв; расставание.",
+      "event_ids": [
+        "e-b02-albuquerque"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch008",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-justiceburg",
+        "p-torrance-nm"
+      ],
+      "digest": "KEY: Сэм.",
+      "event_ids": [
+        "e-b02-meet-sam"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch009",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-justiceburg"
+      ],
+      "digest": "Сэм едет с ними.",
+      "event_ids": [
+        "e-b02-sam-joins"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch010",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-port-arthur",
+        "p-beaumont"
+      ],
+      "digest": "Порт-Артур.",
+      "event_ids": [
+        "e-b02-arrive-port-arthur"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch011",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-port-arthur"
+      ],
+      "digest": "Судов нет.",
+      "event_ids": [
+        "e-b02-no-ships"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch012",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-morgans-point"
+      ],
+      "digest": "К каналу/Морганз Пойнт.",
+      "event_ids": [
+        "e-b02-to-morgans-point"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch013",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-morgans-point"
+      ],
+      "digest": "Ночь в порту.",
+      "event_ids": [
+        "e-b02-harbor-night"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch014",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-la-porte"
+      ],
+      "digest": "Скайлэйн.",
+      "event_ids": [
+        "e-b02-find-skylane"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch015",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-la-porte",
+        "p-wichita"
+      ],
+      "digest": "План Уичиты/Карго-Мастер.",
+      "event_ids": [
+        "e-b02-plan-wichita"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch016",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-la-porte",
+        "p-wichita"
+      ],
+      "digest": "Перелёт.",
+      "event_ids": [
+        "e-b02-fly-wichita"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch017",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wichita"
+      ],
+      "digest": "Рассказ Маркусу/Сэйре.",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch018",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wichita"
+      ],
+      "digest": "Община; Преподобный.",
+      "event_ids": [
+        "e-b02-wichita-church"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch019",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wichita"
+      ],
+      "digest": "Аудиенция.",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch020",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wichita"
+      ],
+      "digest": "Побег под огнём.",
+      "event_ids": [
+        "e-b02-escape-wichita"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch021",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-la-porte"
+      ],
+      "digest": "Возврат; срочный уход.",
+      "event_ids": [
+        "e-b02-return-laporte"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch022",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-lufkin"
+      ],
+      "digest": "Лафкин.",
+      "event_ids": [
+        "e-b02-lufkin-base"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch023",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-expo-inn-lufkin"
+      ],
+      "digest": "Мотель.",
+      "event_ids": [
+        "e-b02-lufkin-motel"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch024",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-lufkin"
+      ],
+      "digest": "Колонна Зака.",
+      "event_ids": [
+        "e-b02-lufkin-convoy"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch025",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-lufkin",
+        "p-mckenzie"
+      ],
+      "digest": "5 дней → выезд колонны.",
+      "event_ids": [
+        "e-b02-leave-lufkin"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch026",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-mckenzie"
+      ],
+      "digest": "Мак-Кензи торговля.",
+      "event_ids": [
+        "e-b02-mckenzie-trade"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch027",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-mckenzie"
+      ],
+      "digest": "Через KY на NE.",
+      "event_ids": [
+        "e-b02-through-kentucky"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch028",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wayne-np"
+      ],
+      "digest": "Парк Уэйн.",
+      "event_ids": [
+        "e-b02-wayne-camp"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch029",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-hurley-ny"
+      ],
+      "digest": "Хёрли.",
+      "event_ids": [
+        "e-b02-hurley"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch030",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-lake-katrine"
+      ],
+      "digest": "Мост взорван.",
+      "event_ids": [
+        "e-b02-bridge-blown"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch031",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-poughkeepsie"
+      ],
+      "digest": "Байкеры.",
+      "event_ids": [
+        "e-b02-bikers-meet"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch032",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-poughkeepsie"
+      ],
+      "digest": "Рейд в город.",
+      "event_ids": [
+        "e-b02-poughkeepsie-raid"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch033",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-marlboro-ny",
+        "p-hudson-river"
+      ],
+      "digest": "«Туга» на Гудзон.",
+      "event_ids": [
+        "e-b02-tug-boat"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch034",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-poughkeepsie"
+      ],
+      "digest": "Цементный завод.",
+      "event_ids": [
+        "e-b02-cement-zombies"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch035",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-new-hamburg"
+      ],
+      "digest": "Нью-Гамбург.",
+      "event_ids": [
+        "e-b02-new-hamburg"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch036",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nyc",
+        "p-lincoln-harbor"
+      ],
+      "digest": "NYC прибытие.",
+      "event_ids": [
+        "e-b02-nyc-arrive"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch037",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-lincoln-harbor"
+      ],
+      "digest": "Яхты/разведка.",
+      "event_ids": [
+        "e-b02-yacht-scout"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch038",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nyc"
+      ],
+      "digest": "Вода.",
+      "event_ids": [
+        "e-b02-water-run"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch039",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nyc"
+      ],
+      "digest": "Топливо с терминала.",
+      "event_ids": [
+        "e-b02-fuel-heist"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch040",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nyc"
+      ],
+      "digest": "Наливник к доку.",
+      "event_ids": [
+        "e-b02-tanker-drive"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch041",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-lincoln-harbor"
+      ],
+      "digest": "«Крыло бури»; бой.",
+      "event_ids": [
+        "e-b02-storm-wing"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book02-ch042",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nyc",
+        "p-lincoln-harbor"
+      ],
+      "digest": "«Дух Нью-Джерси»; отплытие.",
+      "event_ids": [
+        "e-b02-spirit-nj",
+        "e-b02-set-sail"
+      ],
+      "status": "done"
+    }
+  ]
+}

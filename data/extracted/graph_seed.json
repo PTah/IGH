@@ -1,0 +1,131 @@
+{
+  "description": "Семя графа причинности + ключевые спутники. Дополняется при вычитке глав.",
+  "nodes": [
+    {
+      "id": "e-meet-drika",
+      "kind": "event",
+      "type": "meet_key",
+      "impact": "critical",
+      "importance": "key",
+      "title": "Спасение / встреча с Дрикой (Хендрике)",
+      "chapter_id": "book01-ch022",
+      "place_hint": "Округ Юма, Аризона",
+      "pov": "protagonist",
+      "characters": ["c-drika"]
+    },
+    {
+      "id": "e-find-tiger",
+      "kind": "event",
+      "type": "meet_key",
+      "impact": "critical",
+      "importance": "key",
+      "title": "Находка кота Тигра",
+      "chapter_id": "book02-ch000",
+      "place_hint": "Викенбург (Wickenburg), Аризона — у обочины, «Додж Караван» на простреленных колёсах",
+      "place_map": "Wickenburg, Arizona, USA",
+      "pov": "protagonist",
+      "characters": ["c-tiger"],
+      "summary": "Полосатый кот на крыше простреленного минивэна; сразу чутьё на собак; Дрика даёт имя Тигр; едет дальше с героем."
+    },
+    {
+      "id": "e-meet-sam",
+      "kind": "event",
+      "type": "meet_key",
+      "impact": "critical",
+      "importance": "key",
+      "title": "Встреча / присоединение Сэма",
+      "chapter_id": "book02-ch008",
+      "place_hint": "Джастисбёрг / Техас",
+      "pov": "protagonist",
+      "characters": ["c-sam"],
+      "notes": "Уточнить точную главу при вычитке"
+    },
+    {
+      "id": "e-farewell-drika-sam",
+      "kind": "event",
+      "type": "farewell_key",
+      "impact": "critical",
+      "importance": "key",
+      "title": "Гибель и похороны Дрики и Сэма",
+      "place_hint": "Кааг / теплицы, Нидерланды",
+      "pov": "protagonist",
+      "characters": ["c-drika", "c-sam"]
+    },
+    {
+      "id": "e-arrive-kronstadt",
+      "kind": "event",
+      "type": "travel_arrive",
+      "impact": "critical",
+      "importance": "key",
+      "title": "Прибытие героя в Россию (Кронштадт)",
+      "chapter_id": "book03-ch061",
+      "place_hint": "Кронштадт",
+      "pov": "protagonist",
+      "notes": "С этой точки РФ-локации могут быть protagonist; до неё — family_ru"
+    }
+  ],
+  "edges": [
+    {
+      "id": "l-drika-joins",
+      "from": "e-meet-drika",
+      "to": "companion-arc-drika",
+      "kind": "joins",
+      "summary": "Дрика едет с героем через США в Европу"
+    },
+    {
+      "id": "l-tiger-joins",
+      "from": "e-find-tiger",
+      "to": "companion-arc-tiger",
+      "kind": "joins",
+      "summary": "Тигр — постоянный спутник; чутьё предупреждает об угрозах (собаки, засады, зомби)"
+    },
+    {
+      "id": "l-tiger-enables-recon",
+      "from": "e-find-tiger",
+      "to": "capability-early-warning",
+      "kind": "enables",
+      "summary": "Чутьё кота многократно влияет на решения в пути (разведка / избежание боя)"
+    },
+    {
+      "id": "l-sam-joins",
+      "from": "e-meet-sam",
+      "to": "companion-arc-sam",
+      "kind": "joins",
+      "summary": "Сэм — долгий боевой попутчик до Нидерландов"
+    },
+    {
+      "id": "l-lose-companions",
+      "from": "e-farewell-drika-sam",
+      "to": "solo-after-kaag",
+      "kind": "loses",
+      "summary": "После Каага герой без Сэма и Дрики; дальше другой эмоциональный и тактический режим"
+    },
+    {
+      "id": "l-russia-pov-switch",
+      "from": "e-arrive-kronstadt",
+      "to": "layer-family-merges",
+      "kind": "leads_to",
+      "summary": "Слой family_ru смыкается с маршрутом героя"
+    }
+  ],
+  "templates_pending": [
+    {
+      "type": "vehicle",
+      "impact": "major",
+      "edge_kinds": ["changes_transport", "reroutes", "delays"],
+      "note": "Поломка машины → смена маршрута/транспорта"
+    },
+    {
+      "type": "medical",
+      "impact": "major",
+      "edge_kinds": ["delays", "leads_to"],
+      "note": "Ранение → потеря времени / медпункт"
+    },
+    {
+      "type": "weather",
+      "impact": "major",
+      "edge_kinds": ["weather", "reroutes", "delays"],
+      "note": "Шторм/непогода → курс, укрытие, задержка"
+    }
+  ]
+}

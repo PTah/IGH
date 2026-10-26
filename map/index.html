@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://*.tile.openstreetmap.org; connect-src 'self'; font-src 'self'; frame-ancestors 'none'"
+  />
+  <title>Я! Еду! Домой! - карта маршрута - версия 0.5.0</title>
+  <!-- Офлайн: локальный Leaflet. Онлайн-тайлы OSM — только ?tiles=osm / mode online -->
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside id="panel">
+    <header>
+      <h1>Я! Еду! Домой!</h1>
+      <p class="sub">Интерактивная карта трилогии Андрея Круза</p>
+    </header>
+
+    <section class="filters" id="timeline-panel">
+      <h2>Сейчас на карте</h2>
+      <div class="tl-head">
+        <strong id="tl-day">День 1</strong>
+        <span id="tl-meta" class="muted"></span>
+      </div>
+      <p id="tl-cal" class="tl-cal">—</p>
+      <p id="tl-title" class="tl-title">—</p>
+      <label><input type="checkbox" id="tl-cut" checked /> Показать путь только до этого дня</label>
+      <label><input type="checkbox" id="tl-follow" checked /> Центрировать карту на дне</label>
+      <p class="hint tiny">Управление днями — сверху на карте (◀ ▶ и автоход).</p>
+    </section>
+
+    <section class="filters">
+      <h2>Остановки маршрута</h2>
+      <div id="stops-list" class="stops-list"></div>
+    </section>
+
+    <details class="filters fold">
+      <summary><span class="fold-label">Слой</span></summary>
+      <div class="fold-body">
+        <label><input type="checkbox" id="f-route" checked /> Маршрут (по дорогам / авиа / море)</label>
+        <label><input type="checkbox" id="f-hero" checked /> Точки героя</label>
+        <label><input type="checkbox" id="f-family" checked /> Родные (РФ)</label>
+        <label><input type="checkbox" id="f-causal" checked /> Связи причинности</label>
+      </div>
+    </details>
+
+    <details class="filters fold" id="companions-filters">
+      <summary><span class="fold-label">Спутники</span></summary>
+      <div class="fold-body" id="companions-body">
+        <p class="hint tiny">Фильтр: показать только точки, где есть выбранный</p>
+        <!-- заполняется из data.js -->
+      </div>
+    </details>
+
+    <details class="filters fold">
+      <summary><span class="fold-label">Книга</span></summary>
+      <div class="fold-body">
+        <label><input type="checkbox" id="b1" checked /> Книга 1</label>
+        <label><input type="checkbox" id="b2" checked /> Книга 2</label>
+        <label><input type="checkbox" id="b3" checked /> Книга 3</label>
+      </div>
+    </details>
+
+    <details class="filters fold">
+      <summary><span class="fold-label">Важность</span></summary>
+      <div class="fold-body">
+        <label><input type="checkbox" id="imp-key" checked /> Главные</label>
+        <label><input type="checkbox" id="imp-major" checked /> Важные</label>
+        <label><input type="checkbox" id="imp-normal" checked /> Обычные</label>
+      </div>
+    </details>
+
+    <details class="filters fold">
+      <summary><span class="fold-label">Легенда</span></summary>
+      <div class="fold-body">
+        <ul class="legend-list">
+          <li><span class="dot meet_key"></span> Встреча</li>
+          <li><span class="dot farewell_key"></span> Прощание</li>
+          <li><span class="dot combat"></span> Бой</li>
+          <li><span class="dot sea"></span> Море / авиация</li>
+          <li><span class="dot family"></span> Родные</li>
+          <li><span class="line-causal"></span> Причинность</li>
+        </ul>
+      </div>
+    </details>
+
+    <section id="detail">
+      <h2>Событие</h2>
+      <p class="hint">Кликните точку на карте</p>
+      <div id="detail-body" hidden></div>
+    </section>
+
+    <footer id="panel-footer">
+      <div id="stats"></div>
+      <button type="button" id="btn-quit" class="quit-btn" title="Остановить программу и закрыть карту">
+        Остановить сервер и выйти
+      </button>
+      <p id="quit-hint" class="hint tiny" hidden>Сервер остановлен. Можно закрыть эту вкладку.</p>
+    </footer>
+  </aside>
+  <div id="map-wrap">
+    <div id="map"></div>
+    <div id="tl-dock" role="group" aria-label="Управление таймлайном">
+      <div class="tl-dock-top">
+        <span id="tl-bar-label" class="tl-dock-day">День 1</span>
+        <div class="tl-controls">
+          <button type="button" id="tl-prev" aria-label="Предыдущий день" title="Предыдущий день">◀</button>
+          <input type="range" id="tl-range" min="1" max="1" value="1" aria-label="День сюжета" />
+          <button type="button" id="tl-next" aria-label="Следующий день" title="Следующий день">▶</button>
+        </div>
+      </div>
+      <div class="tl-playrow">
+        <button type="button" id="tl-play" aria-label="Автопромотка дней">▶ Автоход</button>
+        <label class="tl-speed-lab">Скорость
+          <input type="range" id="tl-speed" min="1" max="8" value="3" aria-label="Скорость автохода" />
+        </label>
+        <span id="tl-speed-label" class="muted tiny">норма</span>
+      </div>
+      <div id="tl-km" class="tl-dock-km" aria-live="polite">Пройдено: —</div>
+    </div>
+  </div>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="map-config.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

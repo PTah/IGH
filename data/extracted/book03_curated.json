@@ -1,0 +1,1782 @@
+{
+  "book_id": "book03",
+  "title": "Те, кто выжил",
+  "status": "complete_v1",
+  "progress": {
+    "chapters_total": 86,
+    "chapters_digested": 86,
+    "note": "Вычитка book03 v1. До ch061 РФ-локации (Пламя) = family_ru. С Кронштадта — protagonist в России."
+  },
+  "route_summary": [
+    "«Проныра»: Сев. Атлантика (Пласентиа Бэй / Ньюфаундленд) → недельный шторм → Кадис / Средиземье → Андалусия",
+    "Пуэрто-Банус → Марбелья (Unimog) → форт у Фуэнхиролы (ирландцы) → трасса Сьерра-Невада → Баскония del Cantabrico",
+    "Антверпен (Димитр; поиск следов семьи Дрики) → Кааг (албанская рабовладельческая деревня)",
+    "Гибель Дрики и Сэма; месть/освобождение; похороны у теплиц Каага",
+    "Мюйден (Амстердам) — база, Вим, подготовка к морю; параллель family_ru «Пламя»",
+    "Дельфзийль — «Мариетта» + экипаж → Балтика / Готланд → Кронштадт (прибытие в РФ)",
+    "Кронштадт → дорога СПб–Москва → Ржев → «Пламя» / Нахабино / Снегири / «Гринвич» → эпилог"
+  ],
+  "places": [
+    {
+      "id": "p-placentia-bay",
+      "name_book": "Пласентиа Бэй / Ньюфаундленд",
+      "name_map": "Placentia Bay, Newfoundland, Canada",
+      "kind": "sea",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-n-atlantic",
+      "name_book": "Северная Атлантика",
+      "name_map": "North Atlantic Ocean",
+      "kind": "sea",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-cadiz-funnel",
+      "name_book": "воронка Кадизского залива (курс)",
+      "name_map": "Gulf of Cádiz, Spain",
+      "kind": "sea",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-andalusia-coast",
+      "name_book": "Средиземное море, побережье Андалусии",
+      "name_map": "Andalusian coast, Spain",
+      "kind": "sea",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-algeciras",
+      "name_book": "порт Альхесирас (ориентир)",
+      "name_map": "Algeciras, Spain",
+      "kind": "port",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-puerto-banus",
+      "name_book": "спортивный порт Пуэрто-Банус",
+      "name_map": "Puerto Banús, Marbella, Spain",
+      "kind": "port",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-marbella",
+      "name_book": "Марбелья / Коста-дель-Соль",
+      "name_map": "Marbella, Spain",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-fuengirola-fort",
+      "name_book": "старинный форт у Фуэнхиролы",
+      "name_map": "Fuengirola castle / Sohail Castle area, Spain",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-sierra-nevada-road",
+      "name_book": "автотрасса «Сьерра-Невада»",
+      "name_map": "A-92 / Sierra Nevada corridor, Andalusia, Spain",
+      "kind": "road",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-malaga",
+      "name_book": "Малага (рейды / упоминания)",
+      "name_map": "Málaga, Spain",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-cantabrico",
+      "name_book": "Баскония, автотрасса del Cantabrico",
+      "name_map": "A-8 Autovía del Cantábrico, Basque Country, Spain",
+      "kind": "road",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-antwerp",
+      "name_book": "Антверпен",
+      "name_map": "Antwerp, Belgium",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-kaag",
+      "name_book": "деревня Кааг / окрестности",
+      "name_map": "Kaag, South Holland, Netherlands",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-kaag-graves",
+      "name_book": "могилы Дрики и Сэма (теплицы у Каага)",
+      "name_map": "greenhouse area near Kaag, Netherlands",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-muiden",
+      "name_book": "Мюйден, окрестности Амстердама",
+      "name_map": "Muiden, Netherlands",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-delfzijl",
+      "name_book": "Дельфзийль, Фрисландия",
+      "name_map": "Delfzijl, Groningen, Netherlands",
+      "kind": "port",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-marietta",
+      "name_book": "борт «Мариетты»",
+      "name_map": "vessel Marietta (Baltic)",
+      "kind": "other",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-gotland",
+      "name_book": "остров Готланд (прохождение)",
+      "name_map": "Gotland, Sweden",
+      "kind": "region",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-kronstadt",
+      "name_book": "Кронштадт",
+      "name_map": "Kronstadt, Russia",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-kronstadt-hospital",
+      "name_book": "Кронштадт, больница № 36",
+      "name_map": "Hospital No. 36, Kronstadt, Russia",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-spb-msk-road",
+      "name_book": "дорога Санкт-Петербург – Москва",
+      "name_map": "M10 / M11 corridor, Russia",
+      "kind": "road",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-rzhev",
+      "name_book": "Ржев, Тверская обл.",
+      "name_map": "Rzhev, Tver Oblast, Russia",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-plamya",
+      "name_book": "учебный центр «Пламя»",
+      "name_map": "Plamya training center, Moscow Oblast, Russia",
+      "kind": "landmark",
+      "pov_default": "both",
+      "approx": true,
+      "notes": "До прибытия героя — family_ru; после — protagonist"
+    },
+    {
+      "id": "p-nakhabino",
+      "name_book": "Нахабино",
+      "name_map": "Nakhabino, Moscow Oblast, Russia",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-snegiri",
+      "name_book": "п. Снегири",
+      "name_map": "Snegiri, Moscow Oblast, Russia",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-greenwich",
+      "name_book": "коттеджный посёлок «Гринвич»",
+      "name_map": "Greenwich cottage settlement, Moscow Oblast, Russia",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    }
+  ],
+  "events": [
+    {
+      "id": "e-b03-atlantic-start",
+      "chapter_id": "book03-ch000",
+      "place_id": "p-placentia-bay",
+      "pov": "protagonist",
+      "type": "sea",
+      "importance": "key",
+      "impact": "major",
+      "title": "«Проныра» у Ньюфаундленда",
+      "characters": [
+        "c-drika",
+        "c-sam",
+        "c-tiger"
+      ],
+      "summary": "Яхта у берегов Ньюфаундленда. Атлантика началась всерьёз — курс на восток, к Европе.",
+      "sought": "Пересечь океан"
+    },
+    {
+      "id": "e-b03-storm",
+      "chapter_id": "book03-ch001",
+      "place_id": "p-n-atlantic",
+      "pov": "protagonist",
+      "type": "weather",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Атлантический шторм (неделя+)",
+      "summary": "Качка, морская болезнь; курс к Кадисской воронке; риск Африки vs севера.",
+      "characters": [
+        "c-drika",
+        "c-sam",
+        "c-tiger"
+      ]
+    },
+    {
+      "id": "e-b03-med-arrival",
+      "chapter_id": "book03-ch005",
+      "place_id": "p-andalusia-coast",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "major",
+      "title": "Выход в Средиземное море",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "После Атлантики — берега Андалусии. Европа близко: искать порт, где можно высадиться.",
+      "sought": "Безопасный берег в Европе"
+    },
+    {
+      "id": "e-b03-banus-land",
+      "chapter_id": "book03-ch006",
+      "place_id": "p-puerto-banus",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Пуэрто-Банус: высадка",
+      "characters": [
+        "c-drika",
+        "c-sam"
+      ],
+      "summary": "Приход в спортивный порт Пуэрто-Банус. Короткий праздник шампанским — и сразу жёсткая реальность марины.",
+      "outcome": "Первая твёрдая земля Европы"
+    },
+    {
+      "id": "e-b03-banus-scout",
+      "chapter_id": "book03-ch008",
+      "place_id": "p-puerto-banus",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "major",
+      "title": "Рейды по Пуэрто-Банус",
+      "characters": [
+        "c-drika",
+        "c-sam"
+      ],
+      "summary": "Разведка марины и города: зомби, пустые витрины, оценка — можно ли остаться или только проехать.",
+      "sought": "Понять, жив ли район и чем поживиться"
+    },
+    {
+      "id": "e-b03-drika-land-choice",
+      "chapter_id": "book03-ch009",
+      "place_id": "p-puerto-banus",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "major",
+      "impact": "reroutes",
+      "title": "Дрика выбирает сушу",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Дрика не хочет снова в море так скоро. Решение: дальше по Испании на машине — к северу и к её дому.",
+      "sought": "Идти сушей к Нидерландам",
+      "outcome": "Смена транспорта: море → суша"
+    },
+    {
+      "id": "e-b03-unimog",
+      "chapter_id": "book03-ch011",
+      "place_id": "p-marbella",
+      "pov": "protagonist",
+      "type": "vehicle",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Unimog у Марбельи",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Находят и заводят тяжёлый Unimog. Это их «танк» для испанских дорог — без него колонной не стать.",
+      "sought": "Надёжный внедорожный транспорт",
+      "outcome": "Есть машина для рывка на север"
+    },
+    {
+      "id": "e-b03-fuengirola-fort",
+      "chapter_id": "book03-ch014",
+      "place_id": "p-fuengirola-fort",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "major",
+      "impact": "enables",
+      "title": "Форт у Фуэнхиролы: ирландцы",
+      "characters": [
+        "c-sam"
+      ],
+      "summary": "Встреча с ирландцами в форте. Обмен и странный дар «мародёра» — люди ещё держатся анклавами."
+    },
+    {
+      "id": "e-b03-north-spain",
+      "chapter_id": "book03-ch015",
+      "place_id": "p-sierra-nevada-road",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "major",
+      "impact": "major",
+      "title": "На север через Сьерра-Неваду",
+      "characters": [
+        "c-drika",
+        "c-sam",
+        "c-tiger"
+      ],
+      "summary": "Долгий рывок по горам и дорогам Испании на север. Цель — выйти к Атлантике/Франции и дальше к Нидерландам.",
+      "sought": "Пройти Испанию на север"
+    },
+    {
+      "id": "e-b03-basque-ambush",
+      "chapter_id": "book03-ch016",
+      "place_id": "p-cantabrico",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Перестрелка на Кантабрике",
+      "characters": [
+        "c-drika",
+        "c-sam"
+      ],
+      "summary": "Ночной бой у северной (кантабрийской) дороги. Ночёвка у Тура — Испания позади, впереди Франция/Бенилюкс."
+    },
+    {
+      "id": "e-b03-antwerp",
+      "chapter_id": "book03-ch017",
+      "place_id": "p-antwerp",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "major",
+      "title": "Антверпен: порт и следы",
+      "characters": [
+        "c-drika",
+        "c-sam"
+      ],
+      "summary": "Антверпен — большой порт и шанс узнать что-то о семье Дрики или о дороге дальше на север.",
+      "sought": "Информация и путь к Каагу"
+    },
+    {
+      "id": "e-b03-dimitr",
+      "chapter_id": "book03-ch019",
+      "place_id": "p-antwerp",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Димитр — надежда Дрики на новости о семье",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Прогулки/пиво; ведёт к району; осторожность героя."
+    },
+    {
+      "id": "e-b03-to-kaag",
+      "chapter_id": "book03-ch020",
+      "place_id": "p-kaag",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Выезд к Каагу с колонной Димитра",
+      "characters": [
+        "c-drika",
+        "c-sam",
+        "c-tiger"
+      ],
+      "summary": "Дрика хочет проверить родину; группа едет в NL."
+    },
+    {
+      "id": "e-b03-kaag-recon",
+      "chapter_id": "book03-ch021",
+      "place_id": "p-kaag",
+      "pov": "protagonist",
+      "type": "recon",
+      "importance": "major",
+      "impact": "major",
+      "title": "Разведка Каага",
+      "summary": "С мотоцикла и снайперской позиции смотрят анклав Каага. Дрика почти дома — но дома уже чужой.",
+      "sought": "Понять силы албанского анклава"
+    },
+    {
+      "id": "e-b03-kaag-solo-war",
+      "chapter_id": "book03-ch025",
+      "place_id": "p-kaag",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Одиночная война за Кааг",
+      "summary": "Герой ведёт свою войну с анклавом: засады, каналы, трофеи. Сэм и Дрика в беде — время работает против них.",
+      "sought": "Пробить защиту Каага / спасти своих"
+    },
+    {
+      "id": "e-b03-muiden-base",
+      "chapter_id": "book03-ch030",
+      "place_id": "p-muiden",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "major",
+      "title": "Мюйден: база и разведка",
+      "characters": [
+        "c-tiger"
+      ],
+      "summary": "Рынок, стрижка, разговоры — Мюйден как точка сбора перед ударом по Каагу. Ищут союзников.",
+      "sought": "Союз и подготовка штурма"
+    },
+    {
+      "id": "e-b03-meet-wim",
+      "chapter_id": "book03-ch033",
+      "place_id": "p-muiden",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Встреча с Вимом",
+      "summary": "Вим — местный, готов идти против Каага. Появляется план совместной операции.",
+      "sought": "Союзник для штурма",
+      "outcome": "Есть договорённость о совместном ударе"
+    },
+    {
+      "id": "e-b03-kaag-assault",
+      "chapter_id": "book03-ch035",
+      "place_id": "p-kaag",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Штурм/операция по Каагу (союзники)",
+      "summary": "Рабы, оборона острова; счёт героя личный."
+    },
+    {
+      "id": "e-b03-companions-dead",
+      "chapter_id": "book03-ch036",
+      "place_id": "p-kaag",
+      "pov": "protagonist",
+      "type": "farewell_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Подтверждение: Дрика и Сэм погибли",
+      "characters": [
+        "c-drika",
+        "c-sam"
+      ],
+      "summary": "Сэм толкнул раненую Дрику к машине и пал под пулями; Дрику уже похоронил; тело Сэма ищет."
+    },
+    {
+      "id": "e-b03-bury-sam",
+      "chapter_id": "book03-ch038",
+      "place_id": "p-kaag-graves",
+      "pov": "protagonist",
+      "type": "farewell_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Похороны Сэма рядом с Дрикой",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Тело Сэма поднимают из силосной ямы. Дитмир копает; могила у теплиц рядом с Дрикой. Кресты.",
+      "outcome": "Оба ключевых спутника похоронены в Кааге"
+    },
+    {
+      "id": "e-b03-ditmir-fate",
+      "chapter_id": "book03-ch040",
+      "place_id": "p-kaag",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Расправа с Дитмиром",
+      "summary": "Албанец, причастный к гибели спутников, скормлен мертвякам. Месть закрыта — дальше только дорога на восток.",
+      "outcome": "Личный счёт с Каагом исчерпан"
+    },
+    {
+      "id": "e-b03-farewell-graves",
+      "chapter_id": "book03-ch045",
+      "place_id": "p-kaag-graves",
+      "pov": "protagonist",
+      "type": "farewell_key",
+      "importance": "key",
+      "impact": "major",
+      "title": "Прощание у могил",
+      "characters": [
+        "c-drika",
+        "c-sam"
+      ],
+      "summary": "У теплиц Каага — могилы Дрики и Сэма. Герой прощается и поворачивает на восток, к России.",
+      "outcome": "Конец арки спутников; путь домой один (с Тигром)"
+    },
+    {
+      "id": "e-b03-family-plamya-a",
+      "chapter_id": "book03-ch044",
+      "place_id": "p-plamya",
+      "pov": "family_ru",
+      "type": "family",
+      "importance": "major",
+      "impact": "major",
+      "title": "Семья в учебном центре «Пламя»",
+      "characters": [],
+      "summary": "Параллель: пока герой в Европе, родные уже в «Пламени» — охраняемом анклаве под Москвой."
+    },
+    {
+      "id": "e-b03-family-plamya-b",
+      "chapter_id": "book03-ch047",
+      "place_id": "p-plamya",
+      "pov": "family_ru",
+      "type": "family",
+      "importance": "major",
+      "impact": "major",
+      "title": "«Пламя»: быт анклава",
+      "characters": [],
+      "summary": "Пантелеев и правила жизни в «Пламени». Семья выживает своей войной — до встречи с героем."
+    },
+    {
+      "id": "e-b03-delfzijl",
+      "chapter_id": "book03-ch050",
+      "place_id": "p-delfzijl",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Дельфзийль: поиск «Мариетты»",
+      "characters": [
+        "c-tiger"
+      ],
+      "summary": "Голландский порт Дельфзийль. Нужен корабль в Балтику — «Мариетта» и экипаж.",
+      "sought": "Судно до России"
+    },
+    {
+      "id": "e-b03-hire-marietta",
+      "chapter_id": "book03-ch054",
+      "place_id": "p-delfzijl",
+      "pov": "protagonist",
+      "type": "sea",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Сделка по «Мариетте»",
+      "summary": "Договариваются с Димой и экипажем: «Мариетта» пойдёт в Балтику к России. Последний большой борт пути домой.",
+      "sought": "Корабль и команда до РФ",
+      "outcome": "Есть судно в Кронштадт"
+    },
+    {
+      "id": "e-b03-delfzijl-fights",
+      "chapter_id": "book03-ch057",
+      "place_id": "p-delfzijl",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Бои вокруг Дельфзийля",
+      "summary": "Перед отходом — зачистки и перестрелки. Порт нельзя оставлять в спину незакрытым.",
+      "sought": "Обезопасить отход на «Мариетте»"
+    },
+    {
+      "id": "e-b03-baltic",
+      "chapter_id": "book03-ch060",
+      "place_id": "p-gotland",
+      "pov": "protagonist",
+      "type": "sea",
+      "importance": "key",
+      "impact": "major",
+      "title": "Балтика у Готланда",
+      "characters": [
+        "c-tiger",
+        "c-dima-crew"
+      ],
+      "summary": "После Дельфзийля «Мариетта» шла Северным морем, обогнула Данию проливами и вышла в Балтику. 4 июля — недалеко от Готланда: штиль, Тигр в рубке. Дальше — к Кронштадту.",
+      "sought": "Дойти до российских вод",
+      "outcome": "Курс подтверждён: Готланд по борту, впереди Финский залив"
+    },
+    {
+      "id": "e-b03-kronstadt",
+      "chapter_id": "book03-ch061",
+      "place_id": "p-kronstadt-hospital",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "critical",
+      "title": "ПРИБЫТИЕ В РОССИЮ — Кронштадт, больница №36",
+      "summary": "С этой точки РФ-локации могут быть protagonist; слой family_ru смыкается."
+    },
+    {
+      "id": "e-b03-kronstadt-days",
+      "chapter_id": "book03-ch063",
+      "place_id": "p-kronstadt",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "major",
+      "title": "Дни в Кронштадте",
+      "characters": [
+        "c-tiger"
+      ],
+      "summary": "Больница, адаптация, Тигр, разгрузка с «Мариетты». Герой снова на родной земле — но путь к семье ещё не кончен."
+    },
+    {
+      "id": "e-b03-road-south",
+      "chapter_id": "book03-ch069",
+      "place_id": "p-spb-msk-road",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Дорога из Петербурга на Москву",
+      "characters": [
+        "c-tiger"
+      ],
+      "summary": "Сухопутный рывок СПб → Москва. После океана и Европы — российские дороги к «Пламени» и Ржеву.",
+      "sought": "Добраться до семьи"
+    },
+    {
+      "id": "e-b03-rzhev",
+      "chapter_id": "book03-ch070",
+      "place_id": "p-rzhev",
+      "pov": "protagonist",
+      "type": "travel_arrive",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Ржев: новая база",
+      "characters": [
+        "c-tiger"
+      ],
+      "summary": "Ржев становится точкой опоры — анклав и будущий «офис» героя уже в России.",
+      "sought": "Место, где можно осесть"
+    },
+    {
+      "id": "e-b03-reunion-plamya",
+      "chapter_id": "book03-ch075",
+      "place_id": "p-plamya",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Встреча с семьёй в «Пламени»",
+      "summary": "Герой наконец добирается до родных в учебном центре «Пламя». Трилогия пути смыкается с семейной линией.",
+      "outcome": "Воссоединение с семьёй"
+    },
+    {
+      "id": "e-b03-nakhabino",
+      "chapter_id": "book03-ch077",
+      "place_id": "p-nakhabino",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "major",
+      "title": "Нахабино после встречи",
+      "summary": "Быт после воссоединения с семьёй. Короткий кусок «почти мира» в Подмосковье."
+    },
+    {
+      "id": "e-b03-snegiri",
+      "chapter_id": "book03-ch079",
+      "place_id": "p-snegiri",
+      "pov": "protagonist",
+      "type": "recon",
+      "importance": "major",
+      "impact": "major",
+      "title": "Снегири",
+      "summary": "Ещё одна точка подмосковного быта / перемещений после возвращения."
+    },
+    {
+      "id": "e-b03-greenwich-raid",
+      "chapter_id": "book03-ch081",
+      "place_id": "p-greenwich",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Удар по «Гринвичу»",
+      "summary": "Операция против банды работорговцев (сеть Колено). Крамцов, бронетехника — уже война на своей земле.",
+      "sought": "Разгромить работорговцев"
+    },
+    {
+      "id": "e-b03-settle",
+      "chapter_id": "book03-ch083",
+      "place_id": "p-rzhev",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "key",
+      "impact": "major",
+      "title": "Оседание во Ржеве",
+      "characters": [
+        "c-sam",
+        "c-drika"
+      ],
+      "summary": "Герой оседает. Память о Сэме и Дрике остаётся — Тигр рядом. Путь «я еду домой» формально завершён.",
+      "outcome": "Конец большого маршрута"
+    },
+    {
+      "id": "e-b03-epilogue",
+      "chapter_id": "book03-ch085",
+      "place_id": "p-nakhabino",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "key",
+      "impact": "flavor",
+      "title": "Эпилог",
+      "approx": true,
+      "summary": "Короткая точка после финала: что осталось от дороги и кого уже нет."
+    }
+  ],
+  "edges": [
+    {
+      "id": "l-b03-storm-delays",
+      "from": "e-b03-storm",
+      "to": "e-b03-med-arrival",
+      "kind": "delays",
+      "summary": "Неделя+ шторма задерживает и изматывает экипаж"
+    },
+    {
+      "id": "l-b03-storm-reroute",
+      "from": "e-b03-storm",
+      "to": "e-b03-med-arrival",
+      "kind": "weather",
+      "summary": "Курс через Кадисскую воронку → Средиземье"
+    },
+    {
+      "id": "l-b03-land-choice",
+      "from": "e-b03-drika-land-choice",
+      "to": "e-b03-unimog",
+      "kind": "reroutes",
+      "summary": "Отказ от моря → сухопутный рывок по Европе"
+    },
+    {
+      "id": "l-b03-unimog-enables",
+      "from": "e-b03-unimog",
+      "to": "e-b03-north-spain",
+      "kind": "changes_transport",
+      "summary": "Unimog = основной транспорт по Испании"
+    },
+    {
+      "id": "l-b03-dimitr-leads-kaag",
+      "from": "e-b03-dimitr",
+      "to": "e-b03-to-kaag",
+      "kind": "leads_to",
+      "summary": "Димитр/надежда Дрики → путь в Кааг"
+    },
+    {
+      "id": "l-b03-kaag-kills",
+      "from": "e-b03-to-kaag",
+      "to": "e-b03-companions-dead",
+      "kind": "causes",
+      "summary": "Решение ехать в Кааг → гибель спутников"
+    },
+    {
+      "id": "l-b03-lose-companions",
+      "from": "e-b03-companions-dead",
+      "to": "e-b03-kaag-solo-war",
+      "kind": "loses",
+      "summary": "Без Сэма и Дрики — одиночная война и месть"
+    },
+    {
+      "id": "l-b03-wim-enables-assault",
+      "from": "e-b03-meet-wim",
+      "to": "e-b03-kaag-assault",
+      "kind": "enables",
+      "summary": "Союз с Вимом → штурм анклава"
+    },
+    {
+      "id": "l-b03-bury-closure",
+      "from": "e-b03-bury-sam",
+      "to": "e-b03-farewell-graves",
+      "kind": "leads_to",
+      "summary": "Похороны → финальное прощание перед уходом"
+    },
+    {
+      "id": "l-b03-marietta-enables",
+      "from": "e-b03-hire-marietta",
+      "to": "e-b03-baltic",
+      "kind": "enables",
+      "summary": "Судно → Балтика → РФ"
+    },
+    {
+      "id": "l-b03-arrive-russia",
+      "from": "e-b03-kronstadt",
+      "to": "layer-family-merges",
+      "kind": "leads_to",
+      "summary": "Слой family_ru смыкается с маршрутом героя"
+    },
+    {
+      "id": "l-b03-home-reunite",
+      "from": "e-b03-kronstadt",
+      "to": "e-b03-reunion-plamya",
+      "kind": "leads_to",
+      "summary": "Кронштадт → дорога домой → «Пламя»"
+    },
+    {
+      "id": "l-b03-greenwich-causes",
+      "from": "e-b03-greenwich-raid",
+      "to": "e-b03-settle",
+      "kind": "enables",
+      "summary": "Удар по работорговцам укрепляет позицию во Ржеве"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "book03-ch000",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-placentia-bay"
+      ],
+      "digest": "5 мая, суббота, середина дня. Северная Атлантика, южнее Пласентиа Бэй, полуостров Ньюфаундленд | events: e-b03-atlantic-start",
+      "event_ids": [
+        "e-b03-atlantic-start"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch001",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-n-atlantic"
+      ],
+      "digest": "10 мая, четверг, утро. Северная Атлантика, где-то в самой середине | events: e-b03-storm",
+      "event_ids": [
+        "e-b03-storm"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch002",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-n-atlantic"
+      ],
+      "digest": "10 мая, четверг, день. Северная Атлантика, где-то в самой середине",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch003",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-n-atlantic"
+      ],
+      "digest": "12 мая, суббота, день. Северная Атлантика",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch004",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-n-atlantic"
+      ],
+      "digest": "18 мая, пятница, день. Северная Атлантика",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch005",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-andalusia-coast"
+      ],
+      "digest": "24 мая, четверг, ночь. Средиземное море, побережье Андалусии | events: e-b03-med-arrival",
+      "event_ids": [
+        "e-b03-med-arrival"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch006",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "24 мая, четверг, утро. Спортивный порт в Пуэрто-Банусе | events: e-b03-banus-land",
+      "event_ids": [
+        "e-b03-banus-land"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch007",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "25 мая, пятница, утро. Спортивный порт в Пуэрто-Банусе",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch008",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "25 мая, пятница, день. Спортивный порт в Пуэрто-Банусе | events: e-b03-banus-scout",
+      "event_ids": [
+        "e-b03-banus-scout"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch009",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "25 мая, пятница, день. Спортивный порт в Пуэрто-Банусе | events: e-b03-drika-land-choice",
+      "event_ids": [
+        "e-b03-drika-land-choice"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch010",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "26 мая, суббота, утро. Спортивный порт в Пуэрто-Банусе",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch011",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-marbella"
+      ],
+      "digest": "26 мая, суббота, утро. Коста-дель-Соль, окраина Марбельи | events: e-b03-unimog",
+      "event_ids": [
+        "e-b03-unimog"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch012",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "26 мая, суббота, вечер. Коста-дель-Соль, спортивный порт в Пуэрто-Банусе",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch013",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-puerto-banus"
+      ],
+      "digest": "27 мая, воскресенье, утро. Коста-дель-Соль, спортивный порт в Пуэрто-Банусе",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch014",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-fuengirola-fort"
+      ],
+      "digest": "27 мая, воскресенье, день. Старинный форт возле г. Фуэнхирола | events: e-b03-fuengirola-fort",
+      "event_ids": [
+        "e-b03-fuengirola-fort"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch015",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-sierra-nevada-road"
+      ],
+      "digest": "28 мая, понедельник, утро. Андалусия, автотрасса «Сьерра-Невада» | events: e-b03-north-spain",
+      "event_ids": [
+        "e-b03-north-spain"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch016",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-cantabrico"
+      ],
+      "digest": "29 мая, вторник, утро. Баскония, автотрасса «дель Кантабрико» | events: e-b03-basque-ambush",
+      "event_ids": [
+        "e-b03-basque-ambush"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch017",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-antwerp"
+      ],
+      "digest": "2 июня, суббота, утро. Бельгия, Антверпен | events: e-b03-antwerp",
+      "event_ids": [
+        "e-b03-antwerp"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch018",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-antwerp"
+      ],
+      "digest": "2 июня, суббота, день. Бельгия, Антверпен",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch019",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-antwerp"
+      ],
+      "digest": "3 июня, воскресенье, утро. Бельгия, Антверпен | events: e-b03-dimitr",
+      "event_ids": [
+        "e-b03-dimitr"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch020",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-antwerp"
+      ],
+      "digest": "4 июня, понедельник, утро. Бельгия, Антверпен | events: e-b03-to-kaag",
+      "event_ids": [
+        "e-b03-to-kaag"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch021",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "5 июня, вторник, утро. Нидерланды, деревня Кааг | events: e-b03-kaag-recon",
+      "event_ids": [
+        "e-b03-kaag-recon"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch022",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "5 июня, вторник, день. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch023",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "5 июня, вторник, вечер. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch024",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "6 июня, среда, утро. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch025",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "6 июня, среда, день. Нидерланды, окрестности деревни Кааг | events: e-b03-kaag-solo-war",
+      "event_ids": [
+        "e-b03-kaag-solo-war"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch026",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "7 июня, четверг, раннее утро. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch027",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "7 июня, четверг, раннее утро. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch028",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "8 июня, пятница, утро. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch029",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "8 июня, пятница, вечер. Нидерланды, окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch030",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "9 июня, суббота, день. Мюйден, окрестности Амстердама | events: e-b03-muiden-base",
+      "event_ids": [
+        "e-b03-muiden-base"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch031",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "9 июня, суббота, вечер. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch032",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "9 июня, суббота, вечер. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch033",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "10 июня, воскресенье, утро. Мюйден, окрестности Амстердама | events: e-b03-meet-wim",
+      "event_ids": [
+        "e-b03-meet-wim"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch034",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "10 июня, воскресенье, день. Окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch035",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "12 июня, вторник, утро. Окрестности деревни Кааг | events: e-b03-kaag-assault",
+      "event_ids": [
+        "e-b03-kaag-assault"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch036",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "14 июня, четверг, ночь. Окрестности деревни Кааг | events: e-b03-companions-dead",
+      "event_ids": [
+        "e-b03-companions-dead"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch037",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "14 июня, четверг, раннее утро. Окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch038",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "14 июня, четверг, утро. Окрестности деревни Кааг | events: e-b03-bury-sam",
+      "event_ids": [
+        "e-b03-bury-sam"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch039",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "14 июня, четверг, вечер. Окрестности деревни Кааг",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch040",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kaag"
+      ],
+      "digest": "15 июня, пятница, день. Окрестности деревни Кааг | events: e-b03-ditmir-fate",
+      "event_ids": [
+        "e-b03-ditmir-fate"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch041",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "15 июня, пятница, день. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch042",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "16 июня, суббота, утро. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch043",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "18 июня, понедельник, утро. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch044",
+      "pov": "family_ru",
+      "place_ids": [
+        "p-plamya"
+      ],
+      "digest": "18 июня, понедельник, утро. Подмосковье, учебный центр «Пламя» | events: e-b03-family-plamya-a",
+      "event_ids": [
+        "e-b03-family-plamya-a"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch045",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "19 июня, вторник, день. Мюйден, окрестности Амстердама | events: e-b03-farewell-graves",
+      "event_ids": [
+        "e-b03-farewell-graves"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch046",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "20 июня, среда, утро. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch047",
+      "pov": "family_ru",
+      "place_ids": [
+        "p-plamya"
+      ],
+      "digest": "20 июня, среда, день. Подмосковье, учебный центр «Пламя» | events: e-b03-family-plamya-b",
+      "event_ids": [
+        "e-b03-family-plamya-b"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch048",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "21 июня, четверг, утро. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch049",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "22 июня, пятница, раннее утро. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch050",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "23 июня, суббота, утро. Дельфзийль, северо-восток Нидерландов | events: e-b03-delfzijl",
+      "event_ids": [
+        "e-b03-delfzijl"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch051",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "23 июня, суббота, день. Дельфзийль, северо-восток Нидерландов",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch052",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "23 июня, суббота, вечер. Дельфзийль, северо-восток Нидерландов",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch053",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "24 июня, воскресенье, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch054",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "24 июня, воскресенье, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов | events: e-b03-hire-marietta",
+      "event_ids": [
+        "e-b03-hire-marietta"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch055",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "24 июня, воскресенье, день. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch056",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "24 июня, воскресенье, вечер. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch057",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "25 июня, понедельник, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов | events: e-b03-delfzijl-fights",
+      "event_ids": [
+        "e-b03-delfzijl-fights"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch058",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-delfzijl"
+      ],
+      "digest": "25 июня, понедельник, утро. Дельфзийль, Фрисландия, северо-восток Нидерландов",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch059",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-muiden"
+      ],
+      "digest": "29 июня, пятница, вечер. Мюйден, окрестности Амстердама",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch060",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-marietta",
+        "p-gotland"
+      ],
+      "digest": "4 июля, среда, день. Борт «Мариетты», неподалеку от острова Готланд, Балтийское море | events: e-b03-baltic",
+      "event_ids": [
+        "e-b03-baltic"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch061",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt-hospital"
+      ],
+      "digest": "8 июля, воскресенье, поздний вечер. Кронштадт, городская больница № 36, приемный покой | events: e-b03-kronstadt",
+      "event_ids": [
+        "e-b03-kronstadt"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch062",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt-hospital"
+      ],
+      "digest": "9 июля, понедельник, утро. Кронштадт, городская больница № 36",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch063",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt"
+      ],
+      "digest": "9 июля, понедельник, утро. Кронштадт | events: e-b03-kronstadt-days",
+      "event_ids": [
+        "e-b03-kronstadt-days"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch064",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt-hospital"
+      ],
+      "digest": "10 июля, вторник, утро. Кронштадт, городская больница № 36",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch065",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt"
+      ],
+      "digest": "10 июля, вторник, утро. Кронштадт",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch066",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt"
+      ],
+      "digest": "11 июля, среда, утро. Кронштадт",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch067",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt"
+      ],
+      "digest": "11 июля, среда, вечер. Кронштадт",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch068",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-kronstadt"
+      ],
+      "digest": "12 июля, четверг, утро. Кронштадт",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch069",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-spb-msk-road"
+      ],
+      "digest": "13 июля, пятница, утро. Дорога Санкт-Петербург – Москва | events: e-b03-road-south",
+      "event_ids": [
+        "e-b03-road-south"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch070",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rzhev"
+      ],
+      "digest": "14 июля, суббота, утро. Тверская обл., Ржев | events: e-b03-rzhev",
+      "event_ids": [
+        "e-b03-rzhev"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch071",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rzhev"
+      ],
+      "digest": "14 июля, суббота, вечер. Тверская обл., Ржев",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch072",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rzhev"
+      ],
+      "digest": "16 июля, понедельник, утро. Тверская обл., Ржев",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch073",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rzhev"
+      ],
+      "digest": "16 июля, понедельник, вечер. Тверская обл., Ржев",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch074",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rzhev"
+      ],
+      "digest": "20 июля, пятница, утро. Тверская обл., Ржев",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch075",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-plamya"
+      ],
+      "digest": "20 июля, пятница, утро. Учебный центр «Пламя» | events: e-b03-reunion-plamya",
+      "event_ids": [
+        "e-b03-reunion-plamya"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch076",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-plamya"
+      ],
+      "digest": "20 июля, пятница, день. Учебный центр «Пламя», Московская обл",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch077",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nakhabino"
+      ],
+      "digest": "20 июля, пятница, вечер. Московская обл., Нахабино | events: e-b03-nakhabino",
+      "event_ids": [
+        "e-b03-nakhabino"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch078",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nakhabino"
+      ],
+      "digest": "21 июля, суббота, утро. Московская обл., Нахабино",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch079",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-snegiri"
+      ],
+      "digest": "21 июля, суббота, утро. Московская обл., п. Снегири | events: e-b03-snegiri",
+      "event_ids": [
+        "e-b03-snegiri"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch080",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nakhabino"
+      ],
+      "digest": "21 июля, суббота, вечер. Московская обл., Нахабино",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch081",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-greenwich"
+      ],
+      "digest": "22 июля, воскресенье, раннее утро. Московская обл., коттеджный поселок «Гринвич» | events: e-b03-greenwich-raid",
+      "event_ids": [
+        "e-b03-greenwich-raid"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch082",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nakhabino"
+      ],
+      "digest": "23 июля, понедельник, утро. Московская обл., Нахабино",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch083",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rzhev"
+      ],
+      "digest": "25 июля, среда, вечер. Тверская обл., Ржев | events: e-b03-settle",
+      "event_ids": [
+        "e-b03-settle"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch084",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nakhabino"
+      ],
+      "digest": "26 июля, четверг, день. Московская обл., Нахабино",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book03-ch085",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-nakhabino"
+      ],
+      "digest": "Эпилог | events: e-b03-epilogue",
+      "event_ids": [
+        "e-b03-epilogue"
+      ],
+      "status": "done"
+    }
+  ]
+}

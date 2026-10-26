@@ -1,0 +1,1183 @@
+{
+  "book_id": "book01",
+  "title": "Я еду домой!",
+  "status": "complete_v1",
+  "progress": {
+    "chapters_total": 35,
+    "chapters_digested": 35,
+    "note": "Полная вычитка book01 v1. Мелкие улицы/боёвки можно уточнять при геокоде."
+  },
+  "places": [
+    {
+      "id": "p-yuma-county",
+      "name_book": "Округ Юма, Аризона",
+      "name_map": "Yuma County, Arizona, USA",
+      "kind": "county",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-yuma-city",
+      "name_book": "Юма",
+      "name_map": "Yuma, Arizona, USA",
+      "kind": "city",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-wellton",
+      "name_book": "Уэлтон",
+      "name_map": "Wellton, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-coyote-waterhole",
+      "name_book": "Койотова Купальня (гольф-комьюнити)",
+      "name_map": "Coyote Waterhole golf community, Wellton, Arizona",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-wellton-airport",
+      "name_book": "Аэропорт Уэлтона",
+      "name_map": "Wellton Municipal Airport, AZ, USA",
+      "kind": "airport",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-yuma-airport",
+      "name_book": "Аэропорт Юмы",
+      "name_map": "Yuma International Airport, AZ, USA",
+      "kind": "airport",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-san-luis-az",
+      "name_book": "Сан-Луис (AZ)",
+      "name_map": "San Luis, Arizona, USA",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-san-luis-rio-colorado",
+      "name_book": "Сан-Луис де Рио Колорадо",
+      "name_map": "San Luis Río Colorado, Sonora, Mexico",
+      "kind": "town",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-calle-juarez",
+      "name_book": "улица Хуарез (мекс. Сан-Луис)",
+      "name_map": "Calle Juárez, San Luis Río Colorado, Mexico",
+      "kind": "street",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-spragues-sports",
+      "name_book": "Спрэгс Спортс / магазин Спрэга",
+      "name_map": "Sprague's Sports, Yuma, AZ, USA",
+      "kind": "landmark",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-warehouse-la-ave",
+      "name_book": "Склад/офис, Лос-Анджелес авеню (промзона у I-8)",
+      "name_map": "Los Angeles Avenue industrial, Wellton area, AZ",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-colorado-ave",
+      "name_book": "Колорадо авеню / Кортес (жилые улицы Уэлтона)",
+      "name_map": "Colorado Ave / Cortez, Wellton, AZ",
+      "kind": "street",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-teardrop-rd",
+      "name_book": "Тир-Дроп-роуд",
+      "name_map": "Tear Drop Road, Wellton area, AZ",
+      "kind": "street",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-fortuna-ave",
+      "name_book": "авеню Фортуна / массив Фортуна",
+      "name_map": "Fortuna Avenue / Fortuna Foothills, Yuma, AZ",
+      "kind": "street",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-westridge",
+      "name_book": "улица Вестридж",
+      "name_map": "Westridge, Yuma County, AZ",
+      "kind": "street",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-cocopah",
+      "name_book": "резервация Кокопа",
+      "name_map": "Cocopah Reservation, AZ, USA",
+      "kind": "region",
+      "pov_default": "protagonist"
+    },
+    {
+      "id": "p-rv-world",
+      "name_book": "«Ар Ви Уорлд» (площадка RV)",
+      "name_map": "RV World, Yuma area, AZ",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-tenth-hole",
+      "name_book": "«Десятая лунка» (пост охраны в гольф-клубе)",
+      "name_map": "10th hole area, Coyote Waterhole, Wellton, AZ",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-jeff-grave",
+      "name_book": "могила Джеффа (холм у поселка)",
+      "name_map": "hill near Coyote Waterhole / Wellton, AZ",
+      "kind": "landmark",
+      "pov_default": "protagonist",
+      "approx": true
+    },
+    {
+      "id": "p-port-arthur-goal",
+      "name_book": "Порт-Артур (цель, ещё не прибытие)",
+      "name_map": "Port Arthur, Texas, USA",
+      "kind": "goal",
+      "pov_default": "protagonist",
+      "on_route": false,
+      "notes": "Только намерение в кн.1; реальное прибытие — p-port-arthur в кн.2"
+    },
+    {
+      "id": "p-houston-port-reject",
+      "name_book": "порт Хьюстона (отклонён)",
+      "name_map": "Port of Houston, Texas, USA",
+      "kind": "goal",
+      "pov_default": "protagonist",
+      "on_route": false,
+      "notes": "Отвергнутая цель; не точка маршрута"
+    },
+    {
+      "id": "p-moscow",
+      "name_book": "Москва",
+      "name_map": "Moscow, Russia",
+      "kind": "city",
+      "pov_default": "family_ru"
+    },
+    {
+      "id": "p-podmoskovye-house",
+      "name_book": "дом семьи у Пироговского водохранилища",
+      "name_map": "near Pirogovskoye Reservoir, Moscow Oblast, Russia",
+      "kind": "landmark",
+      "pov_default": "family_ru",
+      "approx": true
+    },
+    {
+      "id": "p-sheremetyevo",
+      "name_book": "Шереметьево (ожидаемый прилёт, не состоялся)",
+      "name_map": "Sheremetyevo Airport, Moscow, Russia",
+      "kind": "airport",
+      "pov_default": "family_ru"
+    }
+  ],
+  "events": [
+    {
+      "id": "e-b01-setup",
+      "chapter_id": "book01-ch000",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "normal",
+      "impact": "flavor",
+      "title": "Обычная жизнь в Юме до катастрофы",
+      "characters": [
+        "c-jack",
+        "c-pablito"
+      ],
+      "summary": "Герой живёт и работает в Аризоне: склад, партнёр Джек Симмонс, работник Паблито. Пока всё ещё «мир до»."
+    },
+    {
+      "id": "e-b01-news-moscow",
+      "chapter_id": "book01-ch001",
+      "place_id": "p-warehouse-la-ave",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "major",
+      "impact": "major",
+      "title": "Новости: стрельба в Москве",
+      "characters": [
+        "c-jeff"
+      ],
+      "summary": "По телевизору и звонкам — хаос в Москве. Герой понимает: с семьёй может быть плохо, надо срочно домой.",
+      "sought": "Понять, что происходит в России"
+    },
+    {
+      "id": "e-b01-family-alert",
+      "chapter_id": "book01-ch002",
+      "place_id": "p-podmoskovye-house",
+      "pov": "family_ru",
+      "type": "family",
+      "importance": "major",
+      "impact": "major",
+      "title": "Семья в Подмосковье: тревога",
+      "summary": "Маша достаёт ружья из сейфа. Пока герой ещё в Аризоне — родные уже готовятся к худшему.",
+      "sought": "Обезопасить дом"
+    },
+    {
+      "id": "e-b01-tickets",
+      "chapter_id": "book01-ch003",
+      "place_id": "p-warehouse-la-ave",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Покупка билетов домой",
+      "sought": "Улететь в Москву через Солт-Лейк-Сити и Атланту",
+      "summary": "После новостей из Москвы герой берёт билеты Юма → Солт-Лейк-Сити → Атланта → Москва. План — вернуться к семье самолётом."
+    },
+    {
+      "id": "e-b01-wellton-fire",
+      "chapter_id": "book01-ch004",
+      "place_id": "p-wellton-airport",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Пожар и стрельба у аэропорта Уэлтона",
+      "summary": "Рядом с домом уже не «новости издалека»: стрельба, пожар у местного аэродрома. Катастрофа добралась до округа.",
+      "outcome": "Становится ясно, что беда локальная, не только московская"
+    },
+    {
+      "id": "e-b01-accept-zombies",
+      "chapter_id": "book01-ch004",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Принятие: это восстание мертвецов",
+      "summary": "Герой перестаёт отмахиваться от «безумия ТВ». Мертвецы реальны — в том числе вокруг Юмы. Дальше только выживание и путь домой.",
+      "outcome": "Смена картины мира: война с мертвецами"
+    },
+    {
+      "id": "e-b01-family-arm",
+      "chapter_id": "book01-ch005",
+      "place_id": "p-podmoskovye-house",
+      "pov": "family_ru",
+      "type": "family",
+      "importance": "major",
+      "impact": "major",
+      "title": "Володя берёт оружие, выезд за припасами",
+      "summary": "В Подмосковье Володя вооружается и едет за запасами. Параллель к сборам героя в Аризоне.",
+      "sought": "Припасы и оружие для семьи"
+    },
+    {
+      "id": "e-b01-night-before-flight",
+      "chapter_id": "book01-ch006",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "normal",
+      "impact": "minor",
+      "title": "Ночь перед вылетом",
+      "summary": "Последняя спокойная ночь дома у Койотовой Купальни. Связь с семьёй ещё держится — утром в аэропорт Юмы."
+    },
+    {
+      "id": "e-b01-morning-to-airport",
+      "chapter_id": "book01-ch007",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "major",
+      "impact": "major",
+      "title": "Утро вылета: страна в очагах",
+      "summary": "По дороге к аэропорту на ТВ — карта США в очагах. Рейс ещё в планах, но мир уже сыплется.",
+      "sought": "Успеть на самолёт домой"
+    },
+    {
+      "id": "e-b01-airport-collapse",
+      "chapter_id": "book01-ch008",
+      "place_id": "p-yuma-airport",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Крах аэропорта Юмы: зомби, карантин, бегство",
+      "summary": "Отмены рейсов, военный карантин, атака в терминале; бегство с Хуанитой/Анитой, трофейное оружие и фургон."
+    },
+    {
+      "id": "e-b01-anita-escape",
+      "chapter_id": "book01-ch009",
+      "place_id": "p-yuma-city",
+      "pov": "protagonist",
+      "type": "meet",
+      "importance": "major",
+      "impact": "major",
+      "title": "Анита и брат; маскировка фургона",
+      "summary": "Спасённая из аэропорта; логотип снимают — меньше заметности."
+    },
+    {
+      "id": "e-b01-community-defense",
+      "chapter_id": "book01-ch011",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Оборона посёлка с соседями",
+      "summary": "После краха вылета герой с Томом и соседями держит оборону Coyote Waterhole. Пока не «еду домой» — выжить здесь.",
+      "sought": "Удержать посёлок"
+    },
+    {
+      "id": "e-b01-call-home",
+      "chapter_id": "book01-ch012",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "normal",
+      "impact": "flavor",
+      "title": "Звонок семье",
+      "summary": "Короткий контакт с родными: обе стороны ещё на связи, но линия уже на грани."
+    },
+    {
+      "id": "e-b01-scavenge-food",
+      "chapter_id": "book01-ch013",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "major",
+      "title": "Рейд за едой",
+      "summary": "Вылазка по округу за макаронами и прочим. Запасы посёлка надо пополнять — авиа уже нет.",
+      "sought": "Еда для лагеря"
+    },
+    {
+      "id": "e-b01-choose-port-arthur",
+      "chapter_id": "book01-ch014",
+      "place_id": "p-coyote-waterhole",
+      "goal_place_id": "p-port-arthur",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "key",
+      "impact": "critical",
+      "on_route": false,
+      "title": "Выбор цели: Порт-Артур (не Калифорния, не Хьюстон)",
+      "summary": "~1400 миль на восток к Техасу; калифорнийские порты отвергнуты как мегаполисы/Тихий океан. Решение принято в Аризоне — на карте не точка прибытия."
+    },
+    {
+      "id": "e-b01-night-watch",
+      "chapter_id": "book01-ch015",
+      "place_id": "p-tenth-hole",
+      "pov": "protagonist",
+      "type": "recon",
+      "importance": "normal",
+      "impact": "minor",
+      "title": "Дежурство на «Десятой лунке»",
+      "summary": "Ночной пост охраны на гольф-клубе. Рутина выживания, пока копится план уехать на восток."
+    },
+    {
+      "id": "e-b01-family-volodya-patrol",
+      "chapter_id": "book01-ch016",
+      "place_id": "p-podmoskovye-house",
+      "pov": "family_ru",
+      "type": "family",
+      "importance": "major",
+      "impact": "major",
+      "title": "Володя патрулирует окрестности",
+      "summary": "В Подмосковье Володя с оружием смотрит, что творится вокруг посёлка. Слой родных, не путь героя.",
+      "sought": "Оценить угрозу у дома"
+    },
+    {
+      "id": "e-b01-leave-house-pack",
+      "chapter_id": "book01-ch017",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "major",
+      "impact": "major",
+      "title": "Сборы из дома, ждут Джеффа",
+      "summary": "Собирают вещи и ждут Джеффа. Посёлок уже не «навсегда» — впереди вылазки и подготовка к рывку.",
+      "sought": "Готовность к отъезду / вылазкам"
+    },
+    {
+      "id": "e-b01-jeff-ammo",
+      "chapter_id": "book01-ch018",
+      "place_id": "p-warehouse-la-ave",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "enables",
+      "title": "Джефф привозит патроны",
+      "characters": [
+        "c-jeff"
+      ],
+      "summary": "Джефф подкидывает ящики боеприпасов. Без этого дальние вылазки и оборона были бы на голодном пайке.",
+      "sought": "Боезапас",
+      "outcome": "Группа может воевать дольше и дальше"
+    },
+    {
+      "id": "e-b01-fuel-deal",
+      "chapter_id": "book01-ch019",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "trade",
+      "importance": "major",
+      "impact": "major",
+      "title": "Торг за бензин и дизель",
+      "characters": [
+        "c-pablito"
+      ],
+      "summary": "Топливо уже по безумным ценам. С Паблито и местными — сделка, без которой на восток не уехать.",
+      "sought": "Горючее"
+    },
+    {
+      "id": "e-b01-fortuna-fuel-run",
+      "chapter_id": "book01-ch020",
+      "place_id": "p-fortuna-ave",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "major",
+      "title": "Ночной рейд через Фортуну за топливом",
+      "summary": "Ночью к Юме через авеню Фортуна — мастерская и горючее. Опасная вылазка из посёлка в городскую зону.",
+      "sought": "Топливо и запчасти"
+    },
+    {
+      "id": "e-b01-rv-world",
+      "chapter_id": "book01-ch021",
+      "place_id": "p-rv-world",
+      "pov": "protagonist",
+      "type": "scavenge",
+      "importance": "major",
+      "impact": "major",
+      "title": "«Ар Ви Уорлд»: зачистка",
+      "summary": "Площадка автодомов — зачистка и трофеи. Ещё один ресурсный рейд вокруг Юмы.",
+      "sought": "Техника, припасы, трофеи"
+    },
+    {
+      "id": "e-b01-meet-drika",
+      "chapter_id": "book01-ch022",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Встреча с Дрикой (Хендрике)",
+      "characters": [
+        "c-drika"
+      ],
+      "approx": true,
+      "summary": "Голландка из Амстердама в пустом доме среди мертвецов; спасена, едет дальше."
+    },
+    {
+      "id": "e-b01-drika-joins-camp",
+      "chapter_id": "book01-ch023",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "meet_key",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Дрика в лагере; роль наблюдателя",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Долив радиатора (мелочь); Дрика вовремя замечает угрозу."
+    },
+    {
+      "id": "e-b01-westridge-op",
+      "chapter_id": "book01-ch025",
+      "place_id": "p-westridge",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "major",
+      "title": "Вылазка на Вестридж",
+      "characters": [
+        "c-drika",
+        "c-jeff",
+        "c-pablito"
+      ],
+      "summary": "Операция группой с Дрикой, Джеффом и Паблито. Улица Вестридж — очередной опасный кусок городской зоны.",
+      "sought": "Ресурсы / зачистка района"
+    },
+    {
+      "id": "e-b01-solo-hide",
+      "chapter_id": "book01-ch026",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "shelter",
+      "importance": "major",
+      "impact": "major",
+      "title": "Один в чужом доме",
+      "summary": "Герой отсиживается в чужом доме / с кабриолетом — тихий отрыв от группы, чтобы не светиться.",
+      "sought": "Переждать и не привлечь внимание"
+    },
+    {
+      "id": "e-b01-house-fire-escape",
+      "chapter_id": "book01-ch027",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "major",
+      "impact": "reroutes",
+      "title": "Пожар дома наёмников — бегство",
+      "summary": "Столкновение с наёмниками заканчивается пожаром. Приходится рвать к трейлеру — планы снова ломаются.",
+      "outcome": "Смена укрытия, потеря безопасной точки"
+    },
+    {
+      "id": "e-b01-teach-drika-shoot",
+      "chapter_id": "book01-ch028",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "major",
+      "impact": "enables",
+      "title": "Обучение Дрики стрельбе",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Дрика учится стрелять. Без этого она была бы балластом на дальнем пути — теперь может прикрыть.",
+      "sought": "Сделать Дрику боеспособной",
+      "outcome": "Дрика — полноценный боец в группе"
+    },
+    {
+      "id": "e-b01-range-day",
+      "chapter_id": "book01-ch029",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "other",
+      "importance": "normal",
+      "impact": "minor",
+      "title": "Стрельбище в долине",
+      "characters": [
+        "c-drika",
+        "c-jeff"
+      ],
+      "summary": "Тренировка перед следующей вылазкой. Дрика и Джефф рядом — подготовка к тяжёлому выходу."
+    },
+    {
+      "id": "e-b01-jeff-dies",
+      "chapter_id": "book01-ch030",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "combat",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Гибель Джеффа в засаде",
+      "characters": [
+        "c-jeff"
+      ],
+      "summary": "Три пули через лобовое (горло, грудь); герой ранен в бедро одной пулей."
+    },
+    {
+      "id": "e-b01-leg-wound",
+      "chapter_id": "book01-ch030",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "medical",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Ранение бедра героя",
+      "summary": "Одна пуля; дальше ~2 недели восстановления в поселке."
+    },
+    {
+      "id": "e-b01-evac-after-ambush",
+      "chapter_id": "book01-ch031",
+      "place_id": "p-yuma-county",
+      "pov": "protagonist",
+      "type": "medical",
+      "importance": "major",
+      "impact": "delays",
+      "title": "Эвакуация после засады",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "После гибели Джеффа и ранения героя — вывоз на Ford F-250 (Хосе/Сэл). Дрика рядом. Дальше — недели на ногу.",
+      "sought": "Добраться до посёлка живым",
+      "outcome": "Герой на восстановлении; отъезд откладывается"
+    },
+    {
+      "id": "e-b01-bury-jeff",
+      "chapter_id": "book01-ch032",
+      "place_id": "p-jeff-grave",
+      "pov": "protagonist",
+      "type": "farewell_key",
+      "importance": "key",
+      "impact": "major",
+      "title": "Похороны Джеффа на холме",
+      "characters": [
+        "c-jeff"
+      ],
+      "summary": "Джеффа хоронят на холме у посёлка. Ключевой союзник Юмы потерян — остаётся Дрика и план «еду домой».",
+      "outcome": "Группа без Джеффа"
+    },
+    {
+      "id": "e-b01-family-must-leave",
+      "chapter_id": "book01-ch033",
+      "place_id": "p-podmoskovye-house",
+      "pov": "family_ru",
+      "type": "family",
+      "importance": "key",
+      "impact": "critical",
+      "title": "Володя: надо уезжать",
+      "summary": "В Подмосковье решение: посёлок больше не держать. Семья готовится к переезду — пока герой ещё в Аризоне.",
+      "sought": "Увести семью в более безопасное место"
+    },
+    {
+      "id": "e-b01-depart-homeward",
+      "chapter_id": "book01-ch034",
+      "place_id": "p-coyote-waterhole",
+      "pov": "protagonist",
+      "type": "travel_start",
+      "importance": "key",
+      "impact": "critical",
+      "title": "«Я еду домой» — старт сухопутного пути",
+      "characters": [
+        "c-drika"
+      ],
+      "summary": "Нога почти ок; маршрут по второстепенным дорогам к востоку; Дрика едет (к маме в Европу)."
+    }
+  ],
+  "edges": [
+    {
+      "id": "l-b01-news-tickets",
+      "from": "e-b01-news-moscow",
+      "to": "e-b01-tickets",
+      "kind": "causes",
+      "summary": "Новости Москвы → билеты"
+    },
+    {
+      "id": "l-b01-zombies-urgency",
+      "from": "e-b01-accept-zombies",
+      "to": "e-b01-airport-collapse",
+      "kind": "leads_to",
+      "summary": "Осознание эпидемии → отчаянный вылет"
+    },
+    {
+      "id": "l-b01-airport-reroute",
+      "from": "e-b01-airport-collapse",
+      "to": "e-b01-choose-port-arthur",
+      "kind": "reroutes",
+      "summary": "Срыв авиа → цель Порт-Артур / сухопутный путь"
+    },
+    {
+      "id": "l-b01-wellton-confirms",
+      "from": "e-b01-wellton-fire",
+      "to": "e-b01-accept-zombies",
+      "kind": "leads_to",
+      "summary": "Локальный хаос подтверждает угрозу"
+    },
+    {
+      "id": "l-b01-choose-enables-prep",
+      "from": "e-b01-choose-port-arthur",
+      "to": "e-b01-fortuna-fuel-run",
+      "kind": "enables",
+      "summary": "Цель на восток → заготовки топлива/припасов"
+    },
+    {
+      "id": "l-b01-jeff-ammo-enables",
+      "from": "e-b01-jeff-ammo",
+      "to": "e-b01-westridge-op",
+      "kind": "enables",
+      "summary": "Патроны Джеффа усиливают вылазки"
+    },
+    {
+      "id": "l-b01-drika-joins",
+      "from": "e-b01-meet-drika",
+      "to": "companion-arc-drika",
+      "kind": "joins",
+      "summary": "Дрика — спутница до Европы"
+    },
+    {
+      "id": "l-b01-teach-enables",
+      "from": "e-b01-teach-drika-shoot",
+      "to": "companion-arc-drika",
+      "kind": "enables",
+      "summary": "Стрелковая подготовка Дрики"
+    },
+    {
+      "id": "l-b01-jeff-dies-loss",
+      "from": "e-b01-jeff-dies",
+      "to": "e-b01-bury-jeff",
+      "kind": "loses",
+      "summary": "Потеря ключевого союзника в Юме"
+    },
+    {
+      "id": "l-b01-wound-delays",
+      "from": "e-b01-leg-wound",
+      "to": "e-b01-depart-homeward",
+      "kind": "delays",
+      "summary": "~2 недели восстановления до старта «еду домой»"
+    },
+    {
+      "id": "l-b01-ambush-wound",
+      "from": "e-b01-jeff-dies",
+      "to": "e-b01-leg-wound",
+      "kind": "causes",
+      "summary": "Та же засада ранит героя"
+    },
+    {
+      "id": "l-b01-family-leave",
+      "from": "e-b01-family-must-leave",
+      "to": "layer-family-ru-relocation",
+      "kind": "reroutes",
+      "summary": "Семья вынуждена менять базу в РФ"
+    },
+    {
+      "id": "l-b01-depart-starts-book2",
+      "from": "e-b01-depart-homeward",
+      "to": "book02-arc",
+      "kind": "leads_to",
+      "summary": "Старт кросс-американского пути (книга 2)"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "book01-ch000",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county",
+        "p-yuma-city",
+        "p-san-luis-az",
+        "p-spragues-sports",
+        "p-wellton-airport",
+        "p-cocopah"
+      ],
+      "digest": "Экспозиция Юмы, работа, тир, пилотаж.",
+      "event_ids": [
+        "e-b01-setup"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch001",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wellton",
+        "p-coyote-waterhole",
+        "p-colorado-ave",
+        "p-teardrop-rd",
+        "p-warehouse-la-ave"
+      ],
+      "digest": "Утро в Уэлтоне; новости Москвы.",
+      "event_ids": [
+        "e-b01-news-moscow"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch002",
+      "pov": "family_ru",
+      "place_ids": [
+        "p-moscow",
+        "p-podmoskovye-house"
+      ],
+      "digest": "Маша: тревога, оружие в сейфе.",
+      "event_ids": [
+        "e-b01-family-alert"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch003",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-warehouse-la-ave",
+        "p-sheremetyevo"
+      ],
+      "digest": "Билеты домой; подтверждение укусов через Володю.",
+      "event_ids": [
+        "e-b01-tickets"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch004",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole",
+        "p-wellton-airport",
+        "p-yuma-city"
+      ],
+      "digest": "Пожар Уэлтон-аэропорт; видео зомби; сбор на вылет.",
+      "event_ids": [
+        "e-b01-wellton-fire",
+        "e-b01-accept-zombies"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch005",
+      "pov": "family_ru",
+      "place_ids": [
+        "p-podmoskovye-house"
+      ],
+      "digest": "Володя вооружается, выезд.",
+      "event_ids": [
+        "e-b01-family-arm"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch006",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole"
+      ],
+      "digest": "Ночь перед вылетом.",
+      "event_ids": [
+        "e-b01-night-before-flight"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch007",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Утро: карта очагов по ТВ; путь в аэропорт.",
+      "event_ids": [
+        "e-b01-morning-to-airport"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch008",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-airport",
+        "p-fortuna-ave",
+        "p-spragues-sports"
+      ],
+      "digest": "Крах аэропорта; бегство с Анитой.",
+      "event_ids": [
+        "e-b01-airport-collapse"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch009",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-city"
+      ],
+      "digest": "Анита/брат; маскировка фургона.",
+      "event_ids": [
+        "e-b01-anita-escape"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch010",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-wellton",
+        "p-coyote-waterhole"
+      ],
+      "digest": "Возврат в Уэлтон; оружие; Том.",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch011",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole"
+      ],
+      "digest": "Оборона поселка.",
+      "event_ids": [
+        "e-b01-community-defense"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch012",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole"
+      ],
+      "digest": "Звонок домой.",
+      "event_ids": [
+        "e-b01-call-home"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch013",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Скавендж еды.",
+      "event_ids": [
+        "e-b01-scavenge-food"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch014",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-port-arthur-goal",
+        "p-houston-port-reject"
+      ],
+      "digest": "Спекуляция ценами; выбор Порт-Артура.",
+      "event_ids": [
+        "e-b01-choose-port-arthur"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch015",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-tenth-hole"
+      ],
+      "digest": "Ночное дежурство.",
+      "event_ids": [
+        "e-b01-night-watch"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch016",
+      "pov": "family_ru",
+      "place_ids": [
+        "p-podmoskovye-house"
+      ],
+      "digest": "Володя: патроны, разведка.",
+      "event_ids": [
+        "e-b01-family-volodya-patrol"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch017",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole"
+      ],
+      "digest": "Сборы; ждут Джеффа.",
+      "event_ids": [
+        "e-b01-leave-house-pack"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch018",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-warehouse-la-ave"
+      ],
+      "digest": "Джефф + патроны; план вылазок.",
+      "event_ids": [
+        "e-b01-jeff-ammo"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch019",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Торг за топливо.",
+      "event_ids": [
+        "e-b01-fuel-deal"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch020",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-fortuna-ave",
+        "p-yuma-city"
+      ],
+      "digest": "Ночной рейд Фортуна→Юма.",
+      "event_ids": [
+        "e-b01-fortuna-fuel-run"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch021",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-rv-world"
+      ],
+      "digest": "RV World.",
+      "event_ids": [
+        "e-b01-rv-world"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch022",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "KEY: Дрика; крупные бои/рейды.",
+      "event_ids": [
+        "e-b01-meet-drika"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch023",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole"
+      ],
+      "digest": "Дрика в команде; радиатор.",
+      "event_ids": [
+        "e-b01-drika-joins-camp"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch024",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-city"
+      ],
+      "digest": "Утро после; группа готовится.",
+      "event_ids": [],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch025",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-westridge"
+      ],
+      "digest": "Вылазка Вестридж.",
+      "event_ids": [
+        "e-b01-westridge-op"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch026",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Один; отсидж до завтра.",
+      "event_ids": [
+        "e-b01-solo-hide"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch027",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Пожар; бегство к базе.",
+      "event_ids": [
+        "e-b01-house-fire-escape"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch028",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole"
+      ],
+      "digest": "Урок стрельбы Дрике.",
+      "event_ids": [
+        "e-b01-teach-drika-shoot"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch029",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Стрельбище; план с Джеффом.",
+      "event_ids": [
+        "e-b01-range-day"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch030",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Засада: Джефф погиб, герой ранен.",
+      "event_ids": [
+        "e-b01-jeff-dies",
+        "e-b01-leg-wound"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch031",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-yuma-county"
+      ],
+      "digest": "Эвакуация раненого.",
+      "event_ids": [
+        "e-b01-evac-after-ambush"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch032",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-jeff-grave"
+      ],
+      "digest": "Похороны Джеффа.",
+      "event_ids": [
+        "e-b01-bury-jeff"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch033",
+      "pov": "family_ru",
+      "place_ids": [
+        "p-podmoskovye-house"
+      ],
+      "digest": "Семья должна уезжать.",
+      "event_ids": [
+        "e-b01-family-must-leave"
+      ],
+      "status": "done"
+    },
+    {
+      "id": "book01-ch034",
+      "pov": "protagonist",
+      "place_ids": [
+        "p-coyote-waterhole",
+        "p-port-arthur-goal"
+      ],
+      "digest": "«Я еду домой» + Дрика.",
+      "event_ids": [
+        "e-b01-depart-homeward"
+      ],
+      "status": "done"
+    }
+  ]
+}
